@@ -1,0 +1,14 @@
+{
+  "frozen": true,
+  "spec": {
+    "bos_id": 1,
+    "byte_offset": 4,
+    "eos_id": 2,
+    "normalization": "none; exact UTF-8 bytes",
+    "pad_id": 0,
+    "type": "utf8-byte-v1",
+    "unk_id": 3,
+    "vocab_size": 260
+  },
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

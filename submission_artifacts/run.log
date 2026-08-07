@@ -1,0 +1,55 @@
+2026-08-07T15:13:26.642+00:00 [INFO] V5 Training Data Execution System demonstration started
+2026-08-07T15:13:26.693+00:00 [PASS] execution_code_hash_recorded 24b97dc1fe755758
+2026-08-07T15:13:26.697+00:00 [PASS] tokenizer_hash_verified 2622d00ae6ab4793
+2026-08-07T15:13:26.714+00:00 [INFO] shards created count=12
+2026-08-07T15:13:26.720+00:00 [INFO] manifests validated
+2026-08-07T15:13:26.720+00:00 [PASS] immutable_shard_hashes_verified count=12
+2026-08-07T15:13:26.720+00:00 [INFO] evaluation data blocked shard=eval__code__code
+2026-08-07T15:13:26.721+00:00 [PASS] eval_shard_blocked eval__code__code
+2026-08-07T15:13:26.721+00:00 [INFO] validation data blocked shard=validation__indic__text
+2026-08-07T15:13:26.721+00:00 [PASS] validation_shard_blocked validation__indic__text
+2026-08-07T15:13:26.846+00:00 [INFO] batches packed sample_catalog=135 policies=['best_fit_block_isolated', 'greedy_code_block_isolated', 'long_context_single_document', 'structure_preserving_agentic']
+2026-08-07T15:13:26.846+00:00 [PASS] packing_masks_verified samples=135
+2026-08-07T15:13:26.981+00:00 [INFO] OPUS gradient proxy computed candidates=135 seconds=0.1345 hash=c9cf02734e686472
+2026-08-07T15:13:26.981+00:00 [PASS] opus_gradient_proxy_verified c9cf02734e686472
+2026-08-07T15:13:26.987+00:00 [INFO] mixture compiled stages=6 batches=48 plan_hash=ebf612871678e713
+2026-08-07T15:13:26.987+00:00 [PASS] protected_floors_verified
+2026-08-07T15:13:27.015+00:00 [INFO] OPUS decisions recorded {'floor_override': 34, 'accepted': 158, 'deferred': 58, 'rejected': 3}
+2026-08-07T15:13:27.015+00:00 [PASS] opus_all_decision_classes_recorded {'floor_override': 34, 'accepted': 158, 'deferred': 58, 'rejected': 3}
+2026-08-07T15:13:27.096+00:00 [PASS] checkpoint_saved step=8 hash=b6da803982fd
+2026-08-07T15:13:27.175+00:00 [PASS] checkpoint_saved step=16 hash=a364d8ab5d28
+2026-08-07T15:13:27.175+00:00 [INFO] crash simulated after durable checkpoint step=16; expected_next_batch=batch_12dc82de79ceffd88c39
+2026-08-07T15:13:27.175+00:00 [INFO] crash simulated and caught by demo supervisor
+2026-08-07T15:13:27.278+00:00 [INFO] run resumed checkpoint_step=16 next=batch_12dc82de79ceffd88c39
+2026-08-07T15:13:27.278+00:00 [PASS] resume_next_batch_matched batch_12dc82de79ceffd88c39
+2026-08-07T15:13:27.387+00:00 [PASS] checkpoint_saved step=24 hash=724b1bd9e721
+2026-08-07T15:13:27.487+00:00 [PASS] checkpoint_saved step=32 hash=84c85d8dd979
+2026-08-07T15:13:27.586+00:00 [PASS] checkpoint_saved step=40 hash=3bf359ac5e2b
+2026-08-07T15:13:27.691+00:00 [PASS] checkpoint_saved step=48 hash=d17e6ba95606
+2026-08-07T15:13:27.761+00:00 [INFO] historical stream replayed steps=5..10 match=True
+2026-08-07T15:13:27.761+00:00 [PASS] replay_hash_matched 3b78aa8a8d7ab203
+2026-08-07T15:13:27.781+00:00 [PASS] checkpoint_saved step=9 hash=4fe980784bcc
+2026-08-07T15:13:27.781+00:00 [INFO] branch forked parent_step=8 first_batch=batch_32ccdda54b6a969f9719
+2026-08-07T15:13:27.781+00:00 [PASS] fork_lineage_verified
+2026-08-07T15:13:27.782+00:00 [INFO] performance measured packing_utilization=0.9127 useful_loss_tokens_per_s=76613.78
+2026-08-07T15:13:27.836+00:00 [INFO] audit completed
+2026-08-07T15:13:27.836+00:00 [PASS] audit_completed overall=PASS
+
+===== AUTOMATED TESTS =====
+test_batch_hash_reconstruction (test_invariants.TestCoreInvariants.test_batch_hash_reconstruction) ... ok
+test_checkpoint_binds_cursor_and_ledger_offsets (test_invariants.TestCoreInvariants.test_checkpoint_binds_cursor_and_ledger_offsets) ... ok
+test_evaluation_firewall_fails_closed (test_invariants.TestCoreInvariants.test_evaluation_firewall_fails_closed) ... ok
+test_frozen_tokenizer_roundtrip_and_hash (test_invariants.TestCoreInvariants.test_frozen_tokenizer_roundtrip_and_hash) ... ok
+test_immutable_shards_and_tamper_detection (test_invariants.TestCoreInvariants.test_immutable_shards_and_tamper_detection) ... ok
+test_opus_gradient_proxy_is_real_bounded_and_hashed (test_invariants.TestCoreInvariants.test_opus_gradient_proxy_is_real_bounded_and_hashed) ... ok
+test_packing_masks_positions_and_agentic_loss (test_invariants.TestCoreInvariants.test_packing_masks_positions_and_agentic_loss) ... ok
+test_schedule_determinism_floors_and_opus_classes (test_invariants.TestCoreInvariants.test_schedule_determinism_floors_and_opus_classes) ... ok
+test_generated_demo_artifacts_when_present (test_invariants.TestGeneratedEvidence.test_generated_demo_artifacts_when_present) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.688s
+
+OK
+===== END TESTS =====
+2026-08-07T15:13:29.426+00:00 [PASS] automated_tests_passed
+2026-08-07T15:13:29.426+00:00 [INFO] V5 demonstration complete

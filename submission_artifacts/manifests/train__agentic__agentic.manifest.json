@@ -1,0 +1,35 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "8d2be7a2f0398323e870afc544cebdf40044426535d20ce1d2f93a826a7bb53d",
+  "eval_overlap_status": "not_eval",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "agentic",
+  "lane": "agentic",
+  "language_set": [
+    "en"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "1878fc5094f7b5ece3cac195dbf6307ca16f535330de716f26093b608a7ef23e",
+  "provenance_set": [
+    "v5_fixture"
+  ],
+  "rebuild_sha256": "8d2be7a2f0398323e870afc544cebdf40044426535d20ce1d2f93a826a7bb53d",
+  "record_count": 6,
+  "schema_version": 1,
+  "shard_id": "train__agentic__agentic",
+  "shard_path": "train__agentic__agentic.jsonl",
+  "source_document_hashes": [
+    "673ece3c56c4dedfbe379f0963b111b0156f2736d7d8d50d915d653b84a6a066",
+    "b27e0b342a620cbe17f52ab7df16a10a7d6a79c64451c31c6353b7c3155cd27e",
+    "4d0f716b7ad40707f922102bdcf4ad835f661eeac25f8874f1f6e6b599b8943d",
+    "bcf2e834d5f257e3d743d38137fba6cc1d7fcb14b475da6ee4cb673cf1b2d727",
+    "a2a6a0f9b4b75ca8b8f7b2a113c2a4591c46b967d91216418a34f368053af069",
+    "088baa521fb08db7a300bc028eb7502d5bbc30239c5c4ed76a16977634b7160b"
+  ],
+  "split": "train",
+  "token_count": 387,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

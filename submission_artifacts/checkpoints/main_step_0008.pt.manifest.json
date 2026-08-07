@@ -1,0 +1,16 @@
+{
+  "branch": "main",
+  "checkpoint_sha256": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+  "global_step": 8,
+  "ledger_offsets": {
+    "consumption": 8,
+    "learning": 8,
+    "opus": 253,
+    "token_learning": 1843
+  },
+  "next_batch_index": 8,
+  "parent_checkpoint_hash": null,
+  "path": "main_step_0008.pt",
+  "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

@@ -1,0 +1,2435 @@
+{
+  "batch_size": 4,
+  "batches": [
+    {
+      "batch_id": "batch_7a431b04c8ccdd6eb3f5",
+      "batch_index": 0,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_87b2a7dee025304de46f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_dcded0ad186bb8d8ee6c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_43096ecbcc72b1675647",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_38933fe8ce206add554d",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_d278061653368e530b34",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_173ee19a868187be3a03",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_43096ecbcc72b1675647",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_f292c05875ff85fb3f69",
+      "batch_index": 1,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_497c3ae5d02ad023611c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_265b54a76d9b621328cb",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "multilingual",
+          "occurrence": 0,
+          "opus_decision_id": "opus_8adc46341a6af5b8f3df",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_e515bfaf4c2443a9a646",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_4bbca209d8d9be69cc6c",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "science",
+          "occurrence": 0,
+          "opus_decision_id": "opus_07bfb22e468e2d1f3ce5",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_42e047ef2a72285b2a68",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_73921aee641212a6cfec",
+      "batch_index": 2,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_3cadb289d32c20cde33d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_3e177b66e1d9ea29144f",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_1c7fa3faf86314026dbd",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_1751015bda34f88aa8e1",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_aa76e80ff327017969d9",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "science",
+          "occurrence": 0,
+          "opus_decision_id": "opus_8252dfa4e1d70069e340",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_f3ee02f7aa3911962898",
+      "batch_index": 3,
+      "items": [
+        {
+          "lane": "long",
+          "occurrence": 0,
+          "opus_decision_id": "opus_b0a920cd67574107a839",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c0a380d8a639b423d320",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_90ee69a8e477b35db843",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_96a25afa76accd12ab17",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_ba817aaab8ce3c415959",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_5826d6a3fc1169af0cfd",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_7b2dfe3df39384a3faf0",
+      "batch_index": 4,
+      "items": [
+        {
+          "lane": "math",
+          "occurrence": 0,
+          "opus_decision_id": "opus_5e5fdb49944a302beceb",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_6417762b9204667ee042",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 0,
+          "opus_decision_id": "opus_c2b72b4682be46a660e3",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_b4164d029f45ef96cc9d",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_653f971ce9395cd1e62c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_3e177b66e1d9ea29144f",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_90de4c0d2b294ab86359",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_e7af133c9a8131eac2d8",
+      "batch_index": 5,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_04b78c5a8386379d7b78",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_96a25afa76accd12ab17",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_7bf3556c0f983dabaa4e",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_1751015bda34f88aa8e1",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_0560aa613d84000a4a4c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "math",
+          "occurrence": 0,
+          "opus_decision_id": "opus_136040295bda0e263ba4",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_402a797b8d65723f2a91",
+      "batch_index": 6,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_a9d317e195b0e32a3a59",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_83f4c5d02d3bc877fcbb",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_0527a9cb30a0b56977a5",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_1245f083dbcd3ae8f71f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_3297ce39a0e2292f49ff",
+      "batch_index": 7,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_cb16f5d88f9b3a89bfe1",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_265b54a76d9b621328cb",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_9398f11c12e4cf26124d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_71a82a0b14bb8801aa2d",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S0",
+          "stage_index": 0
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_9fec122126002d440135",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S0",
+          "stage_index": 0
+        }
+      ],
+      "stage": "S0"
+    },
+    {
+      "batch_id": "batch_32ccdda54b6a969f9719",
+      "batch_index": 8,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_aeee760118bb626572d3",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_58ed7e92645595f2314e",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_e3e4c036790e32d95444",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_9fb26159a78969fbeb9f",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_6a897642b6a246acd40e",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_0e43e742c58b09c62131",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_1f7b699ab2992fc67466",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_f503f60bc25a2db2695c",
+      "batch_index": 9,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_69e5fddb3c7c6884f845",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_6086f9a3a53baf467a11",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "multilingual",
+          "occurrence": 1,
+          "opus_decision_id": "opus_f96e24c246792862f0e0",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_db9a8c3c94680c19b624",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_1751015bda34f88aa8e1",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_e9116bc5b7ba29746f57",
+      "batch_index": 10,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_810bfea400f455ee15b2",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_e5dca89f3560e5b63ed1",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_8cd60c7570a0e8a9b190",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "math",
+          "occurrence": 1,
+          "opus_decision_id": "opus_bf18c76999f63452e5ee",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_6417762b9204667ee042",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_bcc817d18a0be82b9281",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_51e320b2a118ff9d547e",
+      "batch_index": 11,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_1fdedf09d9817f66f08f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 0,
+          "opus_decision_id": "opus_ba08d5093ada0cb40dec",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_9293dfcc34715e585c01",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "long",
+          "occurrence": 0,
+          "opus_decision_id": "opus_516d59c5bd8eed7647f2",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2e206c24308d552aeaa4",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_366e10fbf9d4493e824d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_25a4a61ee72fa44b868e",
+      "batch_index": 12,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 1,
+          "opus_decision_id": "opus_9b1dad239e495d48f755",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_42e047ef2a72285b2a68",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "long",
+          "occurrence": 0,
+          "opus_decision_id": "opus_4f87f162fe1d9e290052",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f08d3826cb22c5a1edbe",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_c489d03a4e2ca84efc0f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_96a25afa76accd12ab17",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_d1f789ec16db8e2b724a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_8053d8483100ca7e7104",
+      "batch_index": 13,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_0e50fcb5439e5643e795",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "science",
+          "occurrence": 1,
+          "opus_decision_id": "opus_594cd70320b5e1d1670c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_b6d3b74a887a39cfd45d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_639016c723ac0a1dfba7",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_265b54a76d9b621328cb",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_b359e3088c179892cf47",
+      "batch_index": 14,
+      "items": [
+        {
+          "lane": "math",
+          "occurrence": 1,
+          "opus_decision_id": "opus_62b985e4439e9572c6f3",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 1,
+          "opus_decision_id": "opus_454d7c928a68b19145ea",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_eee2031191858c25caf1",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_43096ecbcc72b1675647",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_8a629fb43225d741ec2a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_be2dff9aab32d0138113",
+      "batch_index": 15,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_314c28199483a2d12319",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 1,
+          "opus_decision_id": "opus_6e0518f1ccdeb65573b8",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_b4164d029f45ef96cc9d",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_238490ab7469759223ab",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S1",
+          "stage_index": 1
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_2b1bdf18449f84424be4",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S1",
+          "stage_index": 1
+        }
+      ],
+      "stage": "S1"
+    },
+    {
+      "batch_id": "batch_12dc82de79ceffd88c39",
+      "batch_index": 16,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_054e77196f5b497d6d33",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_43096ecbcc72b1675647",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "math",
+          "occurrence": 0,
+          "opus_decision_id": "opus_51aac564af3a8c26bef5",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_82a5750ac411e6fea059",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_f8febe45cd1da537d7d6",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_58ed7e92645595f2314e",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_211b934030bde4895f84",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b18841706b28c148a6bf",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_cd376ce55378aa9568dc",
+      "batch_index": 17,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_82170bf86d815c08f184",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_03dd7cdc983493eecab6",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "general",
+          "occurrence": 4,
+          "opus_decision_id": "opus_054e9cabcc4e506b52d8",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "general",
+          "occurrence": 4,
+          "opus_decision_id": "opus_f4c28f04461aaabd150f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_811efb1140d50b663686",
+      "batch_index": 18,
+      "items": [
+        {
+          "lane": "long",
+          "occurrence": 1,
+          "opus_decision_id": "opus_b5210b176427db57eeb1",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f08d3826cb22c5a1edbe",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_d249777d3fb2266d5714",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_61b2e72220585d9ca70d",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "math",
+          "occurrence": 2,
+          "opus_decision_id": "opus_a5606ac8519c058cc3c6",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_01335036441e787868bd",
+      "batch_index": 19,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 0,
+          "opus_decision_id": "opus_331021663d19238cdb82",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f056b2d80792556584bb",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_aef32519319f0359e16d",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_81dbe3f38bc4e7c4ffb7",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_96a25afa76accd12ab17",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_2c886a6df2e0dbc4a2ed",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_98d45c19560e88b354ac",
+      "batch_index": 20,
+      "items": [
+        {
+          "lane": "multilingual",
+          "occurrence": 2,
+          "opus_decision_id": "opus_c75e9d18b0a103bd65ad",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_3eb208b4120525b7e283",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_d132bd9bc2ee137d9c18",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_61a9400297d8557c2dba",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_8ca8633986515d88adeb",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_9fb26159a78969fbeb9f",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_465539b4814594808eec",
+      "batch_index": 21,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_f533604a1482a95c54d6",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ac540bd51c1775acf457",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "code",
+          "occurrence": 0,
+          "opus_decision_id": "opus_bcd4b4a32b40e9d3eec3",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_af0b9504fda795d9471d",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_ea1044901cb33126e506",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_1751015bda34f88aa8e1",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 2,
+          "opus_decision_id": "opus_62dfad23edb256e02f30",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_b4164d029f45ef96cc9d",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_99a84ebbb0c6e5295385",
+      "batch_index": 22,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 0,
+          "opus_decision_id": "opus_322f5761433c727cce1d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_d2a91b225acb2f51da4b",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_0a2b39d48555791f6dd8",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_af30506bbbf1b3a5f7b7",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_c1d65ab9ac05de411efd",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_5c90135b46ccb30c7ee0",
+      "batch_index": 23,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 2,
+          "opus_decision_id": "opus_ff163e1babb65afee753",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "math",
+          "occurrence": 0,
+          "opus_decision_id": "opus_ff4001d70d27b377ea3b",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a55a3c84916d10f7436e",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "long",
+          "occurrence": 1,
+          "opus_decision_id": "opus_576f061ff835b3671f1b",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2e206c24308d552aeaa4",
+          "stage": "S2",
+          "stage_index": 2
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 0,
+          "opus_decision_id": "opus_a7fd73f7232ffe397ac9",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_48512caaa19adf106f34",
+          "stage": "S2",
+          "stage_index": 2
+        }
+      ],
+      "stage": "S2"
+    },
+    {
+      "batch_id": "batch_d0d87183f69747bc1cd8",
+      "batch_index": 24,
+      "items": [
+        {
+          "lane": "math",
+          "occurrence": 3,
+          "opus_decision_id": "opus_660eefa26d331533e34b",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "math",
+          "occurrence": 1,
+          "opus_decision_id": "opus_15156155cba53b04b39a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_82a5750ac411e6fea059",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_48fa35de5019c6d4952f",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_6189b0cbe4bec1e4b50c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_ec756ee175fcb1cb2c14",
+      "batch_index": 25,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_463026dada33011848f4",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_99c3f0682419fa38e272",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_3cfc854b166f69f1f677",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_a74d1c8bc0d76484399e",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_f3a2cf924ab03342a25d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_4598d6d2563142f8643c",
+      "batch_index": 26,
+      "items": [
+        {
+          "lane": "agentic",
+          "occurrence": 0,
+          "opus_decision_id": "opus_5f9d1a56c4dac3e1b001",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f2ba60ba1d625cf8ac78",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 0,
+          "opus_decision_id": "opus_dd338d729396b5f7d394",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_806d74c2315fd947f9aa",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_07afd72dc432f4e9e40d",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_d278061653368e530b34",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "general",
+          "occurrence": 5,
+          "opus_decision_id": "opus_7b29095b8901d9f822b5",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_f7d2781d7957644d42d9",
+      "batch_index": 27,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 1,
+          "opus_decision_id": "opus_6c95409b04f1d4d92aa7",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f056b2d80792556584bb",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_91c3a577d4a2feab93c8",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_c86453a618ee42707b51",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_58ed7e92645595f2314e",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "science",
+          "occurrence": 4,
+          "opus_decision_id": "opus_c86cd1fa42e84efefe86",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_2c2c5d3ab2ffdcb12b45",
+      "batch_index": 28,
+      "items": [
+        {
+          "lane": "reasoning",
+          "occurrence": 3,
+          "opus_decision_id": "opus_1e9fa35b12443da2c01c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b4164d029f45ef96cc9d",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_92d09e7f0a48e4225741",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b18841706b28c148a6bf",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_b425509db775308f259a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_cf46e11c63384c1c71d9",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_4bbca209d8d9be69cc6c",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_0638dfb8b84704c81e1b",
+      "batch_index": 29,
+      "items": [
+        {
+          "lane": "general",
+          "occurrence": 2,
+          "opus_decision_id": "opus_6237b4eb4935e877a3ab",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_3e177b66e1d9ea29144f",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 1,
+          "opus_decision_id": "opus_824037efe4ae102474a1",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_48512caaa19adf106f34",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "general",
+          "occurrence": 5,
+          "opus_decision_id": "opus_70b2294a766706565547",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "science",
+          "occurrence": 3,
+          "opus_decision_id": "opus_73d5dfd1173eee0d595a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_065c944219fa4dc338b9",
+      "batch_index": 30,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 3,
+          "opus_decision_id": "opus_8a327eea61b635460ce4",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "code",
+          "occurrence": 1,
+          "opus_decision_id": "opus_9f948cdd70e1738b42bb",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ac540bd51c1775acf457",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_9c93ccc4635bb69c070c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "multilingual",
+          "occurrence": 3,
+          "opus_decision_id": "opus_e6d6674c2e2135683da8",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_2382e9613d27a31a4b6c",
+      "batch_index": 31,
+      "items": [
+        {
+          "lane": "long",
+          "occurrence": 2,
+          "opus_decision_id": "opus_ead1ce2a58859bdc473f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f08d3826cb22c5a1edbe",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "long",
+          "occurrence": 2,
+          "opus_decision_id": "opus_466b27acf8fc795ff074",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2e206c24308d552aeaa4",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "code",
+          "occurrence": 3,
+          "opus_decision_id": "opus_85a35243a38d5757896b",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S3",
+          "stage_index": 3
+        },
+        {
+          "lane": "math",
+          "occurrence": 1,
+          "opus_decision_id": "opus_b7b8a06246161fe53a47",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a55a3c84916d10f7436e",
+          "stage": "S3",
+          "stage_index": 3
+        }
+      ],
+      "stage": "S3"
+    },
+    {
+      "batch_id": "batch_be57134db3d292342530",
+      "batch_index": 32,
+      "items": [
+        {
+          "lane": "long",
+          "occurrence": 3,
+          "opus_decision_id": "opus_d3bcd05b6891673b9c25",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f08d3826cb22c5a1edbe",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "math",
+          "occurrence": 2,
+          "opus_decision_id": "opus_fa2788bcb64446a76270",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_82a5750ac411e6fea059",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "long",
+          "occurrence": 3,
+          "opus_decision_id": "opus_84486b60c1342ddfc692",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2e206c24308d552aeaa4",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 4,
+          "opus_decision_id": "opus_3e3ba8918c88315dd00c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b4164d029f45ef96cc9d",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_060395c3feaeff6e9000",
+      "batch_index": 33,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_5678050fbde14deb28eb",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_145fe493df36b093e060",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_3cfc854b166f69f1f677",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 1,
+          "opus_decision_id": "opus_e72a1cc5fa084d7ee266",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f2ba60ba1d625cf8ac78",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_96f0ec381a8c31af09ce",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_5e0cbbf61b4f1bb56c06",
+      "batch_index": 34,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_15012d436856897aaa4b",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "general",
+          "occurrence": 6,
+          "opus_decision_id": "opus_4a807fbcf289dcb5a195",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "general",
+          "occurrence": 4,
+          "opus_decision_id": "opus_a45108fb21b02dee8681",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "science",
+          "occurrence": 2,
+          "opus_decision_id": "opus_6244060f5f1702766be4",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f056b2d80792556584bb",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_560928b5777a0f4f18f7",
+      "batch_index": 35,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_cdc03ad4c517960b5eda",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_58ed7e92645595f2314e",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "general",
+          "occurrence": 3,
+          "opus_decision_id": "opus_bd952e9fd834941b6952",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_3e177b66e1d9ea29144f",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_07323d4b8edc611ebd19",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_1da7f970ec4b19532f36",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_4bbca209d8d9be69cc6c",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_ad6bd7b0b149a1e3b6b1",
+      "batch_index": 36,
+      "items": [
+        {
+          "lane": "reasoning",
+          "occurrence": 2,
+          "opus_decision_id": "opus_ed06d799683ff11a7238",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_48512caaa19adf106f34",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_9f26858ccb16ac6f9b77",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_d278061653368e530b34",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_5c16760d9617e22f30fa",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_52a657388d2449382f0a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b18841706b28c148a6bf",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_99d545c507f7ad7589fd",
+      "batch_index": 37,
+      "items": [
+        {
+          "lane": "math",
+          "occurrence": 2,
+          "opus_decision_id": "opus_e2b1c242bd7dbd011723",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a55a3c84916d10f7436e",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "general",
+          "occurrence": 6,
+          "opus_decision_id": "opus_b80c3bf49099a7bef5f3",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "multilingual",
+          "occurrence": 4,
+          "opus_decision_id": "opus_67daf786d52650b1d3d3",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "code",
+          "occurrence": 4,
+          "opus_decision_id": "opus_71e69be1eea83716439a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_ba03f6b1e0ddb95c8e04",
+      "batch_index": 38,
+      "items": [
+        {
+          "lane": "reasoning",
+          "occurrence": 1,
+          "opus_decision_id": "opus_26eb25c04cea01f2fce0",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_806d74c2315fd947f9aa",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "math",
+          "occurrence": 4,
+          "opus_decision_id": "opus_3f32d92fc330142855ec",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_2efa33ddd7712108589f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_cfb2584b8f357d581af0",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_3bc83b675a384f9d4e8a",
+      "batch_index": 39,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 6,
+          "opus_decision_id": "opus_2b0cd49e0bf593316bb5",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "science",
+          "occurrence": 5,
+          "opus_decision_id": "opus_67655e7becf4e6abfadd",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "code",
+          "occurrence": 4,
+          "opus_decision_id": "opus_57b3de12c607ed3cc173",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S4",
+          "stage_index": 4
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_1257513e6248f6b381e2",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ac540bd51c1775acf457",
+          "stage": "S4",
+          "stage_index": 4
+        }
+      ],
+      "stage": "S4"
+    },
+    {
+      "batch_id": "batch_ed4a8aa7cc3e8df06f47",
+      "batch_index": 40,
+      "items": [
+        {
+          "lane": "long",
+          "occurrence": 4,
+          "opus_decision_id": "opus_75a38ee4b0b5a1be7950",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2e206c24308d552aeaa4",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 0,
+          "opus_decision_id": "opus_202b618e88a519d6ca91",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6bc7eddfcf249a502238",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "math",
+          "occurrence": 3,
+          "opus_decision_id": "opus_1927ec758debf8307709",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_82a5750ac411e6fea059",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "math",
+          "occurrence": 3,
+          "opus_decision_id": "opus_85696ce4fe09a8f1cbe8",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a55a3c84916d10f7436e",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_4458d2b5db6f9ae23238",
+      "batch_index": 41,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_c4ddd30053dd49132270",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_a246aab38557dd1fe300",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 3,
+          "opus_decision_id": "opus_c688236be9fe3e7bab74",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b18841706b28c148a6bf",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_6baa03ea2cc789c06f57",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_e6e654565da44d5683b1",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_b89a0169c55bde63741f",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_9b37229c58823d1f2de6",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_693a7afd84e07209bb05",
+      "batch_index": 42,
+      "items": [
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_fc0833b15ed380eb2ab6",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_c9fb0a2a25d2ad30df98",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "code",
+          "occurrence": 5,
+          "opus_decision_id": "opus_fba03597b87ae7ef8087",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_025ef353667217b8a218",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "indic",
+          "occurrence": 4,
+          "opus_decision_id": "opus_c6277cf069441a999b03",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_58ed7e92645595f2314e",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "multilingual",
+          "occurrence": 5,
+          "opus_decision_id": "opus_defeab75f841e2e7b069",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_0d6be65f06e71fbcb89b",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_8c172c9fd5cb57a15be7",
+      "batch_index": 43,
+      "items": [
+        {
+          "lane": "science",
+          "occurrence": 3,
+          "opus_decision_id": "opus_4230351d035ba5e39f4c",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f056b2d80792556584bb",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "math",
+          "occurrence": 5,
+          "opus_decision_id": "opus_0faed2e7794fae791d4b",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_6f5eaaed38feda123baa",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "general",
+          "occurrence": 4,
+          "opus_decision_id": "opus_1de22ffa77e19286e2bb",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_3e177b66e1d9ea29144f",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_bf76b4817b9b1933532e",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7bc01c12eb8d84804e83",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_f691a9e0af30816a94c6",
+      "batch_index": 44,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 5,
+          "opus_decision_id": "opus_0ef857c21111ae45a33f",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_141a8d80aef4aad24ae6",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "long",
+          "occurrence": 4,
+          "opus_decision_id": "opus_a2fd363daf0df1c8df5a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_f08d3826cb22c5a1edbe",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "code",
+          "occurrence": 2,
+          "opus_decision_id": "opus_904136c968a0d914ae17",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_9fb26159a78969fbeb9f",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "reasoning",
+          "occurrence": 2,
+          "opus_decision_id": "opus_748510901d07e8b2e1c9",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_806d74c2315fd947f9aa",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_82337b62883e90bf7ce0",
+      "batch_index": 45,
+      "items": [
+        {
+          "lane": "code",
+          "occurrence": 3,
+          "opus_decision_id": "opus_bf23bf4f6cc495456e49",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ac540bd51c1775acf457",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "science",
+          "occurrence": 7,
+          "opus_decision_id": "opus_090effda996b78f85205",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "code",
+          "occurrence": 3,
+          "opus_decision_id": "opus_9b9b60d3dcebd323b458",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_4bbca209d8d9be69cc6c",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "general",
+          "occurrence": 7,
+          "opus_decision_id": "opus_34140b89cb49829b5443",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_7b5c96205ba5c6d85333",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_e9bb1bf6b5264a5b28f0",
+      "batch_index": 46,
+      "items": [
+        {
+          "lane": "agentic",
+          "occurrence": 2,
+          "opus_decision_id": "opus_5de6da41356a880bf360",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_3cfc854b166f69f1f677",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "agentic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_1d64712ee15893bd87a7",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_b71450da5dbe26731286",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "general",
+          "occurrence": 7,
+          "opus_decision_id": "opus_44d70a896afcd0157154",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_ae8af49f0115858abce2",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "science",
+          "occurrence": 8,
+          "opus_decision_id": "opus_684b020be2427b4b019a",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_26c3fc6466da2e93d0fc",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    },
+    {
+      "batch_id": "batch_a7b8ff47c26b292bcfee",
+      "batch_index": 47,
+      "items": [
+        {
+          "lane": "reasoning",
+          "occurrence": 3,
+          "opus_decision_id": "opus_b8925b32bec7aaa9f377",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_48512caaa19adf106f34",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "general",
+          "occurrence": 5,
+          "opus_decision_id": "opus_ad4e1c04d46e67b438bc",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_94648b52aeac3b9ddfba",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "code",
+          "occurrence": 3,
+          "opus_decision_id": "opus_dc3c158dfc43aa1991ae",
+          "opus_final_decision": "accepted",
+          "sample_id": "sample_d278061653368e530b34",
+          "stage": "S5",
+          "stage_index": 5
+        },
+        {
+          "lane": "indic",
+          "occurrence": 5,
+          "opus_decision_id": "opus_c77e7c02c7e6af654034",
+          "opus_final_decision": "floor_override",
+          "sample_id": "sample_2203106f4e0c975118da",
+          "stage": "S5",
+          "stage_index": 5
+        }
+      ],
+      "stage": "S5"
+    }
+  ],
+  "plan_sha256": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+  "schema_version": 1,
+  "seed": 1667,
+  "slots_per_stage": 32,
+  "stage_proofs": [
+    {
+      "actual_sample_counts": {
+        "agentic": 1,
+        "code": 4,
+        "general": 14,
+        "indic": 6,
+        "long": 1,
+        "math": 2,
+        "multilingual": 1,
+        "reasoning": 1,
+        "science": 2
+      },
+      "actual_sample_shares": {
+        "agentic": 0.03125,
+        "code": 0.125,
+        "general": 0.4375,
+        "indic": 0.1875,
+        "long": 0.03125,
+        "math": 0.0625,
+        "multilingual": 0.03125,
+        "reasoning": 0.03125,
+        "science": 0.0625
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.18,
+        "long": 0.0,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.01,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 1,
+        "code": 4,
+        "general": 14,
+        "indic": 6,
+        "long": 1,
+        "math": 2,
+        "multilingual": 1,
+        "reasoning": 1,
+        "science": 2
+      },
+      "slots": 32,
+      "stage": "S0",
+      "weights": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.5,
+        "indic": 0.18,
+        "long": 0.04,
+        "math": 0.06,
+        "multilingual": 0.04,
+        "reasoning": 0.01,
+        "science": 0.06
+      }
+    },
+    {
+      "actual_sample_counts": {
+        "agentic": 1,
+        "code": 5,
+        "general": 11,
+        "indic": 7,
+        "long": 2,
+        "math": 2,
+        "multilingual": 1,
+        "reasoning": 1,
+        "science": 2
+      },
+      "actual_sample_shares": {
+        "agentic": 0.03125,
+        "code": 0.15625,
+        "general": 0.34375,
+        "indic": 0.21875,
+        "long": 0.0625,
+        "math": 0.0625,
+        "multilingual": 0.03125,
+        "reasoning": 0.03125,
+        "science": 0.0625
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.01,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 1,
+        "code": 5,
+        "general": 11,
+        "indic": 7,
+        "long": 2,
+        "math": 2,
+        "multilingual": 1,
+        "reasoning": 1,
+        "science": 2
+      },
+      "slots": 32,
+      "stage": "S1",
+      "weights": {
+        "agentic": 0.02,
+        "code": 0.15,
+        "general": 0.38,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.07,
+        "multilingual": 0.03,
+        "reasoning": 0.02,
+        "science": 0.08
+      }
+    },
+    {
+      "actual_sample_counts": {
+        "agentic": 2,
+        "code": 6,
+        "general": 6,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 2,
+        "science": 3
+      },
+      "actual_sample_shares": {
+        "agentic": 0.0625,
+        "code": 0.1875,
+        "general": 0.1875,
+        "indic": 0.21875,
+        "long": 0.0625,
+        "math": 0.09375,
+        "multilingual": 0.03125,
+        "reasoning": 0.0625,
+        "science": 0.09375
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 2,
+        "code": 6,
+        "general": 6,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 2,
+        "science": 3
+      },
+      "slots": 32,
+      "stage": "S2",
+      "weights": {
+        "agentic": 0.06,
+        "code": 0.21,
+        "general": 0.22,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.1,
+        "multilingual": 0.02,
+        "reasoning": 0.05,
+        "science": 0.1
+      }
+    },
+    {
+      "actual_sample_counts": {
+        "agentic": 4,
+        "code": 5,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "actual_sample_shares": {
+        "agentic": 0.125,
+        "code": 0.15625,
+        "general": 0.125,
+        "indic": 0.21875,
+        "long": 0.0625,
+        "math": 0.09375,
+        "multilingual": 0.03125,
+        "reasoning": 0.09375,
+        "science": 0.09375
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 4,
+        "code": 5,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "slots": 32,
+      "stage": "S3",
+      "weights": {
+        "agentic": 0.12,
+        "code": 0.23,
+        "general": 0.12,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.1,
+        "multilingual": 0.02,
+        "reasoning": 0.09,
+        "science": 0.08
+      }
+    },
+    {
+      "actual_sample_counts": {
+        "agentic": 4,
+        "code": 5,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "actual_sample_shares": {
+        "agentic": 0.125,
+        "code": 0.15625,
+        "general": 0.125,
+        "indic": 0.21875,
+        "long": 0.0625,
+        "math": 0.09375,
+        "multilingual": 0.03125,
+        "reasoning": 0.09375,
+        "science": 0.09375
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 4,
+        "code": 5,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "slots": 32,
+      "stage": "S4",
+      "weights": {
+        "agentic": 0.12,
+        "code": 0.2,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.1,
+        "multilingual": 0.01,
+        "reasoning": 0.12,
+        "science": 0.1
+      }
+    },
+    {
+      "actual_sample_counts": {
+        "agentic": 3,
+        "code": 6,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "actual_sample_shares": {
+        "agentic": 0.09375,
+        "code": 0.1875,
+        "general": 0.125,
+        "indic": 0.21875,
+        "long": 0.0625,
+        "math": 0.09375,
+        "multilingual": 0.03125,
+        "reasoning": 0.09375,
+        "science": 0.09375
+      },
+      "floor_compliant": true,
+      "floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "quota_counts": {
+        "agentic": 3,
+        "code": 6,
+        "general": 4,
+        "indic": 7,
+        "long": 2,
+        "math": 3,
+        "multilingual": 1,
+        "reasoning": 3,
+        "science": 3
+      },
+      "slots": 32,
+      "stage": "S5",
+      "weights": {
+        "agentic": 0.1,
+        "code": 0.18,
+        "general": 0.12,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.1,
+        "multilingual": 0.01,
+        "reasoning": 0.14,
+        "science": 0.1
+      }
+    }
+  ]
+}

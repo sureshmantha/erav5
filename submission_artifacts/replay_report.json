@@ -1,0 +1,59 @@
+{
+  "catalog_hash_match": true,
+  "cold_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+  "end_step": 10,
+  "expected_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+  "interval_hash": "3b78aa8a8d7ab20389fe6bbaa899af90e646801a8cdb526c0e7d540352834613",
+  "items": [
+    {
+      "batch_id": "batch_7b2dfe3df39384a3faf0",
+      "global_step": 5,
+      "match": true,
+      "original_batch_hash": "dd845f09e24d26137f6f02f896e8973ffbf599da348a3e8e9769d996945b64ee",
+      "replay_batch_hash": "dd845f09e24d26137f6f02f896e8973ffbf599da348a3e8e9769d996945b64ee",
+      "source_spans_match": true
+    },
+    {
+      "batch_id": "batch_e7af133c9a8131eac2d8",
+      "global_step": 6,
+      "match": true,
+      "original_batch_hash": "f958b010692e0d2a8ad3e6163cf5d006b6ec590d0a5b7caeb1863e5cb1ce4eed",
+      "replay_batch_hash": "f958b010692e0d2a8ad3e6163cf5d006b6ec590d0a5b7caeb1863e5cb1ce4eed",
+      "source_spans_match": true
+    },
+    {
+      "batch_id": "batch_402a797b8d65723f2a91",
+      "global_step": 7,
+      "match": true,
+      "original_batch_hash": "2d0b2d52ef281b86304228b66d12e40861fb495c875d2863fa974c7fd3698557",
+      "replay_batch_hash": "2d0b2d52ef281b86304228b66d12e40861fb495c875d2863fa974c7fd3698557",
+      "source_spans_match": true
+    },
+    {
+      "batch_id": "batch_3297ce39a0e2292f49ff",
+      "global_step": 8,
+      "match": true,
+      "original_batch_hash": "2f19274e81649918f2fba0c202dbc3cb4f551caed2acd2da2e2704adacd5310c",
+      "replay_batch_hash": "2f19274e81649918f2fba0c202dbc3cb4f551caed2acd2da2e2704adacd5310c",
+      "source_spans_match": true
+    },
+    {
+      "batch_id": "batch_32ccdda54b6a969f9719",
+      "global_step": 9,
+      "match": true,
+      "original_batch_hash": "d4722f482be17e41f1fce4c48a32cb9d17571455cb91b0efb40438d805c997f8",
+      "replay_batch_hash": "d4722f482be17e41f1fce4c48a32cb9d17571455cb91b0efb40438d805c997f8",
+      "source_spans_match": true
+    },
+    {
+      "batch_id": "batch_f503f60bc25a2db2695c",
+      "global_step": 10,
+      "match": true,
+      "original_batch_hash": "2380e78a3eb9e10b379641a991000ecbe00324edf7fdd4ad8db9f4e03128267b",
+      "replay_batch_hash": "2380e78a3eb9e10b379641a991000ecbe00324edf7fdd4ad8db9f4e03128267b",
+      "source_spans_match": true
+    }
+  ],
+  "match": true,
+  "start_step": 5
+}

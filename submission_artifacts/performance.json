@@ -1,0 +1,52 @@
+{
+  "capacity_tokens": 12288,
+  "end_to_end_useful_loss_bearing_tokens_per_second": 13894.195872201339,
+  "formulae": {
+    "end_to_end_useful_loss_bearing_tokens_per_second": "useful_loss_bearing_tokens / wall_seconds",
+    "packing_utilization": "raw_nonpad_tokens / capacity_tokens",
+    "useful_loss_bearing_tokens_per_second": "useful_loss_bearing_tokens / measured_training_seconds"
+  },
+  "global_batch_samples": 4,
+  "measured_loader_seconds": 0.07742849797796225,
+  "measured_training_seconds": 0.13878703902446432,
+  "optimizer_steps": 48,
+  "opus_decision_counts": {
+    "accepted": 158,
+    "deferred": 58,
+    "floor_override": 34,
+    "rejected": 3
+  },
+  "opus_proxy_seconds": 0.13450945799559122,
+  "packing_by_policy": {
+    "best_fit_block_isolated": {
+      "catalog_samples": 65,
+      "packing_utilization": 0.9257211538461538,
+      "useful_loss_utilization": 0.9076923076923077
+    },
+    "greedy_code_block_isolated": {
+      "catalog_samples": 16,
+      "packing_utilization": 0.833984375,
+      "useful_loss_utilization": 0.818359375
+    },
+    "long_context_single_document": {
+      "catalog_samples": 48,
+      "packing_utilization": 0.9296875,
+      "useful_loss_utilization": 0.9140625
+    },
+    "structure_preserving_agentic": {
+      "catalog_samples": 6,
+      "packing_utilization": 0.96875,
+      "useful_loss_utilization": 0.5885416666666666
+    }
+  },
+  "packing_utilization": 0.9126790364583334,
+  "raw_nonpad_tokens": 11215,
+  "raw_nonpad_tokens_per_second": 80807.25749918986,
+  "resume_latency_seconds": 0.10246370900131296,
+  "schema_version": 1,
+  "sequence_length": 64,
+  "useful_loss_bearing_tokens": 10633,
+  "useful_loss_bearing_tokens_per_second": 76613.78234408255,
+  "useful_loss_utilization": 0.8653157552083334,
+  "wall_seconds": 0.7652835830012918
+}

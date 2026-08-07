@@ -1,0 +1,35 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "9ee4bd40aebe7fbe8fb7f5b69d3fb842e0f46a028e5aafb9bb982e717be8ec3f",
+  "eval_overlap_status": "not_eval",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "text",
+  "lane": "math",
+  "language_set": [
+    "en"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "2eede60782f253eb011055039f8c5142a8c4f9594b01907519194a8e95d6e239",
+  "provenance_set": [
+    "v5_fixture"
+  ],
+  "rebuild_sha256": "9ee4bd40aebe7fbe8fb7f5b69d3fb842e0f46a028e5aafb9bb982e717be8ec3f",
+  "record_count": 6,
+  "schema_version": 1,
+  "shard_id": "train__math__text",
+  "shard_path": "train__math__text.jsonl",
+  "source_document_hashes": [
+    "6657bbab5f3d23c507f8a255ade0f3a0e5f46acacf32780d1ad985a5af06933b",
+    "d86e796de842b88c18b0baf09156e83bd8b89c67e568ae4a6f2b2e260adc1e29",
+    "ab537000206c4a1f37dee0403214bc02ba76421188ba0be0b4064dfffff3dffe",
+    "220ccda055ae76851ee16cff494f4415e7c20b4a4ed195aa19517d3a4a3093bc",
+    "f225980e57db58aaeb13a3417fcc143cf21409dd6300fa18c8eb5c69569268e3",
+    "78be4e4c9ec7dd7068dd4d7abd23cf69dc5bcf36ab6190009c27aa3534e1a4f7"
+  ],
+  "split": "train",
+  "token_count": 249,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

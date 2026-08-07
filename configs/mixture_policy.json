@@ -1,0 +1,59 @@
+{
+  "policy_name": "bharat-v5-40b-execution-projection-v1",
+  "production_reference": {
+    "model": "40B dense decoder-only",
+    "total_exposure_tokens": 6000000000000,
+    "tokenizer_vocab": 131072,
+    "note": "The demo uses a frozen UTF-8 byte tokenizer and 64-token sequences only to prove execution-system invariants."
+  },
+  "opus": {
+    "accept_threshold": 0.70,
+    "defer_threshold": 0.56,
+    "production_relative_lane_change_cap": 0.15,
+    "production_smoothing_window_tokens": 5000000000
+  },
+  "stages": [
+    {
+      "name": "S0",
+      "label": "Foundation",
+      "weights": {"general": 0.50, "indic": 0.18, "multilingual": 0.04, "code": 0.10, "math": 0.06, "science": 0.06, "agentic": 0.01, "reasoning": 0.01, "long": 0.04},
+      "floors": {"general": 0.10, "indic": 0.18, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.01, "reasoning": 0.01, "long": 0.00},
+      "verified_indic_global_floor": 0.055
+    },
+    {
+      "name": "S1",
+      "label": "Broad competence",
+      "weights": {"general": 0.38, "indic": 0.20, "multilingual": 0.03, "code": 0.15, "math": 0.07, "science": 0.08, "agentic": 0.02, "reasoning": 0.02, "long": 0.05},
+      "floors": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.01, "reasoning": 0.01, "long": 0.04},
+      "verified_indic_global_floor": 0.06
+    },
+    {
+      "name": "S2",
+      "label": "Capability build",
+      "weights": {"general": 0.22, "indic": 0.20, "multilingual": 0.02, "code": 0.21, "math": 0.10, "science": 0.10, "agentic": 0.06, "reasoning": 0.05, "long": 0.04},
+      "floors": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.05, "reasoning": 0.04, "long": 0.04},
+      "verified_indic_global_floor": 0.06
+    },
+    {
+      "name": "S3",
+      "label": "Specialization",
+      "weights": {"general": 0.12, "indic": 0.20, "multilingual": 0.02, "code": 0.23, "math": 0.10, "science": 0.08, "agentic": 0.12, "reasoning": 0.09, "long": 0.04},
+      "floors": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.05, "reasoning": 0.04, "long": 0.04},
+      "verified_indic_global_floor": 0.06
+    },
+    {
+      "name": "S4",
+      "label": "Capability anneal",
+      "weights": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.20, "math": 0.10, "science": 0.10, "agentic": 0.12, "reasoning": 0.12, "long": 0.05},
+      "floors": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.05, "reasoning": 0.04, "long": 0.04},
+      "verified_indic_global_floor": 0.06
+    },
+    {
+      "name": "S5",
+      "label": "Final cooldown",
+      "weights": {"general": 0.12, "indic": 0.20, "multilingual": 0.01, "code": 0.18, "math": 0.10, "science": 0.10, "agentic": 0.10, "reasoning": 0.14, "long": 0.05},
+      "floors": {"general": 0.10, "indic": 0.20, "multilingual": 0.01, "code": 0.10, "math": 0.05, "science": 0.05, "agentic": 0.05, "reasoning": 0.04, "long": 0.04},
+      "verified_indic_global_floor": 0.06
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "audit_counts": {
+    "consumption_rows": 48,
+    "learning_rows": 48,
+    "opus_rows": 253,
+    "token_learning_rows": 10633
+  },
+  "overall_result": "PASS",
+  "requirements": {
+    "Checkpoint / ledger binding": {
+      "details": {
+        "ledger_offsets": {
+          "consumption": 16,
+          "learning": 16,
+          "opus": 253,
+          "token_learning": 3707
+        }
+      },
+      "evidence": [
+        "checkpoints/index.json",
+        "resume_report.json"
+      ],
+      "result": "PASS"
+    },
+    "Crash recovery": {
+      "details": {
+        "catalog_hash_match": true,
+        "checkpoint_step": 16,
+        "cold_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+        "expected_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+        "expected_next_batch_id": "batch_12dc82de79ceffd88c39",
+        "ledger_offsets": {
+          "consumption": 16,
+          "learning": 16,
+          "opus": 253,
+          "token_learning": 3707
+        },
+        "matched": true,
+        "resume_latency_seconds": 0.10246370900131296,
+        "resumed_next_batch_id": "batch_12dc82de79ceffd88c39"
+      },
+      "evidence": [
+        "checkpoints/index.json",
+        "run.log"
+      ],
+      "result": "PASS"
+    },
+    "Evaluation / validation firewall": {
+      "evidence": [
+        "run.log",
+        "manifests/eval__*.manifest.json",
+        "manifests/validation__*.manifest.json"
+      ],
+      "result": "PASS"
+    },
+    "Fork": {
+      "details": {
+        "branch": "fork_lr_half",
+        "branch_learning_rate": 0.001,
+        "fork_first_batch_id": "batch_32ccdda54b6a969f9719",
+        "historical_expected_batch_id": "batch_32ccdda54b6a969f9719",
+        "parent_checkpoint": "main_step_0008.pt",
+        "parent_checkpoint_sha256": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+        "pass": true
+      },
+      "evidence": [
+        "fork_report.json",
+        "checkpoints/index.json"
+      ],
+      "result": "PASS"
+    },
+    "Immutable shards and manifests": {
+      "evidence": [
+        "shards/*.jsonl",
+        "manifests/*.manifest.json"
+      ],
+      "result": "PASS"
+    },
+    "Learning trace": {
+      "evidence": [
+        "ledgers/consumption.jsonl",
+        "ledgers/learning.jsonl",
+        "ledgers/token_learning.jsonl"
+      ],
+      "result": "PASS"
+    },
+    "Mixture compliance": {
+      "evidence": [
+        "manifests/mixture_plan.json",
+        "mixture_report.json"
+      ],
+      "result": "PASS"
+    },
+    "No skipped/repeated batches": {
+      "evidence": [
+        "ledgers/consumption.jsonl",
+        "manifests/mixture_plan.json"
+      ],
+      "result": "PASS"
+    },
+    "OPUS audit trail": {
+      "details": {
+        "gradient_proxy_verified": true,
+        "proxy_scores_sha256": "c9cf02734e686472b61df1f6176ca58651742d10a6ddd3fe1f23f1cea24afbbe",
+        "statuses": [
+          "accepted",
+          "deferred",
+          "floor_override",
+          "rejected"
+        ]
+      },
+      "evidence": [
+        "manifests/opus_proxy_manifest.json",
+        "ledgers/opus_decisions.jsonl"
+      ],
+      "result": "PASS"
+    },
+    "Packing correctness": {
+      "evidence": [
+        "packing_report.json",
+        "performance.json",
+        "ledgers/consumption.jsonl"
+      ],
+      "result": "PASS"
+    },
+    "Replay": {
+      "details": {
+        "interval_hash": "3b78aa8a8d7ab20389fe6bbaa899af90e646801a8cdb526c0e7d540352834613"
+      },
+      "evidence": [
+        "replay_report.json",
+        "ledgers/consumption.jsonl"
+      ],
+      "result": "PASS"
+    },
+    "Throughput": {
+      "evidence": [
+        "performance.json",
+        "ledgers/consumption.jsonl"
+      ],
+      "result": "PASS"
+    },
+    "Tokenizer integrity": {
+      "evidence": [
+        "manifests/tokenizer_manifest.json",
+        "manifests/*.manifest.json"
+      ],
+      "result": "PASS"
+    }
+  },
+  "schema_version": 1
+}

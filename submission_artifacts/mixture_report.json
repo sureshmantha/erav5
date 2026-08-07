@@ -1,0 +1,226 @@
+{
+  "stages": [
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.030890052356020943,
+        "code": 0.11570680628272251,
+        "general": 0.4481675392670157,
+        "indic": 0.19476439790575917,
+        "long": 0.033507853403141365,
+        "math": 0.05759162303664921,
+        "multilingual": 0.030890052356020943,
+        "reasoning": 0.02774869109947644,
+        "science": 0.060732984293193716
+      },
+      "planned_weights": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.5,
+        "indic": 0.18,
+        "long": 0.04,
+        "math": 0.06,
+        "multilingual": 0.04,
+        "reasoning": 0.01,
+        "science": 0.06
+      },
+      "protected_floors": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.18,
+        "long": 0.0,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.01,
+        "science": 0.05
+      },
+      "stage": "S0",
+      "token_floor_compliant": true
+    },
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.030538302277432712,
+        "code": 0.15010351966873706,
+        "general": 0.35248447204968947,
+        "indic": 0.22567287784679088,
+        "long": 0.06625258799171843,
+        "math": 0.056935817805383024,
+        "multilingual": 0.030538302277432712,
+        "reasoning": 0.027432712215320912,
+        "science": 0.060041407867494824
+      },
+      "planned_weights": {
+        "agentic": 0.02,
+        "code": 0.15,
+        "general": 0.38,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.07,
+        "multilingual": 0.03,
+        "reasoning": 0.02,
+        "science": 0.08
+      },
+      "protected_floors": {
+        "agentic": 0.01,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.01,
+        "science": 0.05
+      },
+      "stage": "S1",
+      "token_floor_compliant": true
+    },
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.06758241758241758,
+        "code": 0.15219780219780218,
+        "general": 0.20384615384615384,
+        "indic": 0.23956043956043957,
+        "long": 0.07032967032967033,
+        "math": 0.0912087912087912,
+        "multilingual": 0.03241758241758242,
+        "reasoning": 0.06428571428571428,
+        "science": 0.07857142857142857
+      },
+      "planned_weights": {
+        "agentic": 0.06,
+        "code": 0.21,
+        "general": 0.22,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.1,
+        "multilingual": 0.02,
+        "reasoning": 0.05,
+        "science": 0.1
+      },
+      "protected_floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "stage": "S2",
+      "token_floor_compliant": true
+    },
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.13380281690140844,
+        "code": 0.13380281690140844,
+        "general": 0.13163596966413868,
+        "indic": 0.2361863488624052,
+        "long": 0.06933911159263272,
+        "math": 0.08992416034669556,
+        "multilingual": 0.031960996749729145,
+        "reasoning": 0.09534127843986999,
+        "science": 0.0780065005417118
+      },
+      "planned_weights": {
+        "agentic": 0.12,
+        "code": 0.23,
+        "general": 0.12,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.1,
+        "multilingual": 0.02,
+        "reasoning": 0.09,
+        "science": 0.08
+      },
+      "protected_floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "stage": "S3",
+      "token_floor_compliant": true
+    },
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.13380281690140844,
+        "code": 0.13380281690140844,
+        "general": 0.13163596966413868,
+        "indic": 0.2361863488624052,
+        "long": 0.06933911159263272,
+        "math": 0.08992416034669556,
+        "multilingual": 0.031960996749729145,
+        "reasoning": 0.09534127843986999,
+        "science": 0.0780065005417118
+      },
+      "planned_weights": {
+        "agentic": 0.12,
+        "code": 0.2,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.1,
+        "multilingual": 0.01,
+        "reasoning": 0.12,
+        "science": 0.1
+      },
+      "protected_floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "stage": "S4",
+      "token_floor_compliant": true
+    },
+    {
+      "actual_nonpad_token_shares": {
+        "agentic": 0.10048361096184846,
+        "code": 0.16711445459430413,
+        "general": 0.1305749596990865,
+        "indic": 0.23428264373992477,
+        "long": 0.06878022568511553,
+        "math": 0.0891993551853842,
+        "multilingual": 0.03170338527673294,
+        "reasoning": 0.10048361096184846,
+        "science": 0.07737775389575496
+      },
+      "planned_weights": {
+        "agentic": 0.1,
+        "code": 0.18,
+        "general": 0.12,
+        "indic": 0.2,
+        "long": 0.05,
+        "math": 0.1,
+        "multilingual": 0.01,
+        "reasoning": 0.14,
+        "science": 0.1
+      },
+      "protected_floors": {
+        "agentic": 0.05,
+        "code": 0.1,
+        "general": 0.1,
+        "indic": 0.2,
+        "long": 0.04,
+        "math": 0.05,
+        "multilingual": 0.01,
+        "reasoning": 0.04,
+        "science": 0.05
+      },
+      "stage": "S5",
+      "token_floor_compliant": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "checkpoints": [
+    {
+      "branch": "main",
+      "checkpoint_sha256": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+      "global_step": 8,
+      "ledger_offsets": {
+        "consumption": 8,
+        "learning": 8,
+        "opus": 253,
+        "token_learning": 1843
+      },
+      "next_batch_index": 8,
+      "parent_checkpoint_hash": null,
+      "path": "main_step_0008.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "main",
+      "checkpoint_sha256": "a364d8ab5d286378ecbfc15f59170e2513f4b8ca36309379d16be5a474837889",
+      "global_step": 16,
+      "ledger_offsets": {
+        "consumption": 16,
+        "learning": 16,
+        "opus": 253,
+        "token_learning": 3707
+      },
+      "next_batch_index": 16,
+      "parent_checkpoint_hash": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+      "path": "main_step_0016.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "main",
+      "checkpoint_sha256": "724b1bd9e721ace029f1a92439bc14f4da3d9cd0ab04146ba3cf3e17230b887f",
+      "global_step": 24,
+      "ledger_offsets": {
+        "consumption": 24,
+        "learning": 24,
+        "opus": 253,
+        "token_learning": 5441
+      },
+      "next_batch_index": 24,
+      "parent_checkpoint_hash": "a364d8ab5d286378ecbfc15f59170e2513f4b8ca36309379d16be5a474837889",
+      "path": "main_step_0024.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "main",
+      "checkpoint_sha256": "84c85d8dd979da9e4f3081524e48716470c53bdb83cf0ef0fdb4cc127866f44f",
+      "global_step": 32,
+      "ledger_offsets": {
+        "consumption": 32,
+        "learning": 32,
+        "opus": 253,
+        "token_learning": 7158
+      },
+      "next_batch_index": 32,
+      "parent_checkpoint_hash": "724b1bd9e721ace029f1a92439bc14f4da3d9cd0ab04146ba3cf3e17230b887f",
+      "path": "main_step_0032.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "main",
+      "checkpoint_sha256": "3bf359ac5e2ba6ea32ce8afeeb4320abf17ad6372d7a2efb60f81308d81503fe",
+      "global_step": 40,
+      "ledger_offsets": {
+        "consumption": 40,
+        "learning": 40,
+        "opus": 253,
+        "token_learning": 8875
+      },
+      "next_batch_index": 40,
+      "parent_checkpoint_hash": "84c85d8dd979da9e4f3081524e48716470c53bdb83cf0ef0fdb4cc127866f44f",
+      "path": "main_step_0040.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "main",
+      "checkpoint_sha256": "d17e6ba9560622bb91528a8241725681a07510a6d78959f05b6b1b754045eca6",
+      "global_step": 48,
+      "ledger_offsets": {
+        "consumption": 48,
+        "learning": 48,
+        "opus": 253,
+        "token_learning": 10633
+      },
+      "next_batch_index": 48,
+      "parent_checkpoint_hash": "3bf359ac5e2ba6ea32ce8afeeb4320abf17ad6372d7a2efb60f81308d81503fe",
+      "path": "main_step_0048.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    },
+    {
+      "branch": "fork_lr_half",
+      "checkpoint_sha256": "4fe980784bcc16439484c08c636760543208bb34e2ece47d3f865eebc23bb179",
+      "global_step": 9,
+      "ledger_offsets": {
+        "consumption": 1,
+        "learning": 1,
+        "opus": 0,
+        "token_learning": 235
+      },
+      "next_batch_index": 9,
+      "parent_checkpoint_hash": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+      "path": "fork_lr_half_step_0009.pt",
+      "plan_hash": "ebf612871678e7138c3fc564a40c14ab4366a2baab6f572b3328d03b39b7ddbb",
+      "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+    }
+  ]
+}

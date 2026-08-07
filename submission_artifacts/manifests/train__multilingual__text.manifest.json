@@ -1,0 +1,36 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "ac7ce21f907042d61dea9088a41bc07e972539509ef85f416758ce8235a59720",
+  "eval_overlap_status": "not_eval",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "text",
+  "lane": "multilingual",
+  "language_set": [
+    "de",
+    "es",
+    "fr",
+    "ja"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "bbe0708386382d5d00642bda1ecde88496ab357bde0c777be3a1e8747bcc3544",
+  "provenance_set": [
+    "v5_fixture"
+  ],
+  "rebuild_sha256": "ac7ce21f907042d61dea9088a41bc07e972539509ef85f416758ce8235a59720",
+  "record_count": 4,
+  "schema_version": 1,
+  "shard_id": "train__multilingual__text",
+  "shard_path": "train__multilingual__text.jsonl",
+  "source_document_hashes": [
+    "41cc4ff9e17731cbf6bf48782d0ffd543b8025afcd89e814348378c81d824d56",
+    "6f9715598d6f71120959bcb9fe82f9f949f6a3a946813c3877b54ca5ca418af9",
+    "370d68bef11c5152a68a561f5b30502bcd75713057d9bf672b8fd9d95c491663",
+    "17632c43f0000205a3fa016b84a0f0f3e9fcca814008f2f3f6ddb4083b47272d"
+  ],
+  "split": "train",
+  "token_count": 210,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

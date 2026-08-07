@@ -1,0 +1,3039 @@
+{
+  "catalog_sha256": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+  "samples": [
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "025ef353667217b8a218761ac77dce09e951e114903690b7859ed7e0ee12e776",
+      "sample_id": "sample_025ef353667217b8a218",
+      "source_spans": [
+        {
+          "content_hash": "5f9de86c10880cb3a6ac33332f46b2a8f2571668763568ece7271d610fdbccfe",
+          "doc_id": "train__code_06",
+          "end_token": 62,
+          "record_id": "train__code_06",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "multilingual",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "0d6be65f06e71fbcb89b64fa821350d629255525b9ba07b129c30ee659a049ef",
+      "sample_id": "sample_0d6be65f06e71fbcb89b",
+      "source_spans": [
+        {
+          "content_hash": "370d68bef11c5152a68a561f5b30502bcd75713057d9bf672b8fd9d95c491663",
+          "doc_id": "train__multilingual_02",
+          "end_token": 57,
+          "record_id": "train__multilingual_02",
+          "segment_id": 0,
+          "shard_id": "train__multilingual__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "0f0df221a3e6be1a21bc103f299b31017916696fc77d99ce342745e67b8a7b7c",
+      "sample_id": "sample_0f0df221a3e6be1a21bc",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 372,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "translated",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "13d02605f6970da068fca83c6dd3acdb61c0305f74cbf7e4e901119b134dfd3f",
+      "sample_id": "sample_13d02605f6970da068fc",
+      "source_spans": [
+        {
+          "content_hash": "2cac0114fcedb9ce918c8b909afe6c51a71d49b4cd874891c49452569182b32e",
+          "doc_id": "train__indic_08",
+          "end_token": 62,
+          "record_id": "train__indic_08",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "141a8d80aef4aad24ae68ca8d40c364b5320ea4efd426fb98e2b020d61e574ef",
+      "sample_id": "sample_141a8d80aef4aad24ae6",
+      "source_spans": [
+        {
+          "content_hash": "5f9de86c10880cb3a6ac33332f46b2a8f2571668763568ece7271d610fdbccfe",
+          "doc_id": "train__code_06",
+          "end_token": 111,
+          "record_id": "train__code_06",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "165e96bfed7cc733c73b4b16d33476f11282ea676412ca28bf818b534c760f46",
+      "sample_id": "sample_165e96bfed7cc733c73b",
+      "source_spans": [
+        {
+          "content_hash": "ba0bfd48772df5ebed724434339137ef7bea7d275b7c9f04247d1b166fd33b7a",
+          "doc_id": "train__indic_09",
+          "end_token": 62,
+          "record_id": "train__indic_09",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "1751015bda34f88aa8e141c31d72704969963ffef7daa90902bdc2638b3f585c",
+      "sample_id": "sample_1751015bda34f88aa8e1",
+      "source_spans": [
+        {
+          "content_hash": "c239ce38e1c0d7d5973c805377ab8c43d38b34d4caa1edfc0c1ba6b8348e84b5",
+          "doc_id": "train__general_07",
+          "end_token": 57,
+          "record_id": "train__general_07",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "17ee6056ce72c692c60c86035db5739cb0d7677952a6b3c7f97e04f8d25aa488",
+      "sample_id": "sample_17ee6056ce72c692c60c",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 62,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "1d972db98f8edb8c8439840a031bc4f44e18a9efbd6f9941c0e83ca2899e846f",
+      "sample_id": "sample_1d972db98f8edb8c8439",
+      "source_spans": [
+        {
+          "content_hash": "6b3d3fd2ae805965a5b1d50b7557bf7d14c8a872c1ee1b3aec5615d0701cc316",
+          "doc_id": "train__indic_07",
+          "end_token": 124,
+          "record_id": "train__indic_07",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.54,
+      "sample_hash": "1f723236dd8dbc6e4ca81d342acf81a2b8614790fddf20402339819c288de183",
+      "sample_id": "sample_1f723236dd8dbc6e4ca8",
+      "source_spans": [
+        {
+          "content_hash": "e9af12ced12e9374eb09fc1555b9dc618d2b898419092481d3f0e74733cc7ec5",
+          "doc_id": "train__agentic_04",
+          "end_token": 10,
+          "packed_end": 12,
+          "packed_start": 1,
+          "record_id": "train__agentic_04",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "deb589ef601ff74057fb2eadb8e680204527170dcf5769b6848281be560bdeda",
+          "doc_id": "train__agentic_04",
+          "end_token": 24,
+          "packed_end": 27,
+          "packed_start": 12,
+          "record_id": "train__agentic_04",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 10
+        },
+        {
+          "content_hash": "f96402a86a119702542255b1d628cd21482c7829a63186fc9a51357a8c60e04a",
+          "doc_id": "train__agentic_04",
+          "end_token": 38,
+          "packed_end": 42,
+          "packed_start": 27,
+          "record_id": "train__agentic_04",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 24
+        },
+        {
+          "content_hash": "5b1f2766cfed7e5d8b9892cf2f1cfd338b8f6c14bb3bdc264b1ba08bd127c87d",
+          "doc_id": "train__agentic_04",
+          "end_token": 59,
+          "packed_end": 64,
+          "packed_start": 42,
+          "record_id": "train__agentic_04",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 38
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "1f7b699ab2992fc67466b8e86d951c7624201920b8c5fac98dd4481eb1774f4b",
+      "sample_id": "sample_1f7b699ab2992fc67466",
+      "source_spans": [
+        {
+          "content_hash": "9ec5f9d7a3969987d9a988be0345dd99cade54280313f57f8dde6704e1bb0644",
+          "doc_id": "train__code_04",
+          "end_token": 107,
+          "record_id": "train__code_04",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "211c1b7d697aca94991c8857243304e71c059fed1190b51386244e530c32f06a",
+      "sample_id": "sample_211c1b7d697aca94991c",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 62,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "2203106f4e0c975118da0ce9ccd2bb77a85e2d0eeeea0143070d5445bb691b00",
+      "sample_id": "sample_2203106f4e0c975118da",
+      "source_spans": [
+        {
+          "content_hash": "919f2d09ca2ede457713f943ba1b14725b54e550b46751003e0acf8715cb466e",
+          "doc_id": "train__indic_10",
+          "end_token": 62,
+          "record_id": "train__indic_10",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "250b2968fb270d20ceb35eb67d5eadf46bd2f4b2037090f4b9b79ed911449aec",
+      "sample_id": "sample_250b2968fb270d20ceb3",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 186,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "25cda7378342111f274cb904828c8a007e58f9a254814cba28d1a3f1b584bd06",
+      "sample_id": "sample_25cda7378342111f274c",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 372,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "265b54a76d9b621328cbd954b3ef43e960fb9a0e2f1745a880bbe1abe1f1db13",
+      "sample_id": "sample_265b54a76d9b621328cb",
+      "source_spans": [
+        {
+          "content_hash": "8c6e32d48b373de63d8fe1653abad4ee5c6287d0deb6594a91524a4064ea22ee",
+          "doc_id": "train__general_09",
+          "end_token": 60,
+          "record_id": "train__general_09",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "26c3fc6466da2e93d0fc4c73c560662ce3114a939c06bb0e0f83dda0f2c8671d",
+      "sample_id": "sample_26c3fc6466da2e93d0fc",
+      "source_spans": [
+        {
+          "content_hash": "31b676c6abda335f22820698f9d5749d1c0d5cf874920c5826e9740319855588",
+          "doc_id": "train__science_05",
+          "end_token": 52,
+          "record_id": "train__science_05",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.8300000000000001,
+      "sample_hash": "2be33384ad23ec1f44d1ee1769c392bbb7df3b0d045f52fbbe3127f151aca170",
+      "sample_id": "sample_2be33384ad23ec1f44d1",
+      "source_spans": [
+        {
+          "content_hash": "6b3d3fd2ae805965a5b1d50b7557bf7d14c8a872c1ee1b3aec5615d0701cc316",
+          "doc_id": "train__indic_07",
+          "end_token": 166,
+          "record_id": "train__indic_07",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        },
+        {
+          "content_hash": "547d9ac490c10ff36be7d1bf6e0d70bd3cd4ce87cc8673e72219f7ea4c87b37e",
+          "doc_id": "train__indic_02",
+          "end_token": 202,
+          "record_id": "train__indic_02",
+          "segment_id": 1,
+          "shard_id": "train__indic__text",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "2d164cd43f782558e4a8eae77be1ddaab5f4e067637eb5bf7116d6208daa7535",
+      "sample_id": "sample_2d164cd43f782558e4a8",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 310,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "2e206c24308d552aeaa4fd251cb560037dbf2e3358aaf3744621f1453ebd4213",
+      "sample_id": "sample_2e206c24308d552aeaa4",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 310,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "2e600eb2c2ee64dd513a74bc5c1890c0a6e2c7baed025f4d421c92ffbaef83dd",
+      "sample_id": "sample_2e600eb2c2ee64dd513a",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 472,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "30ddf085338891365e0aa8547e38ae7460173cb8d2ea6c1ef6741ccd332044c5",
+      "sample_id": "sample_30ddf085338891365e0a",
+      "source_spans": [
+        {
+          "content_hash": "f7ba4a0dc2aed3accf5e3a684d01b656988cdcdd1dd47730fd474a105a2424f4",
+          "doc_id": "train__indic_11",
+          "end_token": 62,
+          "record_id": "train__indic_11",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "3256c3030c2a0241ff88a023b013658a1bf73bb6a86c837e1a1d6cf14285db30",
+      "sample_id": "sample_3256c3030c2a0241ff88",
+      "source_spans": [
+        {
+          "content_hash": "7fc9ddfa5ff64f5d336bd52c6122b93d6845086d8c2085718581eefdb1e95b87",
+          "doc_id": "train__reasoning_00",
+          "end_token": 62,
+          "record_id": "train__reasoning_00",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "359383ffbfec86593050816adc288955baf28fb04b80ffb27734fa8def9a329c",
+      "sample_id": "sample_359383ffbfec86593050",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 248,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "39dcc74cfe256252d6b968e3fd3510b3d2606987a8736b6f8ef195bf091bb9ef",
+      "sample_id": "sample_39dcc74cfe256252d6b9",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 186,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.66,
+      "sample_hash": "3cfc854b166f69f1f6770ff756e74863d80e0282ae3af00743bc29c0dfc40e90",
+      "sample_id": "sample_3cfc854b166f69f1f677",
+      "source_spans": [
+        {
+          "content_hash": "41eda9c89b55e10c5e0ece133f7ab3eaf868b4a42b1f0c4c35f35144aea479eb",
+          "doc_id": "train__agentic_03",
+          "end_token": 11,
+          "packed_end": 13,
+          "packed_start": 1,
+          "record_id": "train__agentic_03",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "9a52a3adb730466495a13feccc220597413aaa68181d3d89188c6c4d5611c9ea",
+          "doc_id": "train__agentic_03",
+          "end_token": 16,
+          "packed_end": 19,
+          "packed_start": 13,
+          "record_id": "train__agentic_03",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 11
+        },
+        {
+          "content_hash": "700f800c06d4d57aeda3bb54b3d65d675dacf4cb6265868faf7ee085d8bb4085",
+          "doc_id": "train__agentic_03",
+          "end_token": 24,
+          "packed_end": 28,
+          "packed_start": 19,
+          "record_id": "train__agentic_03",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 16
+        },
+        {
+          "content_hash": "79a3392d56b86f2006a87e448b3703b0e15d14cee5bcb5e2599c26190bd79f18",
+          "doc_id": "train__agentic_03",
+          "end_token": 37,
+          "packed_end": 42,
+          "packed_start": 28,
+          "record_id": "train__agentic_03",
+          "role": "assistant_revision",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 24
+        },
+        {
+          "content_hash": "07f62349e7fcea6968bc4290f8948c49812b6fc0cda6b6aa544b076822b7ba8c",
+          "doc_id": "train__agentic_03",
+          "end_token": 58,
+          "packed_end": 64,
+          "packed_start": 42,
+          "record_id": "train__agentic_03",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 37
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "3e177b66e1d9ea29144fe02b1d74a040b9022b294c84bf5b983d463505c91657",
+      "sample_id": "sample_3e177b66e1d9ea29144f",
+      "source_spans": [
+        {
+          "content_hash": "9664b3b58ce6279b7627f406029d97f8df869c6b34ac31020193bfa325d1ab9a",
+          "doc_id": "train__general_03",
+          "end_token": 57,
+          "record_id": "train__general_03",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "3fb2d306cbd747efbadd8e861a56d5d0bc82d0e155d860b4a841969cf986ca94",
+      "sample_id": "sample_3fb2d306cbd747efbadd",
+      "source_spans": [
+        {
+          "content_hash": "919f2d09ca2ede457713f943ba1b14725b54e550b46751003e0acf8715cb466e",
+          "doc_id": "train__indic_10",
+          "end_token": 124,
+          "record_id": "train__indic_10",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "41fb88fccf659c32c625ec5253409505e7c3a9bc26f002af08c3c57c59dc8f19",
+      "sample_id": "sample_41fb88fccf659c32c625",
+      "source_spans": [
+        {
+          "content_hash": "6111a089f791d6ad09a25d20eb04ae9545ebefa0146e1326b1f2d4d26c7647ff",
+          "doc_id": "train__indic_03",
+          "end_token": 178,
+          "record_id": "train__indic_03",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "42e047ef2a72285b2a681d700d5adbd4634b1e39005a329803e9bc8f91b146f4",
+      "sample_id": "sample_42e047ef2a72285b2a68",
+      "source_spans": [
+        {
+          "content_hash": "d2040a0874d0ea640051c4cdff0db3f3780c52f4a9878f9d4dc2d7f991473318",
+          "doc_id": "train__science_00",
+          "end_token": 60,
+          "record_id": "train__science_00",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.71,
+      "sample_hash": "43096ecbcc72b16756471efb52983a2f672c879c767a8e5635eec2a584e877f4",
+      "sample_id": "sample_43096ecbcc72b1675647",
+      "source_spans": [
+        {
+          "content_hash": "3d96f0bfda39abec0da70942c9d2475433d6a66f27b5c81c1517853f2eb7925b",
+          "doc_id": "train__general_01",
+          "end_token": 58,
+          "record_id": "train__general_01",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        },
+        {
+          "content_hash": "92733eea1119e28d8f4b3e66dd210918ad401dd61c401503eaf66df9434a417d",
+          "doc_id": "train__general_04",
+          "end_token": 64,
+          "record_id": "train__general_04",
+          "segment_id": 1,
+          "shard_id": "train__general__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "4645ec30ec67933fbdcaebbf7e50fb15c2ae9328c865b5d434f604fb8417ee32",
+      "sample_id": "sample_4645ec30ec67933fbdca",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 186,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "4753b90a9210153ecc42cd4e424dce6f3be819f2d3c69359f8e929ec240b3c87",
+      "sample_id": "sample_4753b90a9210153ecc42",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 124,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "multilingual",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "47ab557b106ec2ce9f105baee417c747b9ad2fbd96c1f1b074769fcba2fe3c25",
+      "sample_id": "sample_47ab557b106ec2ce9f10",
+      "source_spans": [
+        {
+          "content_hash": "6f9715598d6f71120959bcb9fe82f9f949f6a3a946813c3877b54ca5ca418af9",
+          "doc_id": "train__multilingual_01",
+          "end_token": 57,
+          "record_id": "train__multilingual_01",
+          "segment_id": 0,
+          "shard_id": "train__multilingual__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "48512caaa19adf106f34e2ca06483b053959662f50b13077424b90a486b70457",
+      "sample_id": "sample_48512caaa19adf106f34",
+      "source_spans": [
+        {
+          "content_hash": "5aca8a7bfb22bf04933b4500317ab64ab2835611c665925a6e57df7df782b581",
+          "doc_id": "train__reasoning_04",
+          "end_token": 62,
+          "record_id": "train__reasoning_04",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.38,
+      "sample_hash": "48ebf9c01125ca7baa5b826d36a4171d16c34879b3bf2173cf6dd7cf4eb053d9",
+      "sample_id": "sample_48ebf9c01125ca7baa5b",
+      "source_spans": [
+        {
+          "content_hash": "ecd0aa28940ccbdc86362035fd5e966d529fb3d64660f9c5be92e2a7043aa813",
+          "doc_id": "train__agentic_05",
+          "end_token": 14,
+          "packed_end": 16,
+          "packed_start": 1,
+          "record_id": "train__agentic_05",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "4d3bd49d7fae084960d393c01b4bc7ce6a3bcddd3ba4d7ab5699d2cf18662c6d",
+          "doc_id": "train__agentic_05",
+          "end_token": 29,
+          "packed_end": 32,
+          "packed_start": 16,
+          "record_id": "train__agentic_05",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 14
+        },
+        {
+          "content_hash": "d25cb975dfb0eee1455302cb61490f9d0a0e84822360fa517f9fe5c98d0eec3b",
+          "doc_id": "train__agentic_05",
+          "end_token": 36,
+          "packed_end": 40,
+          "packed_start": 32,
+          "record_id": "train__agentic_05",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 29
+        },
+        {
+          "content_hash": "a462f8da09297ecfe9257ebc6a84ae7b5f2911c799adf618ccb508e3a855f86f",
+          "doc_id": "train__agentic_05",
+          "end_token": 56,
+          "packed_end": 61,
+          "packed_start": 40,
+          "record_id": "train__agentic_05",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 36
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "4bbca209d8d9be69cc6c94bfb70d613575d619b3f5fddd77eb102cbdcf85bcca",
+      "sample_id": "sample_4bbca209d8d9be69cc6c",
+      "source_spans": [
+        {
+          "content_hash": "d97ff6879fb12efe9f04fdeb0ff3fa06651867cee25dbd7affbd573be139f2a7",
+          "doc_id": "train__code_03",
+          "end_token": 102,
+          "record_id": "train__code_03",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "4d11ef7799ba993e1af691994e382150942661371829287fc1b5db12df8b07d9",
+      "sample_id": "sample_4d11ef7799ba993e1af6",
+      "source_spans": [
+        {
+          "content_hash": "5ada3b15414572ed32dfd8ffc2af4ba094964ff1913da233f2303e7122d3baef",
+          "doc_id": "train__code_07",
+          "end_token": 62,
+          "record_id": "train__code_07",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "4e6499aeef64ecff3da11c03190a38c7fb4d7ba767185c4c7c7931d23cd90071",
+      "sample_id": "sample_4e6499aeef64ecff3da1",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 372,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "4f40bbe8fabdc235be0bbca233ca14ea237f368f886a95a3d31019230763ff20",
+      "sample_id": "sample_4f40bbe8fabdc235be0b",
+      "source_spans": [
+        {
+          "content_hash": "1a127fa4fd0afd36392d1b3f426857c6726424180fac74d664042fbcb4f9a50d",
+          "doc_id": "train__code_02",
+          "end_token": 62,
+          "record_id": "train__code_02",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "multilingual",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "50a05bdba331a682076155912d824b7cf2ee41c43ecc995312f6a5c297cd43d9",
+      "sample_id": "sample_50a05bdba331a6820761",
+      "source_spans": [
+        {
+          "content_hash": "17632c43f0000205a3fa016b84a0f0f3e9fcca814008f2f3f6ddb4083b47272d",
+          "doc_id": "train__multilingual_03",
+          "end_token": 45,
+          "record_id": "train__multilingual_03",
+          "segment_id": 0,
+          "shard_id": "train__multilingual__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "translated",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "53435cbd9e847b8a93cc022564337aaff15b20e5d499bcf6d58ae40df7e69440",
+      "sample_id": "sample_53435cbd9e847b8a93cc",
+      "source_spans": [
+        {
+          "content_hash": "95c8c10e2bc21d00da0932251c6b967af5ae13211a6f60000210297320c5393b",
+          "doc_id": "train__indic_04",
+          "end_token": 62,
+          "record_id": "train__indic_04",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "5482ee71f0195614124db8bca5d944de114667c20009c21ef27c8a550280fe99",
+      "sample_id": "sample_5482ee71f0195614124d",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 310,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "58ed7e92645595f2314e1e386c2035ef80bd342b730df27c7ab9ad057ba66132",
+      "sample_id": "sample_58ed7e92645595f2314e",
+      "source_spans": [
+        {
+          "content_hash": "97669a423e137e6f62262c90c46021ae490caf5d3b2af6942eb88f2955e62505",
+          "doc_id": "train__indic_01",
+          "end_token": 62,
+          "record_id": "train__indic_01",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "5daedcef90a157493c084927b58f737901b891402e37ea14a09831a7a1f802b4",
+      "sample_id": "sample_5daedcef90a157493c08",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 372,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "61a9400297d8557c2dba755427e822e41e363e1bc0fce162c7124874ab1876cf",
+      "sample_id": "sample_61a9400297d8557c2dba",
+      "source_spans": [
+        {
+          "content_hash": "e1ce9e05054de14f225375835b66301aa400365aff2f58e7a681c6037261de84",
+          "doc_id": "train__code_00",
+          "end_token": 96,
+          "record_id": "train__code_00",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "62f8624bc6b3048bad4fbb670d8540310ba64a21e327cf3c975db63ed0efe59d",
+      "sample_id": "sample_62f8624bc6b3048bad4f",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 436,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "math",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "6417762b9204667ee0420d043fbc56adea366e96640499379e8468d0e51e4708",
+      "sample_id": "sample_6417762b9204667ee042",
+      "source_spans": [
+        {
+          "content_hash": "f225980e57db58aaeb13a3417fcc143cf21409dd6300fa18c8eb5c69569268e3",
+          "doc_id": "train__math_04",
+          "end_token": 49,
+          "record_id": "train__math_04",
+          "segment_id": 0,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "6489a91561505a3549c9f018deb97ebb168e468e0a7b015841c18a1db56c1bf6",
+      "sample_id": "sample_6489a91561505a3549c9",
+      "source_spans": [
+        {
+          "content_hash": "8b7b13babc404deb1593906f8e8e07e3273251bcea3128f83fc3be14e3e3a42f",
+          "doc_id": "train__science_03",
+          "end_token": 59,
+          "record_id": "train__science_03",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "655d65b0705d5cae2e92c6718255550ca7bc0d4ffcc5b9d9c585c27f03a8a7ab",
+      "sample_id": "sample_655d65b0705d5cae2e92",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 62,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "677279da0ed22756ed691aebe77c05cb83bea9777f77a17f36172ebfea95064f",
+      "sample_id": "sample_677279da0ed22756ed69",
+      "source_spans": [
+        {
+          "content_hash": "670955d1237c411e71b9d43221bb7205bd3a0fe8e778ed5cadde26e0209a2f74",
+          "doc_id": "train__indic_06",
+          "end_token": 124,
+          "record_id": "train__indic_06",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "6bc7eddfcf249a50223829cc857217b9292abce5cde42437918a7c337aba52b9",
+      "sample_id": "sample_6bc7eddfcf249a502238",
+      "source_spans": [
+        {
+          "content_hash": "1653a74a33ac29808efd8f27271bb09342c180efca45fa32a4ebe20f587878e8",
+          "doc_id": "train__reasoning_05",
+          "end_token": 62,
+          "record_id": "train__reasoning_05",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "math",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.87,
+      "sample_hash": "6f5eaaed38feda123baa32892cabdda0a8807ebc4c54bc319a852f662d002669",
+      "sample_id": "sample_6f5eaaed38feda123baa",
+      "source_spans": [
+        {
+          "content_hash": "ab537000206c4a1f37dee0403214bc02ba76421188ba0be0b4064dfffff3dffe",
+          "doc_id": "train__math_02",
+          "end_token": 29,
+          "record_id": "train__math_02",
+          "segment_id": 0,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        },
+        {
+          "content_hash": "6657bbab5f3d23c507f8a255ade0f3a0e5f46acacf32780d1ad985a5af06933b",
+          "doc_id": "train__math_00",
+          "end_token": 26,
+          "record_id": "train__math_00",
+          "segment_id": 1,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "6f9d2c701bcf51ad8d6a97ebdea91e60cee44852f59859a79dcb036630f3b016",
+      "sample_id": "sample_6f9d2c701bcf51ad8d6a",
+      "source_spans": [
+        {
+          "content_hash": "ba0bfd48772df5ebed724434339137ef7bea7d275b7c9f04247d1b166fd33b7a",
+          "doc_id": "train__indic_09",
+          "end_token": 124,
+          "record_id": "train__indic_09",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "742274c68fc9f99d85d9127b4bd523531cf60155658b3ab0661dea549f222762",
+      "sample_id": "sample_742274c68fc9f99d85d9",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 248,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "74751e0c5438a5ea3d64e7840c472e0403ab67729b0ac041e0f78fee04d44482",
+      "sample_id": "sample_74751e0c5438a5ea3d64",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 62,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "79ac66fe06d1a7628decec338f0d761aaa9be6cdfa5c773926213066aca7234d",
+      "sample_id": "sample_79ac66fe06d1a7628dec",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 124,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "7a8511825f2dfebf6105de5b49d6b76873404eede5039bbc0e14946503672f83",
+      "sample_id": "sample_7a8511825f2dfebf6105",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 248,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "7b3b6568bdcbced80e427f5da7a516a1d8a070f8f5688dc524fe5bd5d1e69dfc",
+      "sample_id": "sample_7b3b6568bdcbced80e42",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 62,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "7b5c96205ba5c6d8533318983b8bb059184c42a9db46f159dbc60a89d23cc677",
+      "sample_id": "sample_7b5c96205ba5c6d85333",
+      "source_spans": [
+        {
+          "content_hash": "09334802b1bdd88ec895ffd320a29e44cf6d91b78e240ce43fa4966b410aef6d",
+          "doc_id": "train__general_00",
+          "end_token": 54,
+          "record_id": "train__general_00",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "7bc01c12eb8d84804e83cbe1a07c20feb4e4f8d9db3a7c2a5ada3456459d0604",
+      "sample_id": "sample_7bc01c12eb8d84804e83",
+      "source_spans": [
+        {
+          "content_hash": "6b3d3fd2ae805965a5b1d50b7557bf7d14c8a872c1ee1b3aec5615d0701cc316",
+          "doc_id": "train__indic_07",
+          "end_token": 62,
+          "record_id": "train__indic_07",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "7f8e07d76012a45ebeaf75af882ee9fada1cc06fb3bc914a3d45d3949be5e8b9",
+      "sample_id": "sample_7f8e07d76012a45ebeaf",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 248,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "806d74c2315fd947f9aae59417b77905577e1c8239ebba9661e57608d1ffc959",
+      "sample_id": "sample_806d74c2315fd947f9aa",
+      "source_spans": [
+        {
+          "content_hash": "fe2e04498f2bfeefb471ce454693f14a1f8364408f5f10ec8e97d05ba96dd1e3",
+          "doc_id": "train__reasoning_03",
+          "end_token": 57,
+          "record_id": "train__reasoning_03",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "81910bb54418f7686666bf19c61c67e365a1dc6d233265eaa5e9e9d973d78f09",
+      "sample_id": "sample_81910bb54418f7686666",
+      "source_spans": [
+        {
+          "content_hash": "6111a089f791d6ad09a25d20eb04ae9545ebefa0146e1326b1f2d4d26c7647ff",
+          "doc_id": "train__indic_03",
+          "end_token": 124,
+          "record_id": "train__indic_03",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "math",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "82a5750ac411e6fea0597223708061a0ec7f6df9c5dd2e975e919adfb606e6b5",
+      "sample_id": "sample_82a5750ac411e6fea059",
+      "source_spans": [
+        {
+          "content_hash": "220ccda055ae76851ee16cff494f4415e7c20b4a4ed195aa19517d3a4a3093bc",
+          "doc_id": "train__math_03",
+          "end_token": 49,
+          "record_id": "train__math_03",
+          "segment_id": 0,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "85ed2cb036d145b024c385741d798d79c631505725645e653e4c1a958fb86901",
+      "sample_id": "sample_85ed2cb036d145b024c3",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 124,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.6000000000000001,
+      "sample_hash": "86e8f8bc12aae86930cf9d031769c5b80909183d6a9cac429fcf912e30904dd1",
+      "sample_id": "sample_86e8f8bc12aae86930cf",
+      "source_spans": [
+        {
+          "content_hash": "919f2d09ca2ede457713f943ba1b14725b54e550b46751003e0acf8715cb466e",
+          "doc_id": "train__indic_10",
+          "end_token": 166,
+          "record_id": "train__indic_10",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        },
+        {
+          "content_hash": "ba0bfd48772df5ebed724434339137ef7bea7d275b7c9f04247d1b166fd33b7a",
+          "doc_id": "train__indic_09",
+          "end_token": 138,
+          "record_id": "train__indic_09",
+          "segment_id": 1,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "8cd60c7570a0e8a9b19045b99da70cbb593f82ba9677731d4c70248100057e29",
+      "sample_id": "sample_8cd60c7570a0e8a9b190",
+      "source_spans": [
+        {
+          "content_hash": "9ec5f9d7a3969987d9a988be0345dd99cade54280313f57f8dde6704e1bb0644",
+          "doc_id": "train__code_04",
+          "end_token": 62,
+          "record_id": "train__code_04",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "8d8255cabb201f6293a273ad0c69c0246c508761c44f8b1037081411ccac2d03",
+      "sample_id": "sample_8d8255cabb201f6293a2",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 460,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "8da0d047f2ec8cd2c2ec79598ce78f202222b95a49cfbac6c089267d8965af8a",
+      "sample_id": "sample_8da0d047f2ec8cd2c2ec",
+      "source_spans": [
+        {
+          "content_hash": "97669a423e137e6f62262c90c46021ae490caf5d3b2af6942eb88f2955e62505",
+          "doc_id": "train__indic_01",
+          "end_token": 124,
+          "record_id": "train__indic_01",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "8feffec25340983e9038444d4f6f68e9ef4de19b663489aad4ea0b46f81f65b0",
+      "sample_id": "sample_8feffec25340983e9038",
+      "source_spans": [
+        {
+          "content_hash": "06761fb88cdd62cb55d75099c5888281d72778817bbdf390dab84497251c9a71",
+          "doc_id": "train__indic_00",
+          "end_token": 124,
+          "record_id": "train__indic_00",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "909109d339938cecfb6b06f319420ff8a51b9e626a887dd6fbde105c3d571435",
+      "sample_id": "sample_909109d339938cecfb6b",
+      "source_spans": [
+        {
+          "content_hash": "ff777d7a45e7b0a14164e8d27c4b09a60736dfcf88a26be1a40a863f6ac9be54",
+          "doc_id": "train__code_01",
+          "end_token": 117,
+          "record_id": "train__code_01",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "9293dfcc34715e585c01c71104712c0f0751f857a136e9c14a38e7c87db5e94d",
+      "sample_id": "sample_9293dfcc34715e585c01",
+      "source_spans": [
+        {
+          "content_hash": "92733eea1119e28d8f4b3e66dd210918ad401dd61c401503eaf66df9434a417d",
+          "doc_id": "train__general_04",
+          "end_token": 62,
+          "record_id": "train__general_04",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "92db1813107b9bf07e33e4c6351b308d502f8bf0e3727255209e59c3f4158321",
+      "sample_id": "sample_92db1813107b9bf07e33",
+      "source_spans": [
+        {
+          "content_hash": "76a6ae5c8d8cd1ec869a7f735ec7899c63337546ab7884bb8cf26f14e88527af",
+          "doc_id": "train__reasoning_01",
+          "end_token": 58,
+          "record_id": "train__reasoning_01",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "93d498285ebe0ffade953822e169c69b5f4545b976571503e950b6c0d3a9f96a",
+      "sample_id": "sample_93d498285ebe0ffade95",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 434,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "941cca96fb84f34c6d3ffd14ca2f735f93266b8ef70f3d3e2f8404abecc1d4d2",
+      "sample_id": "sample_941cca96fb84f34c6d3f",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 124,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.6699999999999999,
+      "sample_hash": "94648b52aeac3b9ddfba4d6d22dc81f350020844e6f5b6c97db19fd9e83cd662",
+      "sample_id": "sample_94648b52aeac3b9ddfba",
+      "source_spans": [
+        {
+          "content_hash": "f98941837106fd7bc5bcc0764ee72cc26530786576166b5ade777385cfbad28e",
+          "doc_id": "train__general_06",
+          "end_token": 53,
+          "record_id": "train__general_06",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        },
+        {
+          "content_hash": "4f509db406059915400c08d991756fb82bd3c3254f4e9749c9967663fc547fae",
+          "doc_id": "train__general_05",
+          "end_token": 69,
+          "record_id": "train__general_05",
+          "segment_id": 1,
+          "shard_id": "train__general__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "96a25afa76accd12ab17761bb0d1812a0aa6363536dab73e30eba46e555c4db2",
+      "sample_id": "sample_96a25afa76accd12ab17",
+      "source_spans": [
+        {
+          "content_hash": "77a5703debe30e63a0489f11afb18c95b260c4b694f1426807c6098950d1380b",
+          "doc_id": "train__general_02",
+          "end_token": 62,
+          "record_id": "train__general_02",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "translated",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "9b37229c58823d1f2de6f43d3e0b7b2506d4f9151388a85097845f3e7b8ac865",
+      "sample_id": "sample_9b37229c58823d1f2de6",
+      "source_spans": [
+        {
+          "content_hash": "95c8c10e2bc21d00da0932251c6b967af5ae13211a6f60000210297320c5393b",
+          "doc_id": "train__indic_04",
+          "end_token": 174,
+          "record_id": "train__indic_04",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "multilingual",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "9f4aed3ea2d1ff1b171c67a288822326d055e04e587c974959bece9d8276fedf",
+      "sample_id": "sample_9f4aed3ea2d1ff1b171c",
+      "source_spans": [
+        {
+          "content_hash": "41cc4ff9e17731cbf6bf48782d0ffd543b8025afcd89e814348378c81d824d56",
+          "doc_id": "train__multilingual_00",
+          "end_token": 51,
+          "record_id": "train__multilingual_00",
+          "segment_id": 0,
+          "shard_id": "train__multilingual__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "9fb26159a78969fbeb9f8f284049bb4c1daa5a1fd9d321aabcf98fdcfb6ca291",
+      "sample_id": "sample_9fb26159a78969fbeb9f",
+      "source_spans": [
+        {
+          "content_hash": "e1ce9e05054de14f225375835b66301aa400365aff2f58e7a681c6037261de84",
+          "doc_id": "train__code_00",
+          "end_token": 62,
+          "record_id": "train__code_00",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "9fe862b08d0a5fbd928e9f8d0649c25f14821a8867b2e94e743ca194838769e2",
+      "sample_id": "sample_9fe862b08d0a5fbd928e",
+      "source_spans": [
+        {
+          "content_hash": "f7ba4a0dc2aed3accf5e3a684d01b656988cdcdd1dd47730fd474a105a2424f4",
+          "doc_id": "train__indic_11",
+          "end_token": 116,
+          "record_id": "train__indic_11",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": "unverified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "a246aab38557dd1fe30055d0a52df44553c403641da53fe2803b18644b6b0fa4",
+      "sample_id": "sample_a246aab38557dd1fe300",
+      "source_spans": [
+        {
+          "content_hash": "6111a089f791d6ad09a25d20eb04ae9545ebefa0146e1326b1f2d4d26c7647ff",
+          "doc_id": "train__indic_03",
+          "end_token": 62,
+          "record_id": "train__indic_03",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "a35303379dcaf8435f171e5bf3b9df460df37d1d28d64b73bce90bd82035e449",
+      "sample_id": "sample_a35303379dcaf8435f17",
+      "source_spans": [
+        {
+          "content_hash": "ff777d7a45e7b0a14164e8d27c4b09a60736dfcf88a26be1a40a863f6ac9be54",
+          "doc_id": "train__code_01",
+          "end_token": 62,
+          "record_id": "train__code_01",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "a38f503f3dafec18bb7bce532bc1ad7d9a103195ebb4d6d8e857a6b6af51ca48",
+      "sample_id": "sample_a38f503f3dafec18bb7b",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 186,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "a49d5755230ac3878583f4c482313dd30cedcf168922638e134eeb6cc8069e8e",
+      "sample_id": "sample_a49d5755230ac3878583",
+      "source_spans": [
+        {
+          "content_hash": "4f509db406059915400c08d991756fb82bd3c3254f4e9749c9967663fc547fae",
+          "doc_id": "train__general_05",
+          "end_token": 62,
+          "record_id": "train__general_05",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "math",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "a55a3c84916d10f7436e791da1fcde556b9f62bfd7b3da9f20c827a1f795a59a",
+      "sample_id": "sample_a55a3c84916d10f7436e",
+      "source_spans": [
+        {
+          "content_hash": "d86e796de842b88c18b0baf09156e83bd8b89c67e568ae4a6f2b2e260adc1e29",
+          "doc_id": "train__math_01",
+          "end_token": 54,
+          "record_id": "train__math_01",
+          "segment_id": 0,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "a5ed2b569b20459e2a2143072f08cd5c77daa3467ae767b124c378ac2dcbdaf9",
+      "sample_id": "sample_a5ed2b569b20459e2a21",
+      "source_spans": [
+        {
+          "content_hash": "be6bde01608b584cbc8058f0ed3f1aba347c4cf67dae029d028e58d2bddc78d4",
+          "doc_id": "train__reasoning_02",
+          "end_token": 62,
+          "record_id": "train__reasoning_02",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "a83d96938228bde9a7917db73a6c826286f801959ab3bd9c93a0abb5b65b1179",
+      "sample_id": "sample_a83d96938228bde9a791",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 124,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "ac3cec11d51f965127eba252130b18dcb61b8dbe47f75f5bc0d561827d2fd9f3",
+      "sample_id": "sample_ac3cec11d51f965127eb",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 124,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.88,
+      "sample_hash": "ac540bd51c1775acf4571eb8b7ac840d01a90898327a0beea65f43cebf6e64ad",
+      "sample_id": "sample_ac540bd51c1775acf457",
+      "source_spans": [
+        {
+          "content_hash": "5ada3b15414572ed32dfd8ffc2af4ba094964ff1913da233f2303e7122d3baef",
+          "doc_id": "train__code_07",
+          "end_token": 86,
+          "record_id": "train__code_07",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "general",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "ae8af49f0115858abce25dab441e8d171370a3d23848482b8045a8603376fcb3",
+      "sample_id": "sample_ae8af49f0115858abce2",
+      "source_spans": [
+        {
+          "content_hash": "15ab4275d2b6bb31b11dd0bb2dc06c565140e82b96d190ee5b2b4f4ff356c9e9",
+          "doc_id": "train__general_08",
+          "end_token": 56,
+          "record_id": "train__general_08",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        },
+        {
+          "content_hash": "77a5703debe30e63a0489f11afb18c95b260c4b694f1426807c6098950d1380b",
+          "doc_id": "train__general_02",
+          "end_token": 66,
+          "record_id": "train__general_02",
+          "segment_id": 1,
+          "shard_id": "train__general__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "af0b9504fda795d9471da108d42d6de03cd6c9ef55c33bedb6984daf23b6cb27",
+      "sample_id": "sample_af0b9504fda795d9471d",
+      "source_spans": [
+        {
+          "content_hash": "1a127fa4fd0afd36392d1b3f426857c6726424180fac74d664042fbcb4f9a50d",
+          "doc_id": "train__code_02",
+          "end_token": 96,
+          "record_id": "train__code_02",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.88,
+      "sample_hash": "b18841706b28c148a6bf8751ffb70e12ceb431cf8b0664cb09975a5fbbee9ea1",
+      "sample_id": "sample_b18841706b28c148a6bf",
+      "source_spans": [
+        {
+          "content_hash": "43fa649832f4d0d03405794ea3324f9c7f93b13c4458dae3dca91d713c147539",
+          "doc_id": "train__agentic_01",
+          "end_token": 10,
+          "packed_end": 12,
+          "packed_start": 1,
+          "record_id": "train__agentic_01",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "add5fdee0e789eff81633c6abe419f98efa3041be204a5c30e999d016fa3f87f",
+          "doc_id": "train__agentic_01",
+          "end_token": 31,
+          "packed_end": 34,
+          "packed_start": 12,
+          "record_id": "train__agentic_01",
+          "role": "assistant_plan",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 10
+        },
+        {
+          "content_hash": "a16a14638fb3e12e5d1e9b951ad74a8960c500e2af75eb60ae8372a36a17a22e",
+          "doc_id": "train__agentic_01",
+          "end_token": 40,
+          "packed_end": 44,
+          "packed_start": 34,
+          "record_id": "train__agentic_01",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 31
+        },
+        {
+          "content_hash": "ef7486dfb58d66ba78332ed0e8c92645a39c67678f29f1a7f61400f13cc57192",
+          "doc_id": "train__agentic_01",
+          "end_token": 48,
+          "packed_end": 53,
+          "packed_start": 44,
+          "record_id": "train__agentic_01",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 40
+        },
+        {
+          "content_hash": "0106cf65ba128ea8b52c58dc0b7466ab8fa3c2e89c82c06c4d96307cfb77eea3",
+          "doc_id": "train__agentic_01",
+          "end_token": 58,
+          "packed_end": 64,
+          "packed_start": 53,
+          "record_id": "train__agentic_01",
+          "role": "assistant_revision",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 48
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "b24d6aca9557689f5e6030024ca27c56372544e5e4b291d7f692259583c3c90c",
+      "sample_id": "sample_b24d6aca9557689f5e60",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 372,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "reasoning",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.675,
+      "sample_hash": "b4164d029f45ef96cc9dcc5dae72d1a81b6e71e75a432a9e1db6524415e79251",
+      "sample_id": "sample_b4164d029f45ef96cc9d",
+      "source_spans": [
+        {
+          "content_hash": "5aca8a7bfb22bf04933b4500317ab64ab2835611c665925a6e57df7df782b581",
+          "doc_id": "train__reasoning_04",
+          "end_token": 78,
+          "record_id": "train__reasoning_04",
+          "segment_id": 0,
+          "shard_id": "train__reasoning__text",
+          "start_token": 62
+        },
+        {
+          "content_hash": "7fc9ddfa5ff64f5d336bd52c6122b93d6845086d8c2085718581eefdb1e95b87",
+          "doc_id": "train__reasoning_00",
+          "end_token": 73,
+          "record_id": "train__reasoning_00",
+          "segment_id": 1,
+          "shard_id": "train__reasoning__text",
+          "start_token": 62
+        },
+        {
+          "content_hash": "be6bde01608b584cbc8058f0ed3f1aba347c4cf67dae029d028e58d2bddc78d4",
+          "doc_id": "train__reasoning_02",
+          "end_token": 72,
+          "record_id": "train__reasoning_02",
+          "segment_id": 2,
+          "shard_id": "train__reasoning__text",
+          "start_token": 62
+        },
+        {
+          "content_hash": "1653a74a33ac29808efd8f27271bb09342c180efca45fa32a4ebe20f587878e8",
+          "doc_id": "train__reasoning_05",
+          "end_token": 70,
+          "record_id": "train__reasoning_05",
+          "segment_id": 3,
+          "shard_id": "train__reasoning__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "b4ed40492bac690e8fd17303a9d93ce911f4a3044426732db11d8e115d98d8f3",
+      "sample_id": "sample_b4ed40492bac690e8fd1",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 434,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "b50f5a765af35e7bdd9b429f55190b94100d85e8da8524636c8887a51f65fc6a",
+      "sample_id": "sample_b50f5a765af35e7bdd9b",
+      "source_spans": [
+        {
+          "content_hash": "4e87d35db687d5d1c8a7729cfd6d8201ccaaa8ce323755d1548f7c19d0563a93",
+          "doc_id": "train__indic_05",
+          "end_token": 124,
+          "record_id": "train__indic_05",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.78,
+      "sample_hash": "b71450da5dbe267312866231c6ecd6640a393603a9d35f1be8b73e64aeab34c9",
+      "sample_id": "sample_b71450da5dbe26731286",
+      "source_spans": [
+        {
+          "content_hash": "b0ce437f7cc21bfbf374698ae38647e144dcc81d55a3bf6db319768934499caa",
+          "doc_id": "train__agentic_02",
+          "end_token": 12,
+          "packed_end": 14,
+          "packed_start": 1,
+          "record_id": "train__agentic_02",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "7fa7849eb8e784c6869f32c108ab0e69604643c686e5a6b6e5e28e250abbdba2",
+          "doc_id": "train__agentic_02",
+          "end_token": 24,
+          "packed_end": 27,
+          "packed_start": 14,
+          "record_id": "train__agentic_02",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 12
+        },
+        {
+          "content_hash": "32fd5afe649204bf007dd36523afc3a52dc88aed89306cb1cf7122e47365a75b",
+          "doc_id": "train__agentic_02",
+          "end_token": 37,
+          "packed_end": 41,
+          "packed_start": 27,
+          "record_id": "train__agentic_02",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 24
+        },
+        {
+          "content_hash": "812ca34ac09463bf9cc6c9423c874340c9707c5ea2bca92ac509e8dda9883505",
+          "doc_id": "train__agentic_02",
+          "end_token": 54,
+          "packed_end": 59,
+          "packed_start": 41,
+          "record_id": "train__agentic_02",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 37
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "bbde9cd674f509d2140a793aa84a9305ec1b86ae47b9556d695508fbd233a8c0",
+      "sample_id": "sample_bbde9cd674f509d2140a",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 248,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "bc05016cfb568890aedebd39fc50b0b7d73df6570779522bb5f407e1b69b9d59",
+      "sample_id": "sample_bc05016cfb568890aede",
+      "source_spans": [
+        {
+          "content_hash": "4e87d35db687d5d1c8a7729cfd6d8201ccaaa8ce323755d1548f7c19d0563a93",
+          "doc_id": "train__indic_05",
+          "end_token": 62,
+          "record_id": "train__indic_05",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "bf8c3156c307a8e64bdf6b6e694b4dc2277acdb949065fbb2d7a437ebc3da08d",
+      "sample_id": "sample_bf8c3156c307a8e64bdf",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 434,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "bfdc3bdff2897d17b6915cd36408624ab052f06c79327e2e1596804b1c9edf0a",
+      "sample_id": "sample_bfdc3bdff2897d17b691",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 372,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 310
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "c0a380d8a639b423d3201e4d18fd5aac73227caf8c7238d38c02c1e7bc36ecd2",
+      "sample_id": "sample_c0a380d8a639b423d320",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 310,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "math",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "c3f6c60677045a43b266c487c20ceff58d18e071b7407c8bbca6449ea0761255",
+      "sample_id": "sample_c3f6c60677045a43b266",
+      "source_spans": [
+        {
+          "content_hash": "78be4e4c9ec7dd7068dd4d7abd23cf69dc5bcf36ab6190009c27aa3534e1a4f7",
+          "doc_id": "train__math_05",
+          "end_token": 42,
+          "record_id": "train__math_05",
+          "segment_id": 0,
+          "shard_id": "train__math__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "synthetic",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "c91e4dcfeaf1fb060ca861ed3feb444d2dae731cd3e82b295054186e31ab0491",
+      "sample_id": "sample_c91e4dcfeaf1fb060ca8",
+      "source_spans": [
+        {
+          "content_hash": "4e87d35db687d5d1c8a7729cfd6d8201ccaaa8ce323755d1548f7c19d0563a93",
+          "doc_id": "train__indic_05",
+          "end_token": 163,
+          "record_id": "train__indic_05",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "c9db86de18aaa3c8907231db00801be4077fc282b65eb3145315c20b1acf36ba",
+      "sample_id": "sample_c9db86de18aaa3c89072",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 186,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "c9fb0a2a25d2ad30df984b51cfd2be48d4fc219fe08ddbdc4ebc2a9f9c7cb061",
+      "sample_id": "sample_c9fb0a2a25d2ad30df98",
+      "source_spans": [
+        {
+          "content_hash": "06761fb88cdd62cb55d75099c5888281d72778817bbdf390dab84497251c9a71",
+          "doc_id": "train__indic_00",
+          "end_token": 62,
+          "record_id": "train__indic_00",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "cd10a925e27d5cd39eb4ebc97c226812903692d52f47114e2849c5eb31406a80",
+      "sample_id": "sample_cd10a925e27d5cd39eb4",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 186,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "ce32579d305dd9883aad2b7f23f424401d7f4dfbad5042cacd4adc48f56a8a13",
+      "sample_id": "sample_ce32579d305dd9883aad",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 460,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "d1a1c1abc3f5847d3e2854b22ae684df28d35c042e6573643bfbe1fa339454f9",
+      "sample_id": "sample_d1a1c1abc3f5847d3e28",
+      "source_spans": [
+        {
+          "content_hash": "b8cf2b6c53e012095c68b312bfd36a7478d2679a6f9dcb246041e95598eb4412",
+          "doc_id": "train__science_02",
+          "end_token": 41,
+          "record_id": "train__science_02",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "d278061653368e530b34d638fd1c7cd9802ac1df9622ecf87789990da0c1e2b6",
+      "sample_id": "sample_d278061653368e530b34",
+      "source_spans": [
+        {
+          "content_hash": "d97ff6879fb12efe9f04fdeb0ff3fa06651867cee25dbd7affbd573be139f2a7",
+          "doc_id": "train__code_03",
+          "end_token": 62,
+          "record_id": "train__code_03",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.66,
+      "sample_hash": "d2a91b225acb2f51da4b0f5a8c5c899a11d4aec44813eeed8490897b041ae609",
+      "sample_id": "sample_d2a91b225acb2f51da4b",
+      "source_spans": [
+        {
+          "content_hash": "31ded15a20881fb631660ce80dbf6dc91301af61d84347fc0a4e382bbd14ef66",
+          "doc_id": "train__science_01",
+          "end_token": 51,
+          "record_id": "train__science_01",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "translated",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "d3332ff8b9924c5331d6d407edd520d973d39fe1735b8f019766274bf6a9cd3d",
+      "sample_id": "sample_d3332ff8b9924c5331d6",
+      "source_spans": [
+        {
+          "content_hash": "2cac0114fcedb9ce918c8b909afe6c51a71d49b4cd874891c49452569182b32e",
+          "doc_id": "train__indic_08",
+          "end_token": 124,
+          "record_id": "train__indic_08",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.96,
+      "sample_hash": "d5fcbce735c50c72e98354279a1b7334ef089e9e14400893ed6ecf527b2ecd70",
+      "sample_id": "sample_d5fcbce735c50c72e983",
+      "source_spans": [
+        {
+          "content_hash": "94fad15d9b5e9c7450acbc60f05f10bc60615059f9044c21371813339c9e9adb",
+          "doc_id": "train__long_05",
+          "end_token": 310,
+          "record_id": "train__long_05",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.38,
+      "sample_hash": "df66df679d7e3e4b9c69fb813f3078fee2d0ed386d2ae8b0624729d9df79b755",
+      "sample_id": "sample_df66df679d7e3e4b9c69",
+      "source_spans": [
+        {
+          "content_hash": "7bc426b0cb41dd6d704d8177cba13164152b87589d2abba68e7519c9205c4932",
+          "doc_id": "train__long_04",
+          "end_token": 452,
+          "record_id": "train__long_04",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "dfb0b4fe2d84c898d6d290baead6ca2b7148d776fe38bbd189fb7c25c971fe80",
+      "sample_id": "sample_dfb0b4fe2d84c898d6d2",
+      "source_spans": [
+        {
+          "content_hash": "547d9ac490c10ff36be7d1bf6e0d70bd3cd4ce87cc8673e72219f7ea4c87b37e",
+          "doc_id": "train__indic_02",
+          "end_token": 186,
+          "record_id": "train__indic_02",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.88,
+      "sample_hash": "e02f4ff463219db550dfedc4ab00d626383bf05dfa68a6568268d306a8055517",
+      "sample_id": "sample_e02f4ff463219db550df",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 62,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "e058262b239f258f5a2faa0ac43eb005c731bdc92d3686c3dda13f801ac68af7",
+      "sample_id": "sample_e058262b239f258f5a2f",
+      "source_spans": [
+        {
+          "content_hash": "547d9ac490c10ff36be7d1bf6e0d70bd3cd4ce87cc8673e72219f7ea4c87b37e",
+          "doc_id": "train__indic_02",
+          "end_token": 124,
+          "record_id": "train__indic_02",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "e2b84f1e77d012f8c414492e0279d3d46a0f7a4df5ff22ae3a2367e107874839",
+      "sample_id": "sample_e2b84f1e77d012f8c414",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 310,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 248
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "e547bbcdc8e24d83378c52d3db646ff6aa0b6e8eea4f3d4067584e6e58199bc7",
+      "sample_id": "sample_e547bbcdc8e24d83378c",
+      "source_spans": [
+        {
+          "content_hash": "670955d1237c411e71b9d43221bb7205bd3a0fe8e778ed5cadde26e0209a2f74",
+          "doc_id": "train__indic_06",
+          "end_token": 173,
+          "record_id": "train__indic_06",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "e6e654565da44d5683b1444ed7b45b06e4d30184c73319e9c98b0b66b07431f4",
+      "sample_id": "sample_e6e654565da44d5683b1",
+      "source_spans": [
+        {
+          "content_hash": "670955d1237c411e71b9d43221bb7205bd3a0fe8e778ed5cadde26e0209a2f74",
+          "doc_id": "train__indic_06",
+          "end_token": 62,
+          "record_id": "train__indic_06",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.8300000000000001,
+      "sample_hash": "ecc3b562849d072c6afaca310a44e94043ee4f7d344769e53fbf58a20e397e44",
+      "sample_id": "sample_ecc3b562849d072c6afa",
+      "source_spans": [
+        {
+          "content_hash": "97669a423e137e6f62262c90c46021ae490caf5d3b2af6942eb88f2955e62505",
+          "doc_id": "train__indic_01",
+          "end_token": 147,
+          "record_id": "train__indic_01",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        },
+        {
+          "content_hash": "2cac0114fcedb9ce918c8b909afe6c51a71d49b4cd874891c49452569182b32e",
+          "doc_id": "train__indic_08",
+          "end_token": 147,
+          "record_id": "train__indic_08",
+          "segment_id": 1,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "ed517a2d863c9e9dbc2fa6fc3a44979efe958db5da9cdf2c0c6fc9549e609b64",
+      "sample_id": "sample_ed517a2d863c9e9dbc2f",
+      "source_spans": [
+        {
+          "content_hash": "4137b6d01d56330241147d338e82ac9e01a417ed6b6de55af8c14eaef4e533d6",
+          "doc_id": "train__code_05",
+          "end_token": 62,
+          "record_id": "train__code_05",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 4,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.66,
+      "sample_hash": "ef9733e3f75e760faec211c074d84097f5d0bfb46e10730ccee561901a8ce9e7",
+      "sample_id": "sample_ef9733e3f75e760faec2",
+      "source_spans": [
+        {
+          "content_hash": "73ad388db47e013f4ba9d6fbb35b5aa082c5bb5c2daaf2a4930d2201f3728372",
+          "doc_id": "train__long_02",
+          "end_token": 434,
+          "record_id": "train__long_02",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": null,
+      "lane": "science",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "f056b2d80792556584bb471d1ed079d25bd4f0b980dd8a71e5ef8c648c2357ab",
+      "sample_id": "sample_f056b2d80792556584bb",
+      "source_spans": [
+        {
+          "content_hash": "05e0b8c22e4c0464396e548cb34fcb3b2c88ab82c43d48d44edd3405f9d15fec",
+          "doc_id": "train__science_04",
+          "end_token": 34,
+          "record_id": "train__science_04",
+          "segment_id": 0,
+          "shard_id": "train__science__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "f056cfd3324d0fb1a81ba73a2226f52028f4e24743377e92fa1c4690625e5028",
+      "sample_id": "sample_f056cfd3324d0fb1a81b",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 480,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 434
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "f08d3826cb22c5a1edbec5c452926d063f5e7f1b5e376251c93075fa88df8fa1",
+      "sample_id": "sample_f08d3826cb22c5a1edbe",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 248,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 186
+        }
+      ]
+    },
+    {
+      "difficulty": 1,
+      "indic_tier": null,
+      "lane": "agentic",
+      "policy": "structure_preserving_agentic",
+      "quality": 0.96,
+      "sample_hash": "f2ba60ba1d625cf8ac787b31d952b7b5d8ff4ba44742838083bfde9b30c81da4",
+      "sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "source_spans": [
+        {
+          "content_hash": "9e8644994c71711173a881f082a3a630d9906719a4d014304cd6ad013e3caf52",
+          "doc_id": "train__agentic_00",
+          "end_token": 11,
+          "packed_end": 13,
+          "packed_start": 1,
+          "record_id": "train__agentic_00",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "c6fa9a5d41e5678ebb035725a254670d99081050a9e7983a3cc2beef747acfb4",
+          "doc_id": "train__agentic_00",
+          "end_token": 26,
+          "packed_end": 29,
+          "packed_start": 13,
+          "record_id": "train__agentic_00",
+          "role": "assistant_plan",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 11
+        },
+        {
+          "content_hash": "49e63b35d98df27b37298720d52ceb9b1c4d4b8653bf61ee9cbe82958efb8dd1",
+          "doc_id": "train__agentic_00",
+          "end_token": 28,
+          "packed_end": 32,
+          "packed_start": 29,
+          "record_id": "train__agentic_00",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 26
+        },
+        {
+          "content_hash": "c3646551153228604b670bb51fe1aad09586694c4c5579c6636d4d7b2196a25b",
+          "doc_id": "train__agentic_00",
+          "end_token": 38,
+          "packed_end": 43,
+          "packed_start": 32,
+          "record_id": "train__agentic_00",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 28
+        },
+        {
+          "content_hash": "bc82e7289c11ecd5bf8316ae9354fc091088891d1d5ccf2060ff46dd0e5f0705",
+          "doc_id": "train__agentic_00",
+          "end_token": 54,
+          "packed_end": 60,
+          "packed_start": 43,
+          "record_id": "train__agentic_00",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 38
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "translated",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.54,
+      "sample_hash": "f2cad99317ff8d0d2e8ba8b74e6ee0f8a6cf01e35410d38213d46b8507bd11b0",
+      "sample_id": "sample_f2cad99317ff8d0d2e8b",
+      "source_spans": [
+        {
+          "content_hash": "95c8c10e2bc21d00da0932251c6b967af5ae13211a6f60000210297320c5393b",
+          "doc_id": "train__indic_04",
+          "end_token": 124,
+          "record_id": "train__indic_04",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "code",
+      "policy": "greedy_code_block_isolated",
+      "quality": 0.38,
+      "sample_hash": "f7b7d364e6d7d0c32ac997b9926375f0b16b8ba3cedf199632d19561e7d38036",
+      "sample_id": "sample_f7b7d364e6d7d0c32ac9",
+      "source_spans": [
+        {
+          "content_hash": "4137b6d01d56330241147d338e82ac9e01a417ed6b6de55af8c14eaef4e533d6",
+          "doc_id": "train__code_05",
+          "end_token": 107,
+          "record_id": "train__code_05",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 62
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.78,
+      "sample_hash": "f8fec569b3b96cd4b4544f0c4c4cd7ccb126d4eb01b1f92127177db8e6114f24",
+      "sample_id": "sample_f8fec569b3b96cd4b454",
+      "source_spans": [
+        {
+          "content_hash": "547d9ac490c10ff36be7d1bf6e0d70bd3cd4ce87cc8673e72219f7ea4c87b37e",
+          "doc_id": "train__indic_02",
+          "end_token": 62,
+          "record_id": "train__indic_02",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 0
+        }
+      ]
+    },
+    {
+      "difficulty": 0,
+      "indic_tier": "verified",
+      "lane": "indic",
+      "policy": "best_fit_block_isolated",
+      "quality": 0.96,
+      "sample_hash": "fc584cd29cd3012866f44e5ed5b62d5bc0b6812f19363b579ead83624aee78f9",
+      "sample_id": "sample_fc584cd29cd3012866f4",
+      "source_spans": [
+        {
+          "content_hash": "06761fb88cdd62cb55d75099c5888281d72778817bbdf390dab84497251c9a71",
+          "doc_id": "train__indic_00",
+          "end_token": 173,
+          "record_id": "train__indic_00",
+          "segment_id": 0,
+          "shard_id": "train__indic__text",
+          "start_token": 124
+        }
+      ]
+    },
+    {
+      "difficulty": 2,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.54,
+      "sample_hash": "fece445bf6d44945bc967d5e22cceb262420da72dc5b51376195f791fc9f2bf2",
+      "sample_id": "sample_fece445bf6d44945bc96",
+      "source_spans": [
+        {
+          "content_hash": "ade60e2036c70eb8536a61d21dc7be5ef04827a49d3534a4aa29a237737725ae",
+          "doc_id": "train__long_03",
+          "end_token": 434,
+          "record_id": "train__long_03",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    },
+    {
+      "difficulty": 3,
+      "indic_tier": null,
+      "lane": "long",
+      "policy": "long_context_single_document",
+      "quality": 0.78,
+      "sample_hash": "ff8e282832cf72db022b79004002ac32c36a415cfb300866b740e2de2155b185",
+      "sample_id": "sample_ff8e282832cf72db022b",
+      "source_spans": [
+        {
+          "content_hash": "59b93d7c77f63c5a7a89f60dbdcabb14bb37e18aee4e0f2428031878143171d6",
+          "doc_id": "train__long_01",
+          "end_token": 434,
+          "record_id": "train__long_01",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 372
+        }
+      ]
+    }
+  ],
+  "seq_len": 64
+}

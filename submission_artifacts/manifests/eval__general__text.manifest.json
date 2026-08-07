@@ -1,0 +1,30 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "acf639e5dd73feb90fce351b497a1bffc28640993118893bf3cef6049c1cc55e",
+  "eval_overlap_status": "blocked",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "text",
+  "lane": "general",
+  "language_set": [
+    "en"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "9446f9b82553de4a09a59b04b021531f38c9efe050e06cd22c7e9ef64ed10d04",
+  "provenance_set": [
+    "hidden_eval"
+  ],
+  "rebuild_sha256": "acf639e5dd73feb90fce351b497a1bffc28640993118893bf3cef6049c1cc55e",
+  "record_count": 1,
+  "schema_version": 1,
+  "shard_id": "eval__general__text",
+  "shard_path": "eval__general__text.jsonl",
+  "source_document_hashes": [
+    "45f547bc3300e5437e17dc1192738dd2f19c43fe99e3b1f4ab0bcf7e0e927a22"
+  ],
+  "split": "eval",
+  "token_count": 55,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

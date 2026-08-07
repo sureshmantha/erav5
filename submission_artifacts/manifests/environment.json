@@ -1,0 +1,8 @@
+{
+  "code_manifest_sha256": "24b97dc1fe755758a5733a0542aabfeb0c873b1e0e0287170e780c9db07f6208",
+  "deterministic_algorithms": true,
+  "platform": "macOS-15.3.2-arm64-arm-64bit",
+  "python_version": "3.11.4 (main, Jul  5 2023, 08:54:11) [Clang 14.0.6 ]",
+  "schema_version": 1,
+  "torch_version": "2.0.1"
+}

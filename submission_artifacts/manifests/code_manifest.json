@@ -1,0 +1,29 @@
+{
+  "aggregate_sha256": "24b97dc1fe755758a5733a0542aabfeb0c873b1e0e0287170e780c9db07f6208",
+  "files": {
+    "configs/mixture_policy.json": "fb0d07a76b2cadf87f547f742dc34ca7446ddf861313670948bb1ad42e4a60f4",
+    "data/documents.jsonl": "9bd1ea80641f607be6ca2c4fc11e26623d3ad5c32e11d76312e2725bee0f22ef",
+    "run_demo.py": "4d73ce2faec6dbeb7908bd3a5333829f1aa83d94a9a602841ae97410f7b45956",
+    "tests/test_invariants.py": "3153ba560bf997136636b8a03efb1d025f565bb97c2534878881cdd4fba79cf9",
+    "v5exec/__init__.py": "ebcc537bd2c77d0e04c745cc9c5b699d0b0f35887ca37941858f15d4a19254f0",
+    "v5exec/audit.py": "3ae7ac59a945e53a4370fdbcfeea4133c97c4504b2e0af83f93cdad4bb9206e4",
+    "v5exec/batches.py": "947e068c069c873c08cd592c405ba5997905504415fdc46f351e1334427dd5f5",
+    "v5exec/checkpoint.py": "63a54685fd64c35300d383e47aadb96bb3988a81b9706254fbeec8ba24a9053b",
+    "v5exec/corpus.py": "ebdb83ad0060ff6578f7d2cc77e14d313b82e413f72eeb1bfe5b50bdff4b4837",
+    "v5exec/demo.py": "b6ba292cb8e5b9c44c5e26dfc4b61ca2208f3b4fa6c7a93c85c0025961ca409f",
+    "v5exec/evidence.py": "63af11e5c482a8ff13a01eb7b199783020760d68b65de2e9a15851e4f2e8c617",
+    "v5exec/firewall.py": "1409a167e2bc930ab8d5b9b5daa9f00c7690aea3bd5a0aedd3ac2a2e6afc022a",
+    "v5exec/hashing.py": "8f4012af37426348e3d54e5c11f3e18572ba6364778817f695c33ad4338b17ac",
+    "v5exec/io.py": "d440cd00073ae65ea8c4bdf91223b92d7e5c47b7b141c7c1f7762bf54819592e",
+    "v5exec/ledgers.py": "6785cc819dc5dc3529b81afafcdb74bef7094f01e4bdfd2cea5d6e02839390b3",
+    "v5exec/logging_utils.py": "ac5c4cbe4b971d5b27bf5a2f52073a55577d593c651025b991163b0de352825e",
+    "v5exec/mixture.py": "b9d013f106de120a4fba45f09b32e8df83e78955358a4cef42b5524e7c6515d5",
+    "v5exec/model.py": "c3c6e35943e609df6bc2d6ea48f28ed0a87de112545ffc208ecfa94eb91d405e",
+    "v5exec/opus.py": "1b4dcffa52d92d0c89e99c26afdf0713b4902667b664ace68a9c163510abeaee",
+    "v5exec/packing.py": "48b2de6a7685328721ef94424a0e4decb5e3e94ea79d6bbef2b098d4ca8113dd",
+    "v5exec/shards.py": "fc78a90706bc693796803f2f882b80e0338ce038ac25a902b899763087c8480b",
+    "v5exec/tokenizer.py": "f24720636208624d2da71be0b9956917cc7323d19e86fb9d36a3c78fa1e99c6d",
+    "v5exec/training.py": "72f2310ca7a87519cd181319e48846b88a2d22b402a526301aec190331db704b"
+  },
+  "schema_version": 1
+}

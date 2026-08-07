@@ -1,0 +1,30 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "569ec35e37897d6401b10ebec0ef52c37233a44b67b2f22259187baec5f8732a",
+  "eval_overlap_status": "blocked",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "code",
+  "lane": "code",
+  "language_set": [
+    "en"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "9785cf3988efd5ce747099e80f1235e9940c6ea324112c269984e5fe6450b576",
+  "provenance_set": [
+    "hidden_eval"
+  ],
+  "rebuild_sha256": "569ec35e37897d6401b10ebec0ef52c37233a44b67b2f22259187baec5f8732a",
+  "record_count": 1,
+  "schema_version": 1,
+  "shard_id": "eval__code__code",
+  "shard_path": "eval__code__code.jsonl",
+  "source_document_hashes": [
+    "7e670e19033ec191c3122a263b92b1a404d3b34569af23ac8538d61951d34eaf"
+  ],
+  "split": "eval",
+  "token_count": 37,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

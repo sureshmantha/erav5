@@ -1,0 +1,169 @@
+{
+  "all_samples_valid": true,
+  "example_proofs": {
+    "best_fit_block_isolated": {
+      "attention_mask_hash": "25ffeb1fad66c59f14e9eca530cd5d15342a0269c8e490afec8c3edd5da8c217",
+      "input_ids_hash": "130ffadbe364cbd934e85684d59cff3f7b9f9e4c87f2f8a127a304029cfb0e98",
+      "loss_mask_hash": "d06479ea0ec86c0bc7d7ad133f82213a43318f9a6ab378a49be73040a0f296f8",
+      "position_ids_hash": "a49d88051b2d2e5d1255d4f806a7569cda9b33a650a908566197031349ad8db4",
+      "sample_hash": "96a25afa76accd12ab17761bb0d1812a0aa6363536dab73e30eba46e555c4db2",
+      "sample_id": "sample_96a25afa76accd12ab17",
+      "segment_ids_hash": "ca0101ae4bf3b31bd300f93f576d862c57e98cb85d8ff6db4078eea404b88a9a",
+      "source_spans": [
+        {
+          "content_hash": "77a5703debe30e63a0489f11afb18c95b260c4b694f1426807c6098950d1380b",
+          "doc_id": "train__general_02",
+          "end_token": 62,
+          "record_id": "train__general_02",
+          "segment_id": 0,
+          "shard_id": "train__general__text",
+          "start_token": 0
+        }
+      ]
+    },
+    "greedy_code_block_isolated": {
+      "attention_mask_hash": "25ffeb1fad66c59f14e9eca530cd5d15342a0269c8e490afec8c3edd5da8c217",
+      "input_ids_hash": "0ec5c3b3729faee97759cb4e7600360af1b95912a06c38df59f95b24f5fda984",
+      "loss_mask_hash": "d06479ea0ec86c0bc7d7ad133f82213a43318f9a6ab378a49be73040a0f296f8",
+      "position_ids_hash": "a49d88051b2d2e5d1255d4f806a7569cda9b33a650a908566197031349ad8db4",
+      "sample_hash": "9fb26159a78969fbeb9f8f284049bb4c1daa5a1fd9d321aabcf98fdcfb6ca291",
+      "sample_id": "sample_9fb26159a78969fbeb9f",
+      "segment_ids_hash": "ca0101ae4bf3b31bd300f93f576d862c57e98cb85d8ff6db4078eea404b88a9a",
+      "source_spans": [
+        {
+          "content_hash": "e1ce9e05054de14f225375835b66301aa400365aff2f58e7a681c6037261de84",
+          "doc_id": "train__code_00",
+          "end_token": 62,
+          "record_id": "train__code_00",
+          "segment_id": 0,
+          "shard_id": "train__code__code",
+          "start_token": 0
+        }
+      ]
+    },
+    "long_context_single_document": {
+      "attention_mask_hash": "25ffeb1fad66c59f14e9eca530cd5d15342a0269c8e490afec8c3edd5da8c217",
+      "input_ids_hash": "143b5e67f7a717fd5b9e11bcfa3fe732f7c56680cf571fcf74c738488fe7acfd",
+      "loss_mask_hash": "d06479ea0ec86c0bc7d7ad133f82213a43318f9a6ab378a49be73040a0f296f8",
+      "position_ids_hash": "a49d88051b2d2e5d1255d4f806a7569cda9b33a650a908566197031349ad8db4",
+      "sample_hash": "e02f4ff463219db550dfedc4ab00d626383bf05dfa68a6568268d306a8055517",
+      "sample_id": "sample_e02f4ff463219db550df",
+      "segment_ids_hash": "ca0101ae4bf3b31bd300f93f576d862c57e98cb85d8ff6db4078eea404b88a9a",
+      "source_spans": [
+        {
+          "content_hash": "6727941548f8ee73e1aafc43fcd1448c5a6d81f4ab0796e51591fb04d9b0826a",
+          "doc_id": "train__long_00",
+          "end_token": 62,
+          "record_id": "train__long_00",
+          "segment_id": 0,
+          "shard_id": "train__long__long",
+          "start_token": 0
+        }
+      ]
+    },
+    "structure_preserving_agentic": {
+      "attention_mask_hash": "7d7be8c32aea256f6181cea911421c81d34936165e513dfe302a26cdfd88efd0",
+      "input_ids_hash": "e428fb53732b84dd987166d7a492da1d1d092baafa1c5e76be8379ede612f8c7",
+      "loss_mask_hash": "9dd26425124eb6f607b48e7a6dd23a9dc72e09db880559741e7750f7a77deab7",
+      "position_ids_hash": "355c5842528ea0bc09b39f8b317869b01b4b8813103c55bf0f937394ec97a69c",
+      "sample_hash": "f2ba60ba1d625cf8ac787b31d952b7b5d8ff4ba44742838083bfde9b30c81da4",
+      "sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "segment_ids_hash": "ae63e08b3593dcc04fc681ca068acb18bed2a0998794578806ddbdde60154abd",
+      "source_spans": [
+        {
+          "content_hash": "9e8644994c71711173a881f082a3a630d9906719a4d014304cd6ad013e3caf52",
+          "doc_id": "train__agentic_00",
+          "end_token": 11,
+          "packed_end": 13,
+          "packed_start": 1,
+          "record_id": "train__agentic_00",
+          "role": "user",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 0
+        },
+        {
+          "content_hash": "c6fa9a5d41e5678ebb035725a254670d99081050a9e7983a3cc2beef747acfb4",
+          "doc_id": "train__agentic_00",
+          "end_token": 26,
+          "packed_end": 29,
+          "packed_start": 13,
+          "record_id": "train__agentic_00",
+          "role": "assistant_plan",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 11
+        },
+        {
+          "content_hash": "49e63b35d98df27b37298720d52ceb9b1c4d4b8653bf61ee9cbe82958efb8dd1",
+          "doc_id": "train__agentic_00",
+          "end_token": 28,
+          "packed_end": 32,
+          "packed_start": 29,
+          "record_id": "train__agentic_00",
+          "role": "tool_call",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 26
+        },
+        {
+          "content_hash": "c3646551153228604b670bb51fe1aad09586694c4c5579c6636d4d7b2196a25b",
+          "doc_id": "train__agentic_00",
+          "end_token": 38,
+          "packed_end": 43,
+          "packed_start": 32,
+          "record_id": "train__agentic_00",
+          "role": "tool_observation",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 28
+        },
+        {
+          "content_hash": "bc82e7289c11ecd5bf8316ae9354fc091088891d1d5ccf2060ff46dd0e5f0705",
+          "doc_id": "train__agentic_00",
+          "end_token": 54,
+          "packed_end": 60,
+          "packed_start": 43,
+          "record_id": "train__agentic_00",
+          "role": "final",
+          "shard_id": "train__agentic__agentic",
+          "start_token": 38
+        }
+      ]
+    }
+  },
+  "policies": {
+    "best_fit_block_isolated": {
+      "capacity_tokens": 4160,
+      "loss_bearing_tokens": 3776,
+      "nonpad_tokens": 3851,
+      "packing_utilization": 0.9257211538461538,
+      "sample_count": 65,
+      "useful_loss_utilization": 0.9076923076923077
+    },
+    "greedy_code_block_isolated": {
+      "capacity_tokens": 1024,
+      "loss_bearing_tokens": 838,
+      "nonpad_tokens": 854,
+      "packing_utilization": 0.833984375,
+      "sample_count": 16,
+      "useful_loss_utilization": 0.818359375
+    },
+    "long_context_single_document": {
+      "capacity_tokens": 3072,
+      "loss_bearing_tokens": 2808,
+      "nonpad_tokens": 2856,
+      "packing_utilization": 0.9296875,
+      "sample_count": 48,
+      "useful_loss_utilization": 0.9140625
+    },
+    "structure_preserving_agentic": {
+      "capacity_tokens": 384,
+      "loss_bearing_tokens": 226,
+      "nonpad_tokens": 372,
+      "packing_utilization": 0.96875,
+      "sample_count": 6,
+      "useful_loss_utilization": 0.5885416666666666
+    }
+  },
+  "policy_count": 4,
+  "schema_version": 1,
+  "sequence_length": 64,
+  "validation_error_count": 0
+}

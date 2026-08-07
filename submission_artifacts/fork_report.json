@@ -1,0 +1,9 @@
+{
+  "branch": "fork_lr_half",
+  "branch_learning_rate": 0.001,
+  "fork_first_batch_id": "batch_32ccdda54b6a969f9719",
+  "historical_expected_batch_id": "batch_32ccdda54b6a969f9719",
+  "parent_checkpoint": "main_step_0008.pt",
+  "parent_checkpoint_sha256": "b6da803982fda6a9f14cca826cd28309c2e5a3b02c4969e72c83387db4a504c8",
+  "pass": true
+}

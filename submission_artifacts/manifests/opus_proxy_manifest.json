@@ -1,0 +1,695 @@
+{
+  "golden_samples": {
+    "agentic": "sample_f2ba60ba1d625cf8ac78",
+    "code": "sample_61a9400297d8557c2dba",
+    "general": "sample_7b5c96205ba5c6d85333",
+    "indic": "sample_8feffec25340983e9038",
+    "long": "sample_25cda7378342111f274c",
+    "math": "sample_a55a3c84916d10f7436e",
+    "multilingual": "sample_9f4aed3ea2d1ff1b171c",
+    "reasoning": "sample_806d74c2315fd947f9aa",
+    "science": "sample_f056b2d80792556584bb"
+  },
+  "method": "LM-head gradient cosine against highest-quality lane proxy",
+  "probe_model_hash": "296765b5d31163cd8db8854b4b89599a5dbf5ba4f1547ae3fe427c9d793538c1",
+  "probe_seed": 20260802,
+  "schema_version": 1,
+  "scores": {
+    "sample_025ef353667217b8a218": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.09640026,
+      "lane": "code"
+    },
+    "sample_0d6be65f06e71fbcb89b": {
+      "gold_proxy_sample_id": "sample_9f4aed3ea2d1ff1b171c",
+      "gradient_alignment": 0.21679612,
+      "lane": "multilingual"
+    },
+    "sample_0f0df221a3e6be1a21bc": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.21704678,
+      "lane": "long"
+    },
+    "sample_13d02605f6970da068fc": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.08210626,
+      "lane": "indic"
+    },
+    "sample_141a8d80aef4aad24ae6": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.50774229,
+      "lane": "code"
+    },
+    "sample_165e96bfed7cc733c73b": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.06728986,
+      "lane": "indic"
+    },
+    "sample_1751015bda34f88aa8e1": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.14602274,
+      "lane": "general"
+    },
+    "sample_17ee6056ce72c692c60c": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.13773935,
+      "lane": "long"
+    },
+    "sample_1d972db98f8edb8c8439": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.01805198,
+      "lane": "indic"
+    },
+    "sample_1f723236dd8dbc6e4ca8": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": 0.02881573,
+      "lane": "agentic"
+    },
+    "sample_1f7b699ab2992fc67466": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.47456712,
+      "lane": "code"
+    },
+    "sample_211c1b7d697aca94991c": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.09957025,
+      "lane": "long"
+    },
+    "sample_2203106f4e0c975118da": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.09784895,
+      "lane": "indic"
+    },
+    "sample_250b2968fb270d20ceb3": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.26240331,
+      "lane": "long"
+    },
+    "sample_25cda7378342111f274c": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 1.0,
+      "lane": "long"
+    },
+    "sample_265b54a76d9b621328cb": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.10814951,
+      "lane": "general"
+    },
+    "sample_26c3fc6466da2e93d0fc": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.12239948,
+      "lane": "science"
+    },
+    "sample_2be33384ad23ec1f44d1": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.0679733,
+      "lane": "indic"
+    },
+    "sample_2d164cd43f782558e4a8": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.13025263,
+      "lane": "long"
+    },
+    "sample_2e206c24308d552aeaa4": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.20336339,
+      "lane": "long"
+    },
+    "sample_2e600eb2c2ee64dd513a": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.50142616,
+      "lane": "long"
+    },
+    "sample_30ddf085338891365e0a": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.00744863,
+      "lane": "indic"
+    },
+    "sample_3256c3030c2a0241ff88": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.14052245,
+      "lane": "reasoning"
+    },
+    "sample_359383ffbfec86593050": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.12255369,
+      "lane": "long"
+    },
+    "sample_39dcc74cfe256252d6b9": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.12448562,
+      "lane": "long"
+    },
+    "sample_3cfc854b166f69f1f677": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": -0.00489831,
+      "lane": "agentic"
+    },
+    "sample_3e177b66e1d9ea29144f": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.15869042,
+      "lane": "general"
+    },
+    "sample_3fb2d306cbd747efbadd": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.01177518,
+      "lane": "indic"
+    },
+    "sample_41fb88fccf659c32c625": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.78342146,
+      "lane": "indic"
+    },
+    "sample_42e047ef2a72285b2a68": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.16916113,
+      "lane": "science"
+    },
+    "sample_43096ecbcc72b1675647": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.0860344,
+      "lane": "general"
+    },
+    "sample_4645ec30ec67933fbdca": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.18567821,
+      "lane": "long"
+    },
+    "sample_4753b90a9210153ecc42": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.0853656,
+      "lane": "long"
+    },
+    "sample_47ab557b106ec2ce9f10": {
+      "gold_proxy_sample_id": "sample_9f4aed3ea2d1ff1b171c",
+      "gradient_alignment": 0.16557506,
+      "lane": "multilingual"
+    },
+    "sample_48512caaa19adf106f34": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.16931571,
+      "lane": "reasoning"
+    },
+    "sample_48ebf9c01125ca7baa5b": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": 0.09517226,
+      "lane": "agentic"
+    },
+    "sample_4bbca209d8d9be69cc6c": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.54368687,
+      "lane": "code"
+    },
+    "sample_4d11ef7799ba993e1af6": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.18888117,
+      "lane": "code"
+    },
+    "sample_4e6499aeef64ecff3da1": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.15300524,
+      "lane": "long"
+    },
+    "sample_4f40bbe8fabdc235be0b": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.10356882,
+      "lane": "code"
+    },
+    "sample_50a05bdba331a6820761": {
+      "gold_proxy_sample_id": "sample_9f4aed3ea2d1ff1b171c",
+      "gradient_alignment": -0.0065672,
+      "lane": "multilingual"
+    },
+    "sample_53435cbd9e847b8a93cc": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.09379108,
+      "lane": "indic"
+    },
+    "sample_5482ee71f0195614124d": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.10851745,
+      "lane": "long"
+    },
+    "sample_58ed7e92645595f2314e": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.04590733,
+      "lane": "indic"
+    },
+    "sample_5daedcef90a157493c08": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.22458081,
+      "lane": "long"
+    },
+    "sample_61a9400297d8557c2dba": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 1.0,
+      "lane": "code"
+    },
+    "sample_62f8624bc6b3048bad4f": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.08830254,
+      "lane": "long"
+    },
+    "sample_6417762b9204667ee042": {
+      "gold_proxy_sample_id": "sample_a55a3c84916d10f7436e",
+      "gradient_alignment": 0.13141209,
+      "lane": "math"
+    },
+    "sample_6489a91561505a3549c9": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.06927553,
+      "lane": "science"
+    },
+    "sample_655d65b0705d5cae2e92": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.26753882,
+      "lane": "long"
+    },
+    "sample_677279da0ed22756ed69": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.10001161,
+      "lane": "indic"
+    },
+    "sample_6bc7eddfcf249a502238": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.23909704,
+      "lane": "reasoning"
+    },
+    "sample_6f5eaaed38feda123baa": {
+      "gold_proxy_sample_id": "sample_a55a3c84916d10f7436e",
+      "gradient_alignment": 0.166667,
+      "lane": "math"
+    },
+    "sample_6f9d2c701bcf51ad8d6a": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.07649805,
+      "lane": "indic"
+    },
+    "sample_742274c68fc9f99d85d9": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.49659216,
+      "lane": "long"
+    },
+    "sample_74751e0c5438a5ea3d64": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.14709812,
+      "lane": "long"
+    },
+    "sample_79ac66fe06d1a7628dec": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.19414479,
+      "lane": "long"
+    },
+    "sample_7a8511825f2dfebf6105": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.21168245,
+      "lane": "long"
+    },
+    "sample_7b3b6568bdcbced80e42": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.20389704,
+      "lane": "long"
+    },
+    "sample_7b5c96205ba5c6d85333": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 1.0,
+      "lane": "general"
+    },
+    "sample_7bc01c12eb8d84804e83": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.0701676,
+      "lane": "indic"
+    },
+    "sample_7f8e07d76012a45ebeaf": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.16936888,
+      "lane": "long"
+    },
+    "sample_806d74c2315fd947f9aa": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.99999994,
+      "lane": "reasoning"
+    },
+    "sample_81910bb54418f7686666": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.8386507,
+      "lane": "indic"
+    },
+    "sample_82a5750ac411e6fea059": {
+      "gold_proxy_sample_id": "sample_a55a3c84916d10f7436e",
+      "gradient_alignment": 0.12759294,
+      "lane": "math"
+    },
+    "sample_85ed2cb036d145b024c3": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.49923578,
+      "lane": "long"
+    },
+    "sample_86e8f8bc12aae86930cf": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.05179441,
+      "lane": "indic"
+    },
+    "sample_8cd60c7570a0e8a9b190": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.0047105,
+      "lane": "code"
+    },
+    "sample_8d8255cabb201f6293a2": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.12977551,
+      "lane": "long"
+    },
+    "sample_8da0d047f2ec8cd2c2ec": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.05374561,
+      "lane": "indic"
+    },
+    "sample_8feffec25340983e9038": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 1.00000012,
+      "lane": "indic"
+    },
+    "sample_909109d339938cecfb6b": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.52436477,
+      "lane": "code"
+    },
+    "sample_9293dfcc34715e585c01": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.17480816,
+      "lane": "general"
+    },
+    "sample_92db1813107b9bf07e33": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.12136142,
+      "lane": "reasoning"
+    },
+    "sample_93d498285ebe0ffade95": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.26316658,
+      "lane": "long"
+    },
+    "sample_941cca96fb84f34c6d3f": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.0859867,
+      "lane": "long"
+    },
+    "sample_94648b52aeac3b9ddfba": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.10661369,
+      "lane": "general"
+    },
+    "sample_96a25afa76accd12ab17": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.08633204,
+      "lane": "general"
+    },
+    "sample_9b37229c58823d1f2de6": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.07014941,
+      "lane": "indic"
+    },
+    "sample_9f4aed3ea2d1ff1b171c": {
+      "gold_proxy_sample_id": "sample_9f4aed3ea2d1ff1b171c",
+      "gradient_alignment": 1.0,
+      "lane": "multilingual"
+    },
+    "sample_9fb26159a78969fbeb9f": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.10896254,
+      "lane": "code"
+    },
+    "sample_9fe862b08d0a5fbd928e": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.01512843,
+      "lane": "indic"
+    },
+    "sample_a246aab38557dd1fe300": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.86127818,
+      "lane": "indic"
+    },
+    "sample_a35303379dcaf8435f17": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.09558808,
+      "lane": "code"
+    },
+    "sample_a38f503f3dafec18bb7b": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.20819511,
+      "lane": "long"
+    },
+    "sample_a49d5755230ac3878583": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.12016097,
+      "lane": "general"
+    },
+    "sample_a55a3c84916d10f7436e": {
+      "gold_proxy_sample_id": "sample_a55a3c84916d10f7436e",
+      "gradient_alignment": 1.00000024,
+      "lane": "math"
+    },
+    "sample_a5ed2b569b20459e2a21": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.08286898,
+      "lane": "reasoning"
+    },
+    "sample_a83d96938228bde9a791": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.21294646,
+      "lane": "long"
+    },
+    "sample_ac3cec11d51f965127eb": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.22669658,
+      "lane": "long"
+    },
+    "sample_ac540bd51c1775acf457": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.54438579,
+      "lane": "code"
+    },
+    "sample_ae8af49f0115858abce2": {
+      "gold_proxy_sample_id": "sample_7b5c96205ba5c6d85333",
+      "gradient_alignment": 0.03351162,
+      "lane": "general"
+    },
+    "sample_af0b9504fda795d9471d": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 1.0,
+      "lane": "code"
+    },
+    "sample_b18841706b28c148a6bf": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": 0.29402429,
+      "lane": "agentic"
+    },
+    "sample_b24d6aca9557689f5e60": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.18791977,
+      "lane": "long"
+    },
+    "sample_b4164d029f45ef96cc9d": {
+      "gold_proxy_sample_id": "sample_806d74c2315fd947f9aa",
+      "gradient_alignment": 0.17277497,
+      "lane": "reasoning"
+    },
+    "sample_b4ed40492bac690e8fd1": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.23930696,
+      "lane": "long"
+    },
+    "sample_b50f5a765af35e7bdd9b": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.04251061,
+      "lane": "indic"
+    },
+    "sample_b71450da5dbe26731286": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": -0.01779082,
+      "lane": "agentic"
+    },
+    "sample_bbde9cd674f509d2140a": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.25497389,
+      "lane": "long"
+    },
+    "sample_bc05016cfb568890aede": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.01347534,
+      "lane": "indic"
+    },
+    "sample_bf8c3156c307a8e64bdf": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.19947907,
+      "lane": "long"
+    },
+    "sample_bfdc3bdff2897d17b691": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.25270715,
+      "lane": "long"
+    },
+    "sample_c0a380d8a639b423d320": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.20227069,
+      "lane": "long"
+    },
+    "sample_c3f6c60677045a43b266": {
+      "gold_proxy_sample_id": "sample_a55a3c84916d10f7436e",
+      "gradient_alignment": 0.26455572,
+      "lane": "math"
+    },
+    "sample_c91e4dcfeaf1fb060ca8": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.07700269,
+      "lane": "indic"
+    },
+    "sample_c9db86de18aaa3c89072": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.1141238,
+      "lane": "long"
+    },
+    "sample_c9fb0a2a25d2ad30df98": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.8338623,
+      "lane": "indic"
+    },
+    "sample_cd10a925e27d5cd39eb4": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.21366641,
+      "lane": "long"
+    },
+    "sample_ce32579d305dd9883aad": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.15740344,
+      "lane": "long"
+    },
+    "sample_d1a1c1abc3f5847d3e28": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.16278502,
+      "lane": "science"
+    },
+    "sample_d278061653368e530b34": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.0527202,
+      "lane": "code"
+    },
+    "sample_d2a91b225acb2f51da4b": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.20558324,
+      "lane": "science"
+    },
+    "sample_d3332ff8b9924c5331d6": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.08325984,
+      "lane": "indic"
+    },
+    "sample_d5fcbce735c50c72e983": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.23107903,
+      "lane": "long"
+    },
+    "sample_df66df679d7e3e4b9c69": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.05046995,
+      "lane": "long"
+    },
+    "sample_dfb0b4fe2d84c898d6d2": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.01976015,
+      "lane": "indic"
+    },
+    "sample_e02f4ff463219db550df": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.23795462,
+      "lane": "long"
+    },
+    "sample_e058262b239f258f5a2f": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.08164056,
+      "lane": "indic"
+    },
+    "sample_e2b84f1e77d012f8c414": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.17082907,
+      "lane": "long"
+    },
+    "sample_e547bbcdc8e24d83378c": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.05942501,
+      "lane": "indic"
+    },
+    "sample_e6e654565da44d5683b1": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.08077571,
+      "lane": "indic"
+    },
+    "sample_ecc3b562849d072c6afa": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.08960389,
+      "lane": "indic"
+    },
+    "sample_ed517a2d863c9e9dbc2f": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.03812173,
+      "lane": "code"
+    },
+    "sample_ef9733e3f75e760faec2": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.07467561,
+      "lane": "long"
+    },
+    "sample_f056b2d80792556584bb": {
+      "gold_proxy_sample_id": "sample_f056b2d80792556584bb",
+      "gradient_alignment": 0.99999988,
+      "lane": "science"
+    },
+    "sample_f056cfd3324d0fb1a81b": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.18054029,
+      "lane": "long"
+    },
+    "sample_f08d3826cb22c5a1edbe": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.19464329,
+      "lane": "long"
+    },
+    "sample_f2ba60ba1d625cf8ac78": {
+      "gold_proxy_sample_id": "sample_f2ba60ba1d625cf8ac78",
+      "gradient_alignment": 1.0,
+      "lane": "agentic"
+    },
+    "sample_f2cad99317ff8d0d2e8b": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.10362945,
+      "lane": "indic"
+    },
+    "sample_f7b7d364e6d7d0c32ac9": {
+      "gold_proxy_sample_id": "sample_61a9400297d8557c2dba",
+      "gradient_alignment": 0.47456712,
+      "lane": "code"
+    },
+    "sample_f8fec569b3b96cd4b454": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.05671065,
+      "lane": "indic"
+    },
+    "sample_fc584cd29cd3012866f4": {
+      "gold_proxy_sample_id": "sample_8feffec25340983e9038",
+      "gradient_alignment": 0.73337322,
+      "lane": "indic"
+    },
+    "sample_fece445bf6d44945bc96": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.07890582,
+      "lane": "long"
+    },
+    "sample_ff8e282832cf72db022b": {
+      "gold_proxy_sample_id": "sample_25cda7378342111f274c",
+      "gradient_alignment": 0.1623397,
+      "lane": "long"
+    }
+  },
+  "scores_sha256": "c9cf02734e686472b61df1f6176ca58651742d10a6ddd3fe1f23f1cea24afbbe"
+}

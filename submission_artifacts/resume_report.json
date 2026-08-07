@@ -1,0 +1,16 @@
+{
+  "catalog_hash_match": true,
+  "checkpoint_step": 16,
+  "cold_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+  "expected_catalog_hash": "b24e784ef1f4f86e3d7ddacdb52a6abdf5f9a656461b19d8b7dffed3f636b792",
+  "expected_next_batch_id": "batch_12dc82de79ceffd88c39",
+  "ledger_offsets": {
+    "consumption": 16,
+    "learning": 16,
+    "opus": 253,
+    "token_learning": 3707
+  },
+  "matched": true,
+  "resume_latency_seconds": 0.10246370900131296,
+  "resumed_next_batch_id": "batch_12dc82de79ceffd88c39"
+}

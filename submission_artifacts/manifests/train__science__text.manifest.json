@@ -1,0 +1,35 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "6eda15bccb2a2f62a6747862f52c52849a80a567c5cf9a00f45fb6652ecef9a5",
+  "eval_overlap_status": "not_eval",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "text",
+  "lane": "science",
+  "language_set": [
+    "en"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "182d733ae8f8ed5b35685f1dfc401eb1e2e0cb8cb4757ae8aefb97aed539ef01",
+  "provenance_set": [
+    "v5_fixture"
+  ],
+  "rebuild_sha256": "6eda15bccb2a2f62a6747862f52c52849a80a567c5cf9a00f45fb6652ecef9a5",
+  "record_count": 6,
+  "schema_version": 1,
+  "shard_id": "train__science__text",
+  "shard_path": "train__science__text.jsonl",
+  "source_document_hashes": [
+    "d2040a0874d0ea640051c4cdff0db3f3780c52f4a9878f9d4dc2d7f991473318",
+    "31ded15a20881fb631660ce80dbf6dc91301af61d84347fc0a4e382bbd14ef66",
+    "b8cf2b6c53e012095c68b312bfd36a7478d2679a6f9dcb246041e95598eb4412",
+    "8b7b13babc404deb1593906f8e8e07e3273251bcea3128f83fc3be14e3e3a42f",
+    "05e0b8c22e4c0464396e548cb34fcb3b2c88ab82c43d48d44edd3405f9d15fec",
+    "31b676c6abda335f22820698f9d5749d1c0d5cf874920c5826e9740319855588"
+  ],
+  "split": "train",
+  "token_count": 297,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}

@@ -1,0 +1,30 @@
+{
+  "cleaning_pipeline_hash": "37d9df8f8fa9579568dd0f5f5371fe5c35077edab24996a3a04dae34a01117dc",
+  "content_sha256": "be0fac0fc08c6ce057e246f4cbdc4c88b28515972cbd0a328101c229522a82b3",
+  "eval_overlap_status": "blocked",
+  "gate_status": "PASS",
+  "immutable": true,
+  "kind": "text",
+  "lane": "indic",
+  "language_set": [
+    "hi"
+  ],
+  "license_set": [
+    "CC-BY-4.0"
+  ],
+  "manifest_sha256": "89d76537e329ab9f392c6209cebed36bd2e686b0db2d47c2a3131baaba9981e1",
+  "provenance_set": [
+    "hidden_validation"
+  ],
+  "rebuild_sha256": "be0fac0fc08c6ce057e246f4cbdc4c88b28515972cbd0a328101c229522a82b3",
+  "record_count": 1,
+  "schema_version": 1,
+  "shard_id": "validation__indic__text",
+  "shard_path": "validation__indic__text.jsonl",
+  "source_document_hashes": [
+    "a52758c4903764ff63a699ad1985b84a3c70efb5717b659f35dfa43142598b33"
+  ],
+  "split": "validation",
+  "token_count": 109,
+  "tokenizer_hash": "2622d00ae6ab47936ec2679f73f73a1e9cdbcfed808e0ca8888ae4770b60ffb2"
+}
