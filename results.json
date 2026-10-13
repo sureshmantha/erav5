@@ -1,0 +1,153 @@
+{
+  "course": "ERA V5 Session 9 \u2014 loss harness",
+  "seed": 20260822,
+  "environment": {
+    "python": "3.13.5",
+    "torch": "2.10.0+cpu",
+    "device": "cpu",
+    "hardware": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "configuration": {
+    "vocab_size": 128,
+    "hidden_size": 48,
+    "heads": 4,
+    "batch_shape": [
+      2,
+      20
+    ],
+    "training_steps": 100,
+    "documents_in_training": 36
+  },
+  "part1": {
+    "shapes": {
+      "input": [
+        2,
+        20
+      ],
+      "hidden": [
+        2,
+        20,
+        48
+      ],
+      "logits": [
+        2,
+        20,
+        128
+      ],
+      "shifted_logits": [
+        2,
+        19,
+        128
+      ],
+      "targets": [
+        2,
+        19
+      ]
+    },
+    "shift_check": "PASS; literal input and targets printed",
+    "padding": {
+      "targets_without_mask": 38,
+      "excluded": 14,
+      "targets_with_mask": 24,
+      "loss_unmasked": 4.857074737548828,
+      "loss_masked": 4.853627681732178
+    },
+    "packing": {
+      "boundary_index": 13,
+      "boundary_count_excluded": 1,
+      "loss_pre_mask": 4.85723352432251,
+      "loss_post_mask_same_logits": 4.8576130867004395,
+      "loss_attention_isolated": 4.857831954956055,
+      "attention_block_diagonal_and_position_reset": "PASS"
+    },
+    "perplexity": {
+      "vocab_size": 128,
+      "initial_cross_entropy_nats": 4.853627681732178,
+      "untrained_perplexity": 128.2046328785962,
+      "ratio_to_vocab": 1.0015986943640327
+    },
+    "parameter_counts": {
+      "untied": 49584,
+      "tied": 43440,
+      "parameters_saved": 6144,
+      "head_counted_in_both": "t+2 auxiliary"
+    },
+    "memory": {
+      "device": "cpu",
+      "metric": "resource.ru_maxrss (Linux peak process RSS)",
+      "full_peak_mib": 353.90234375,
+      "chunk_peak_mib": 295.1875,
+      "full_added_mib": 58.71484375,
+      "chunk_added_mib": 0.0,
+      "ratio": 1.1989069447385137,
+      "ratio_kind": "absolute process peak RSS (chunk increment below RSS resolution)",
+      "head_BTDV": [
+        4,
+        512,
+        96,
+        4096
+      ],
+      "chunk_length": 32
+    },
+    "chunked_equality": "PASS: loss and gradients, including unequal final chunk"
+  },
+  "part2": {
+    "losses": [
+      {
+        "step": 0,
+        "t1": 4.84804630279541,
+        "t2": 4.8517374992370605,
+        "sum": 9.699783325195312
+      },
+      {
+        "step": 1,
+        "t1": 4.55853796005249,
+        "t2": 4.568965435028076,
+        "sum": 9.127503395080566
+      },
+      {
+        "step": 10,
+        "t1": 2.3082947731018066,
+        "t2": 2.4302709102630615,
+        "sum": 4.738565444946289
+      },
+      {
+        "step": 25,
+        "t1": 1.2385472059249878,
+        "t2": 1.441032886505127,
+        "sum": 2.6795802116394043
+      },
+      {
+        "step": 50,
+        "t1": 0.3324614465236664,
+        "t2": 0.5728932023048401,
+        "sum": 0.9053546190261841
+      },
+      {
+        "step": 75,
+        "t1": 0.22243694961071014,
+        "t2": 0.43831688165664673,
+        "sum": 0.6607538461685181
+      },
+      {
+        "step": 100,
+        "t1": 0.21374447643756866,
+        "t2": 0.4290286898612976,
+        "sum": 0.6427731513977051
+      }
+    ],
+    "final_t1_ce": 0.21374447643756866,
+    "final_t2_ce": 0.4290286898612976,
+    "final_sum": 0.6427731513977051,
+    "note": "same training examples and model; t+2 is farther future; observations are seed- and dataset-specific"
+  },
+  "tests": [
+    "shift PASS",
+    "padding PASS",
+    "packed loss boundary PASS",
+    "packed attention isolation + local positions PASS",
+    "causality PASS",
+    "t+2 boundary PASS",
+    "loss value and gradients PASS"
+  ]
+}
