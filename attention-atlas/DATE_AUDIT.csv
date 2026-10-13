@@ -1,0 +1,33 @@
+id,date,name,sourceTitle,source,basis,novelty,tag
+01,2017-06-12,Scaled dot-product attention,Attention Is All You Need,https://arxiv.org/abs/1706.03762,arXiv v1,Core,Foundation
+02,2017-06-12,Sinusoidal positions,Attention Is All You Need,https://arxiv.org/abs/1706.03762,arXiv v1,Core,Position
+03,2017-06-12,Learned absolute positions,Attention Is All You Need (learned variant),https://arxiv.org/abs/1706.03762,arXiv v1,Core,Position
+04,2018-02-15,Local neighborhood attention,Image Transformer,https://arxiv.org/abs/1802.05751,arXiv v1,Extra,Sparse
+05,2018-03-06,Relative position representations,Self-Attention with Relative Position Representations,https://arxiv.org/abs/1803.02155,arXiv v1,Extra,Position
+06,2019-04-23,Sparse Transformer,Generating Long Sequences with Sparse Transformers,https://arxiv.org/abs/1904.10509,arXiv v1,Core,Sparse
+07,2019-11-06,Multi-query attention (MQA),Fast Transformer Decoding: One Write-Head is All You Need,https://arxiv.org/abs/1911.02150,arXiv v1,Core,KV memory
+08,2019-11-13,Compressive Transformer,Compressive Transformers for Long-Range Sequence Modelling,https://arxiv.org/abs/1911.05507,arXiv v1,Extra,Memory
+09,2019-12-25,Explicit top-k sparse attention,Explicit Sparse Transformer: Concentrated Attention Through Explicit Selection,https://arxiv.org/abs/1912.11637,arXiv v1,Core,Sparse
+10,2020-04-10,Sliding-window + global attention,Longformer: The Long-Document Transformer,https://arxiv.org/abs/2004.05150,arXiv v1,Core,Sparse
+11,2020-06-29,Linear attention,Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention,https://arxiv.org/abs/2006.16236,arXiv v1,Core,State memory
+12,2020-07-28,BigBird,Big Bird: Transformers for Longer Sequences,https://arxiv.org/abs/2007.14062,arXiv v1,Extra,Sparse
+13,2020-09-30,Performer (FAVOR+),Rethinking Attention with Performers,https://arxiv.org/abs/2009.14794,arXiv v1,Extra,State memory
+14,2021-04-20,Rotary position embeddings (RoPE),RoFormer: Enhanced Transformer with Rotary Position Embedding,https://arxiv.org/abs/2104.09864,arXiv v1,Core,Position
+15,2021-08-27,ALiBi,"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",https://arxiv.org/abs/2108.12409,arXiv v1,Core,Position
+16,2022-05-27,FlashAttention,FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,https://arxiv.org/abs/2205.14135,arXiv v1,Extra,Serving/IO
+17,2023-05-22,Grouped-query attention (GQA),GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints,https://arxiv.org/abs/2305.13245,arXiv v1,Core,KV memory
+18,2023-06-27,Position Interpolation (PI),Extending Context Window of Large Language Models via Positional Interpolation,https://arxiv.org/abs/2306.15595,arXiv v1,Extra,Length
+19,2023-06-29,NTK-aware RoPE scaling,NTK-Aware Scaled RoPE — original bloc97 post,https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/,Original Reddit post; date cross-checked 2023-06-29,Core,Length
+20,2023-07-17,RetNet retention,Retentive Network: A Successor to Transformer for Large Language Models,https://arxiv.org/abs/2307.08621,arXiv v1,Extra,State memory
+21,2023-07-17,FlashAttention-2,FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning,https://arxiv.org/abs/2307.08691,arXiv v1,Extra,Serving/IO
+22,2023-08-31,YaRN,YaRN: Efficient Context Window Extension of Large Language Models,https://arxiv.org/abs/2309.00071,arXiv v1,Core,Length
+23,2023-09-12,PagedAttention (vLLM),Efficient Memory Management for Large Language Model Serving with PagedAttention,https://arxiv.org/abs/2309.06180,arXiv v1,Extra,Serving/IO
+24,2023-09-29,Attention sinks / StreamingLLM,Efficient Streaming Language Models with Attention Sinks,https://arxiv.org/abs/2309.17453,arXiv v1,Core,Memory
+25,2023-10-03,Ring Attention,Ring Attention with Blockwise Transformers for Near-Infinite Context,https://arxiv.org/abs/2310.01889,arXiv v1,Extra,Serving/IO
+26,2024-05-07,DeepSeek Multi-head Latent Attention (MLA),"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",https://arxiv.org/abs/2405.04434,arXiv v1,Core,KV memory
+27,2024-06-10,DeltaNet / delta rule,Parallelizing Linear Transformers with the Delta Rule over Sequence Length,https://arxiv.org/abs/2406.06484,arXiv v1,Core,State memory
+28,2024-10-07,Differential Transformer,Differential Transformer,https://arxiv.org/abs/2410.05258,arXiv v1,Extra,Quality
+29,2024-12-09,Gated DeltaNet,Gated Delta Networks: Improving Mamba2 with Delta Rule,https://arxiv.org/abs/2412.06464,arXiv v1,Core,State memory
+30,2025-02-16,Native Sparse Attention (NSA),Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention,https://arxiv.org/abs/2502.11089,arXiv v1,Extra,Sparse
+31,2025-09-29,DeepSeek Sparse Attention (DSA),DeepSeek-V3.2-Exp: first public DeepSeek Sparse Attention release,https://api-docs.deepseek.com/news/news250929/,Official release 2025-09-29,Core,Sparse
+32,2025-12-13,DroPE — drop positional embeddings,Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings,https://arxiv.org/abs/2512.12167,arXiv v1,Core,Length
