@@ -1,0 +1,163 @@
+PyTorch: 2.10.0+cpu | device: cpu | CPU threads: 2 | CUDA available: False
+Experiment type: measured CPU reference (not a GPU MFU benchmark).
+Corpus: 16 documents (8 short, 8 long); vocabulary=120, max tokens including BOS/EOS=18.
+Dimension legend: B=batch sequences; T=token slots; C=hidden width; H=head count; Dh=head width; V=vocabulary classes.
+tokens [B,T]                             : (2, 5)
+position indices [T]                     : (5,)
+token embeddings [B,T,C]                 : (2, 5, 32)
+position embeddings [T,C]                : (5, 32)
+hidden [B,T,C]                           : (2, 5, 32)
+layernorm [B,T,C]                        : (2, 5, 32)
+qkv joint [B,T,3C]                       : (2, 5, 96)
+Q [B,H,T,Dh]                             : (2, 4, 5, 8)
+K [B,H,T,Dh]                             : (2, 4, 5, 8)
+V [B,H,T,Dh]                             : (2, 4, 5, 8)
+attention scores [B,H,T,T]               : (2, 4, 5, 5)
+causal mask [T,T]                        : (5, 5)
+attention probabilities [B,H,T,T]        : (2, 4, 5, 5)
+context [B,H,T,Dh]                       : (2, 4, 5, 8)
+head concat [B,T,C]                      : (2, 5, 32)
+attention output [B,T,C]                 : (2, 5, 32)
+residual [B,T,C]                         : (2, 5, 32)
+FFN input [B,T,C]                        : (2, 5, 32)
+FFN expanded [B,T,2C]                    : (2, 5, 64)
+FFN activated [B,T,2C]                   : (2, 5, 64)
+FFN projected [B,T,C]                    : (2, 5, 32)
+final hidden [B,T,C]                     : (2, 5, 32)
+logits [B,T,V]                           : (2, 5, 120)
+shifted scores [B*(T-1),V]               : (8, 120)
+shifted targets [B*(T-1)]                : (8,)
+Parameter/gradient tensor-shape audit:
+  tok.weight        param (120, 32)      grad (same shape after backward)
+  pos.weight        param (18, 32)       grad (same shape after backward)
+  n1.weight         param (32,)          grad (same shape after backward)
+  n1.bias           param (32,)          grad (same shape after backward)
+  qkv.weight        param (96, 32)       grad (same shape after backward)
+  proj.weight       param (32, 32)       grad (same shape after backward)
+  n2.weight         param (32,)          grad (same shape after backward)
+  n2.bias           param (32,)          grad (same shape after backward)
+  ff1.weight        param (64, 32)       grad (same shape after backward)
+  ff1.bias          param (64,)          grad (same shape after backward)
+  ff2.weight        param (32, 64)       grad (same shape after backward)
+  ff2.bias          param (32,)          grad (same shape after backward)
+  out.weight        param (120, 32)      grad (same shape after backward)
+All forward intermediate shapes and trainable parameter shapes printed above.
+Checked weight: out.weight[1,1]; original=-0.155422955751; epsilon=1e-05
+L(w+eps)=4.896831613880; L(w-eps)=4.896831628423
+Backpropagated gradient tensor shapes:
+  tok.weight         weight_shape=(120, 32), grad_shape=(120, 32)
+  pos.weight         weight_shape=(18, 32), grad_shape=(18, 32)
+  n1.weight          weight_shape=(32,), grad_shape=(32,)
+  n1.bias            weight_shape=(32,), grad_shape=(32,)
+  qkv.weight         weight_shape=(96, 32), grad_shape=(96, 32)
+  proj.weight        weight_shape=(32, 32), grad_shape=(32, 32)
+  n2.weight          weight_shape=(32,), grad_shape=(32,)
+  n2.bias            weight_shape=(32,), grad_shape=(32,)
+  ff1.weight         weight_shape=(64, 32), grad_shape=(64, 32)
+  ff1.bias           weight_shape=(64,), grad_shape=(64,)
+  ff2.weight         weight_shape=(32, 64), grad_shape=(32, 64)
+  ff2.bias           weight_shape=(32,), grad_shape=(32,)
+  out.weight         weight_shape=(120, 32), grad_shape=(120, 32)
+Loss tensor shape: () (scalar); L(w+eps),L(w-eps) are scalar measurements
+Autograd: -0.000727148747 | finite difference: -0.000727148697 | absolute error: 4.971e-11 | relative error: 6.837e-08
+PASS: numerical finite difference and backward agree to several decimal places.
+Contributing targets: short=8, long=34; correct weights=0.190/0.810; wrong weights=0.5/0.5
+Max elementwise gradient error: single padded batch vs CORRECT accumulation: 3.725e-08
+Max elementwise gradient error: single padded batch vs WRONG accumulation: 2.589e-01
+PASS: token-weighted accumulation matches the full effective batch; equal micro-batch means do not.
+step=01 valid=42 correct_loss=4.518225 wrong_loss=4.629433 grad_norm_correct=1.370566 grad_norm_wrong=1.839259
+step=02 valid=42 correct_loss=4.064800 wrong_loss=4.396636 grad_norm_correct=1.343213 grad_norm_wrong=1.702909
+step=03 valid=41 correct_loss=3.741628 wrong_loss=4.126605 grad_norm_correct=1.467705 grad_norm_wrong=2.237129
+step=04 valid=40 correct_loss=3.441585 wrong_loss=3.839935 grad_norm_correct=1.648817 grad_norm_wrong=2.014762
+step=05 valid=39 correct_loss=3.111773 wrong_loss=3.464065 grad_norm_correct=1.737229 grad_norm_wrong=2.048588
+step=06 valid=39 correct_loss=2.820682 wrong_loss=3.188451 grad_norm_correct=1.717916 grad_norm_wrong=2.047793
+step=07 valid=40 correct_loss=2.644042 wrong_loss=2.951226 grad_norm_correct=1.649128 grad_norm_wrong=2.909658
+step=08 valid=42 correct_loss=2.295510 wrong_loss=2.593474 grad_norm_correct=1.821443 grad_norm_wrong=3.228927
+step=09 valid=42 correct_loss=2.006797 wrong_loss=2.357320 grad_norm_correct=1.441978 grad_norm_wrong=2.212320
+step=10 valid=41 correct_loss=1.800931 wrong_loss=2.137523 grad_norm_correct=1.240860 grad_norm_wrong=1.711670
+step=11 valid=40 correct_loss=1.593651 wrong_loss=1.955315 grad_norm_correct=1.412631 grad_norm_wrong=1.722196
+step=12 valid=39 correct_loss=1.407638 wrong_loss=1.884651 grad_norm_correct=1.483697 grad_norm_wrong=1.875002
+step=13 valid=39 correct_loss=1.280840 wrong_loss=1.853923 grad_norm_correct=1.437597 grad_norm_wrong=2.062782
+step=14 valid=40 correct_loss=1.140410 wrong_loss=1.723083 grad_norm_correct=1.739734 grad_norm_wrong=2.726580
+step=15 valid=42 correct_loss=0.944512 wrong_loss=1.489434 grad_norm_correct=1.654710 grad_norm_wrong=2.562540
+step=16 valid=42 correct_loss=0.819208 wrong_loss=1.212206 grad_norm_correct=1.056328 grad_norm_wrong=2.417245
+step=17 valid=41 correct_loss=0.698889 wrong_loss=1.067106 grad_norm_correct=1.058482 grad_norm_wrong=1.864723
+step=18 valid=40 correct_loss=0.618648 wrong_loss=0.998896 grad_norm_correct=1.143440 grad_norm_wrong=1.490983
+step=19 valid=39 correct_loss=0.624663 wrong_loss=0.905084 grad_norm_correct=0.820719 grad_norm_wrong=1.690418
+step=20 valid=39 correct_loss=0.605785 wrong_loss=0.818503 grad_norm_correct=0.995449 grad_norm_wrong=1.663250
+step=21 valid=40 correct_loss=0.596995 wrong_loss=0.729697 grad_norm_correct=1.618635 grad_norm_wrong=1.737447
+step=22 valid=42 correct_loss=0.455228 wrong_loss=0.641113 grad_norm_correct=1.978280 grad_norm_wrong=1.481553
+step=23 valid=42 correct_loss=0.392813 wrong_loss=0.607828 grad_norm_correct=1.023337 grad_norm_wrong=1.121806
+step=24 valid=41 correct_loss=0.397745 wrong_loss=0.610399 grad_norm_correct=0.672237 grad_norm_wrong=1.121745
+step=25 valid=40 correct_loss=0.418931 wrong_loss=0.596221 grad_norm_correct=0.697201 grad_norm_wrong=1.220015
+step=26 valid=39 correct_loss=0.403074 wrong_loss=0.553836 grad_norm_correct=1.114465 grad_norm_wrong=1.440068
+step=27 valid=39 correct_loss=0.406560 wrong_loss=0.501762 grad_norm_correct=1.076819 grad_norm_wrong=1.257489
+step=28 valid=40 correct_loss=0.399918 wrong_loss=0.444118 grad_norm_correct=1.040992 grad_norm_wrong=1.166395
+step=29 valid=42 correct_loss=0.364007 wrong_loss=0.396127 grad_norm_correct=1.014447 grad_norm_wrong=1.023843
+step=30 valid=42 correct_loss=0.338459 wrong_loss=0.370606 grad_norm_correct=0.704603 grad_norm_wrong=0.860024
+step=31 valid=41 correct_loss=0.343447 wrong_loss=0.358910 grad_norm_correct=0.529004 grad_norm_wrong=0.854102
+step=32 valid=40 correct_loss=0.362076 wrong_loss=0.363402 grad_norm_correct=0.499294 grad_norm_wrong=0.818179
+step=33 valid=39 correct_loss=0.359956 wrong_loss=0.363951 grad_norm_correct=0.798315 grad_norm_wrong=1.074404
+step=34 valid=39 correct_loss=0.330524 wrong_loss=0.351647 grad_norm_correct=1.062450 grad_norm_wrong=1.135705
+step=35 valid=40 correct_loss=0.307864 wrong_loss=0.345293 grad_norm_correct=0.951166 grad_norm_wrong=0.955651
+step=36 valid=42 correct_loss=0.313312 wrong_loss=0.343648 grad_norm_correct=0.523828 grad_norm_wrong=0.873276
+step=37 valid=42 correct_loss=0.319467 wrong_loss=0.345123 grad_norm_correct=0.572776 grad_norm_wrong=0.797387
+step=38 valid=41 correct_loss=0.321765 wrong_loss=0.347475 grad_norm_correct=0.584567 grad_norm_wrong=0.805388
+step=39 valid=40 correct_loss=0.328031 wrong_loss=0.352991 grad_norm_correct=0.542378 grad_norm_wrong=0.829536
+step=40 valid=39 correct_loss=0.338679 wrong_loss=0.354507 grad_norm_correct=0.549714 grad_norm_wrong=0.922283
+step=41 valid=39 correct_loss=0.349618 wrong_loss=0.353045 grad_norm_correct=0.561507 grad_norm_wrong=0.917421
+step=42 valid=40 correct_loss=0.328418 wrong_loss=0.343678 grad_norm_correct=0.905968 grad_norm_wrong=0.903267
+step=43 valid=42 correct_loss=0.306970 wrong_loss=0.336815 grad_norm_correct=0.755897 grad_norm_wrong=0.855194
+step=44 valid=42 correct_loss=0.298736 wrong_loss=0.331673 grad_norm_correct=0.440183 grad_norm_wrong=0.816902
+step=45 valid=41 correct_loss=0.294909 wrong_loss=0.328543 grad_norm_correct=0.463008 grad_norm_wrong=0.829356
+step=46 valid=40 correct_loss=0.294436 wrong_loss=0.330766 grad_norm_correct=0.464947 grad_norm_wrong=0.802215
+step=47 valid=39 correct_loss=0.296989 wrong_loss=0.332773 grad_norm_correct=0.514475 grad_norm_wrong=0.817971
+step=48 valid=39 correct_loss=0.299509 wrong_loss=0.331522 grad_norm_correct=0.547420 grad_norm_wrong=0.879516
+step=49 valid=40 correct_loss=0.295873 wrong_loss=0.327091 grad_norm_correct=0.604144 grad_norm_wrong=0.842808
+step=50 valid=42 correct_loss=0.291944 wrong_loss=0.322045 grad_norm_correct=0.503692 grad_norm_wrong=0.781197
+step=51 valid=42 correct_loss=0.289552 wrong_loss=0.318659 grad_norm_correct=0.451102 grad_norm_wrong=0.712493
+step=52 valid=41 correct_loss=0.289570 wrong_loss=0.317340 grad_norm_correct=0.419063 grad_norm_wrong=0.681917
+step=53 valid=40 correct_loss=0.290831 wrong_loss=0.319585 grad_norm_correct=0.422231 grad_norm_wrong=0.691451
+step=54 valid=39 correct_loss=0.288653 wrong_loss=0.318804 grad_norm_correct=0.572942 grad_norm_wrong=0.805367
+step=55 valid=39 correct_loss=0.289159 wrong_loss=0.315906 grad_norm_correct=0.531715 grad_norm_wrong=0.825936
+Final correct loss=0.289159; wrong loss=0.315906; difference=+0.026747
+Optimizer state tensor shapes after real updates:
+tok.weight {'step': (), 'exp_avg': (120, 32), 'exp_avg_sq': (120, 32)}
+pos.weight {'step': (), 'exp_avg': (18, 32), 'exp_avg_sq': (18, 32)}
+n1.weight {'step': (), 'exp_avg': (32,), 'exp_avg_sq': (32,)}
+n1.bias {'step': (), 'exp_avg': (32,), 'exp_avg_sq': (32,)}
+qkv.weight {'step': (), 'exp_avg': (96, 32), 'exp_avg_sq': (96, 32)}
+proj.weight {'step': (), 'exp_avg': (32, 32), 'exp_avg_sq': (32, 32)}
+n2.weight {'step': (), 'exp_avg': (32,), 'exp_avg_sq': (32,)}
+n2.bias {'step': (), 'exp_avg': (32,), 'exp_avg_sq': (32,)}
+ff1.weight {'step': (), 'exp_avg': (64, 32), 'exp_avg_sq': (64, 32)}
+ff1.bias {'step': (), 'exp_avg': (64,), 'exp_avg_sq': (64,)}
+ff2.weight {'step': (), 'exp_avg': (32, 64), 'exp_avg_sq': (32, 64)}
+ff2.bias {'step': (), 'exp_avg': (32,), 'exp_avg_sq': (32,)}
+out.weight {'step': (), 'exp_avg': (120, 32), 'exp_avg_sq': (120, 32)}
+Observed training-run threshold event: {'step': 24, 'ce_delta': 0.004932105541229248, 'gradient_relative_change': 0.3430938369894329}
+Controlled probe (same parameter, no update): [{'x': 1.0, 'loss': 1.0, 'grad_norm': 2.0}, {'x': 4.0, 'loss': 1.0, 'grad_norm': 8.0}]
+Interpretation: at unchanged loss 1.000000, grad norm changes 2 -> 8. This is a controlled probe, not a measured lead-time forecast.
+/tmp/ipykernel_778/1570709222.py:30: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  probe.append({'x':xx,'loss':float(loss),'grad_norm':float(abs(w.grad))})
+Runtime=Linux-6.18.44-x86_64-with-glibc2.41 / CPU threads=2, measured 25 steady-state train updates
+Parameters: all=16,672; non-embedding/positional=12,256
+Valid predicted tokens per update=42; elapsed=0.029151s; useful tokens/s=36019.109
+Approximate useful model FLOP/s: 6*12256*36019.109 = 2.6487e+09
+Local CPU matmul reference (empirical best): 195.305 GFLOP/s
+CPU reference ratio (NOT standard GPU MFU): 1.356%
+GPU MFU: N/A — no CUDA used in this executed reference. 40% GPU comparison is inapplicable.
+Plausible efficiency costs, not measured causal attributions: tiny GEMMs, CPU dispatch/Python overhead, attention operations not in 6N, optimizer, and memory traffic.
+Colab GPU benchmark: N/A (CUDA is not available).
+FP8 check: manual exhaustive encoding agrees with PyTorch cast bit-for-bit.
+Decimal 0.1 binary = 0.000110011001100110011… (repeating)
+FP32       = sign 0 | exponent 01111011 (123-127=-4) | mantissa 10011001100110011001101
+             0x3dcccccd = 0.10000000149011612 | abs error=1.4901161138e-09
+BF16       = sign 0 | exponent 01111011 (123-127=-4) | mantissa 1001101
+             0x3dcd = 0.10009765625000000 | abs error=9.765625e-05
+FP8 E4M3FN = sign 0 | exponent 0011 (3-7=-4)    | mantissa 101
+             0x1d = 0.10156250000000000 | abs error=0.0015625
+Precision recommendation: BF16 activations/matmuls when GPU supports it, with FP32 optimizer/master state and appropriate accumulation.
+This CPU baseline actually trained in FP32; FP8 training requires validated scaling, kernels and hardware — an isolated cast is NOT a training validation.
+ALL ASSERTIONS PASSED. Wrote results.json, accumulation_loss_curves.png and gradient_norm_and_loss.png
