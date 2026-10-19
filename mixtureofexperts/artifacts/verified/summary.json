@@ -1,0 +1,38 @@
+{
+  "experiment": "ERA V5 Session 14 dense to sparse MoE upcycling",
+  "dataset_sha256": "41f311e4db037900aac621b1850221c15d1c5431c49a0b14fdb554ca7b8b8e9c",
+  "dense_steps": 60,
+  "moe_steps": 90,
+  "dense_initial_ce": 5.56613024075826,
+  "dense_final_ce": 3.3761640787124634,
+  "moe_start_ce": 3.3761640389760337,
+  "moe_final_ce": 3.3143449227015176,
+  "dense_control_final_ce": 3.314582347869873,
+  "moe_improvement": 0.061819116274516084,
+  "moe_minus_control_ce": -0.00023742516835545402,
+  "dense_parameters": 86592,
+  "moe_total_parameters": 253120,
+  "moe_active_parameters": 120512,
+  "conversion_max_abs_logit_difference": 1.1920928955078125e-06,
+  "experts_per_layer": 6,
+  "active_experts_per_token": 2,
+  "heldout_routing_counts": [
+    [
+      1290,
+      1448,
+      1865,
+      1531,
+      1632,
+      1450
+    ],
+    [
+      2236,
+      1021,
+      1866,
+      903,
+      1938,
+      1252
+    ]
+  ],
+  "note": "Measured CPU float32 on a 300-row educational instruction sample; single seed; no large-scale speed claim."
+}

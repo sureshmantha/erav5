@@ -1,0 +1,94 @@
+{
+  "runs": [
+    {
+      "name": "dense_continuation",
+      "coefficient": null,
+      "initial_ce": 3.3761640787124634,
+      "final_ce": 3.314582347869873,
+      "usage": [],
+      "history": [
+        {
+          "phase": "dense",
+          "step": 0,
+          "val_ce": 3.3761640787124634,
+          "train_ce": null,
+          "aux": null,
+          "updates": 0,
+          "tokens_seen": 0,
+          "seconds": 0.0
+        },
+        {
+          "phase": "dense",
+          "step": 1,
+          "val_ce": 3.372220595677694,
+          "train_ce": 3.493807077407837,
+          "aux": 0.0,
+          "tokens_seen": 768,
+          "seconds": 0.07425564499953907,
+          "tokens_per_sec": 10342.648023658905
+        },
+        {
+          "phase": "dense",
+          "step": 15,
+          "val_ce": 3.338332732518514,
+          "train_ce": 3.426260232925415,
+          "aux": 0.0,
+          "tokens_seen": 11520,
+          "seconds": 0.3391274699997666,
+          "tokens_per_sec": 33969.52774131783
+        },
+        {
+          "phase": "dense",
+          "step": 30,
+          "val_ce": 3.3222617308298745,
+          "train_ce": 3.358431816101074,
+          "aux": 0.0,
+          "tokens_seen": 23040,
+          "seconds": 0.6408743920001143,
+          "tokens_per_sec": 35950.88255608736
+        },
+        {
+          "phase": "dense",
+          "step": 45,
+          "val_ce": 3.317178209622701,
+          "train_ce": 3.3734121322631836,
+          "aux": 0.0,
+          "tokens_seen": 34560,
+          "seconds": 0.9910432119995676,
+          "tokens_per_sec": 34872.344194023986
+        },
+        {
+          "phase": "dense",
+          "step": 60,
+          "val_ce": 3.3169108629226685,
+          "train_ce": 3.2693071365356445,
+          "aux": 0.0,
+          "tokens_seen": 46080,
+          "seconds": 1.2805078800001866,
+          "tokens_per_sec": 35985.72154041979
+        },
+        {
+          "phase": "dense",
+          "step": 75,
+          "val_ce": 3.3150283098220825,
+          "train_ce": 3.3061294555664062,
+          "aux": 0.0,
+          "tokens_seen": 57600,
+          "seconds": 1.6365132880000601,
+          "tokens_per_sec": 35196.78112139954
+        },
+        {
+          "phase": "dense",
+          "step": 90,
+          "val_ce": 3.314582347869873,
+          "train_ce": 3.150055170059204,
+          "aux": 0.0,
+          "tokens_seen": 69120,
+          "seconds": 1.9285898779999116,
+          "tokens_per_sec": 35839.65714456745
+        }
+      ]
+    }
+  ],
+  "comparison": "Controls share checkpoint, batches, eval, LR, steps, optimizer reset."
+}
