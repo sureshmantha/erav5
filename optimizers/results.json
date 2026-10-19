@@ -1,0 +1,128 @@
+{
+  "environment": {
+    "torch": "2.10.0+cpu",
+    "device": "cpu",
+    "cpu_threads": 2,
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "experiment": {
+    "vocab": 32,
+    "context": 12,
+    "batch": 16,
+    "train_examples": 2048,
+    "heldout_examples": 512,
+    "seed": 23,
+    "sweep_seeds": [
+      23,
+      47
+    ],
+    "pilot_seeds": [
+      23,
+      47
+    ],
+    "architecture": "causal residual token mixer, not Transformer, standard parameterization",
+    "optimizer": "AdamW, betas=(0.9,0.999), eps=1e-8, decoupled weight decay=0.01 for model only",
+    "warmup": 20,
+    "planned_steps": 300,
+    "stop_steps": 200,
+    "wsd_decay_start": 240,
+    "lr_grid": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03
+    ],
+    "pilot_steps": 120,
+    "width_sweep_steps": 55
+  },
+  "adam": {
+    "five_gradients": [
+      0.4,
+      -0.2,
+      0.1,
+      0.0,
+      -0.3
+    ],
+    "start_weight": 0.7,
+    "max_abs_error": 1.457167719820518e-15,
+    "final_weight": 0.6821645025422485
+  },
+  "bias_correction": {
+    "thresholds_for_persistent_relative_per_step_update_difference": {
+      "5%": 2375,
+      "1%": 3925
+    },
+    "step_1_relative_difference": 2.162275239227233,
+    "step_20_relative_difference": 5.240927283746489,
+    "criterion": "constant 0.4 gradient, relative update not accumulated parameter gap"
+  },
+  "warmup": {
+    "ends_at_optimizer_step": 20,
+    "lr_plateau_starts": 21,
+    "note": "ratio does not necessarily flatten when warmup ends"
+  },
+  "schedules": {
+    "pilot_mean_loss": {
+      "cosine": {
+        "0.0001": 3.3789750188589096,
+        "0.0003": 2.9508091807365417,
+        "0.001": 2.2357929050922394,
+        "0.003": 1.2673442661762238,
+        "0.01": 1.2881009355187416,
+        "0.03": 1.7037078142166138
+      },
+      "wsd": {
+        "0.0001": 3.3510354310274124,
+        "0.0003": 2.9149240255355835,
+        "0.001": 2.138345278799534,
+        "0.003": 1.262407399713993,
+        "0.01": 1.3690537884831429,
+        "0.03": 1.867833711206913
+      }
+    },
+    "independent_best_lr": {
+      "cosine": 0.003,
+      "wsd": 0.003
+    },
+    "step200_mean_val_loss": {
+      "cosine": 1.0818560048937798,
+      "wsd": 1.1635027527809143
+    },
+    "step200_val_loss_by_seed": {
+      "cosine": {
+        "23": 1.0880799889564514,
+        "47": 1.075632020831108
+      },
+      "wsd": {
+        "23": 1.1747296154499054,
+        "47": 1.1522758901119232
+      }
+    },
+    "would_keep_at_step200": "cosine",
+    "caveat": "WSD decay planned at step 240 and therefore not yet observed at stop 200"
+  },
+  "width_sweep": {
+    "minima_on_tested_grid": {
+      "256": {
+        "lr": 0.01,
+        "mean_val_loss": 1.6267360523343086
+      },
+      "512": {
+        "lr": 0.003,
+        "mean_val_loss": 1.7944588884711266
+      },
+      "1024": {
+        "lr": 0.003,
+        "mean_val_loss": 1.7396743074059486
+      }
+    },
+    "candidate_at_4096": 0.003,
+    "confidence": "very low",
+    "same_grid_winner_all_widths": false,
+    "caveat": "standard PyTorch parameterization; no \u03bcP nor zero-shot \u03bcTransfer validated"
+  },
+  "elapsed_seconds": 21.171752209000033,
+  "fast_smoke_test": false
+}
