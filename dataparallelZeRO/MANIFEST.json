@@ -1,0 +1,70 @@
+{
+  "generated_files": {
+    ".gitignore": {
+      "sha256": "6f937b8ea99633f5ec961725a4bac62668f093126977ea00726e58115ecc8c3f",
+      "size_bytes": 49
+    },
+    "ACCURACY_AUDIT.md": {
+      "sha256": "615382e57ab58903453a625d075cdf7ead46b8b44d2e2639b283c3aa9cf5441a",
+      "size_bytes": 3569
+    },
+    "ERA_V5_S12_EXECUTED.ipynb": {
+      "sha256": "b477dfd7d06d59854f8fa8b7afdfee6a370fc373e5a9a25cf837789968748d29",
+      "size_bytes": 419500
+    },
+    "ERA_V5_S12_ZeRO_32_Virtual_GPUs.ipynb": {
+      "sha256": "26a578d4922e46e5732e4edc76445e746804679cfb50c4490fd25f6041654438",
+      "size_bytes": 37287
+    },
+    "README.md": {
+      "sha256": "39098581effc7354173fa9998d46e21fd6cde8acebe38ecc2b0bce3e22a41e19",
+      "size_bytes": 15537
+    },
+    "figures/32_rank_ownership.png": {
+      "sha256": "14789e07ad25859836b4873b5b66d56c62be0333d705a74498ffe421e497da84",
+      "size_bytes": 48515
+    },
+    "figures/compute_vs_optimizer.png": {
+      "sha256": "c06c8053b24d219ddb591af89bcec369031b00591aabeabec8e0bc40407028c9",
+      "size_bytes": 58988
+    },
+    "figures/loss_equivalence.png": {
+      "sha256": "9fb63684eed11e37ab32064a5282f8116355c4739b85786c9d710e53fc30cf74",
+      "size_bytes": 85132
+    },
+    "figures/state_vs_communication.png": {
+      "sha256": "1f9ba3e294e73dfffe155d33e30605475534992a5b03b8952439dfc4de00fa53",
+      "size_bytes": 87703
+    },
+    "requirements.txt": {
+      "sha256": "27b6e7ea0fd938d1560b22732da0a1f5ce32d5951bbdf35fe143263d08b4adaa",
+      "size_bytes": 39
+    },
+    "results/experiment.json": {
+      "sha256": "54214f8cf97c086895de78714992ea85a3eb79144245c2da518e933b687234f5",
+      "size_bytes": 6651
+    },
+    "results/memory_and_communication.csv": {
+      "sha256": "c62fe39b6b65b01cc887b71b34a7224f21b93b578facc17d6371034120325459",
+      "size_bytes": 308
+    },
+    "run_experiment.py": {
+      "sha256": "31598d6d896ee464ebf66d2e1b09d7cc0ac49dd69b61c7215fb7853c4fc0b73d",
+      "size_bytes": 7080
+    },
+    "src/virtual_zero.py": {
+      "sha256": "479f4e41e59deef4c432250efaaf098ddfcdbf43910ba3a4fc15a8fd4ed3c7b5",
+      "size_bytes": 13016
+    },
+    "tests/test_virtual_zero.py": {
+      "sha256": "0277946e62d43ab1bd9ecca4debd74813194770009b321c22055d439289be804",
+      "size_bytes": 3120
+    }
+  },
+  "validation": {
+    "executed_code_cells": 9,
+    "cell_errors": 0,
+    "tests_passed": 7,
+    "physical_cuda_gpus": 0
+  }
+}

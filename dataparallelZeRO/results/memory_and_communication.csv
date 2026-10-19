@@ -1,0 +1,5 @@
+stage,bytes_per_param_per_rank,30b_state_GiB,30b_ring_GB_per_rank,ring_units_of_fp16_param_bytes,optimizer_elements_per_rank_avg
+0,16,447.03484,116.25,1.9375,30000000000.0
+1,4.375,122.23609,116.25,1.9375,937500000.0
+2,2.4375,68.10296,116.25,1.9375,937500000.0
+3,0.5,13.96984,174.375,2.90625,937500000.0

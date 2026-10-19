@@ -1,0 +1,201 @@
+{
+  "seed_weights": 20260912,
+  "seed_data": 312,
+  "world_size": 32,
+  "real_gpu_count": 0,
+  "virtual_ranks": 32,
+  "model": "2 linear layer classifier with ReLU (synthetic teacher labels)",
+  "model_parameter_count": 808,
+  "global_batch": 64,
+  "batch_per_rank": 2,
+  "optimizer": "Adam beta1=.9 beta2=.999 eps=1e-8 LR=.008, fp64 execution",
+  "runtime_torch": "2.10.0+cpu",
+  "python": "3.13.5",
+  "cpu_threads": 1,
+  "experimental_results": [
+    {
+      "stage": 0,
+      "world": 32,
+      "losses": [
+        2.082058659397703,
+        2.0444933019021643,
+        2.007219135964747,
+        1.9686152569437776
+      ],
+      "mean_cpu_step_ms": 12.136269750016027,
+      "cpu_step_ms": [
+        18.221091999976124,
+        11.97056600005908,
+        9.023358000035842,
+        9.33006299999306
+      ],
+      "max_parameter_error_vs_baseline": 0.0,
+      "max_loss_error_vs_baseline": 0.0
+    },
+    {
+      "stage": 1,
+      "world": 32,
+      "losses": [
+        2.082058659397703,
+        2.0444933019021643,
+        2.007219135964747,
+        1.9686152569437776
+      ],
+      "mean_cpu_step_ms": 16.01959299998157,
+      "cpu_step_ms": [
+        14.221758999951817,
+        11.73217799998838,
+        17.187680000006367,
+        20.936754999979712
+      ],
+      "max_parameter_error_vs_baseline": 7.632783294297951e-17,
+      "max_loss_error_vs_baseline": 0.0
+    },
+    {
+      "stage": 2,
+      "world": 32,
+      "losses": [
+        2.082058659397703,
+        2.0444933019021643,
+        2.007219135964747,
+        1.9686152569437776
+      ],
+      "mean_cpu_step_ms": 14.341370249979946,
+      "cpu_step_ms": [
+        15.134696000018266,
+        14.956608000034066,
+        17.171799999914583,
+        10.102376999952867
+      ],
+      "max_parameter_error_vs_baseline": 7.632783294297951e-17,
+      "max_loss_error_vs_baseline": 0.0
+    },
+    {
+      "stage": 3,
+      "world": 32,
+      "losses": [
+        2.082058659397703,
+        2.0444933019021643,
+        2.007219135964747,
+        1.9686152569437776
+      ],
+      "mean_cpu_step_ms": 43.18323450002026,
+      "cpu_step_ms": [
+        36.17192600006547,
+        57.13895799999591,
+        36.57212799998888,
+        42.84992600003079
+      ],
+      "max_parameter_error_vs_baseline": 7.632783294297951e-17,
+      "max_loss_error_vs_baseline": 0.0
+    }
+  ],
+  "ideal_mixed_precision_toy": [
+    {
+      "stage": 0,
+      "resident_bytes_per_rank": 12928,
+      "resident_MiB_per_rank": 0.0123291015625,
+      "resident_fraction_of_dp": 1.0,
+      "modeled_ring_bytes_per_rank": 3131.0,
+      "modeled_ring_MiB_per_rank": 0.0029859542846679688,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 808,
+      "optimizer_math_fraction": 1.0
+    },
+    {
+      "stage": 1,
+      "resident_bytes_per_rank": 3535.0,
+      "resident_MiB_per_rank": 0.0033712387084960938,
+      "resident_fraction_of_dp": 0.2734375,
+      "modeled_ring_bytes_per_rank": 3131.0,
+      "modeled_ring_MiB_per_rank": 0.0029859542846679688,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 25.25,
+      "optimizer_math_fraction": 0.03125
+    },
+    {
+      "stage": 2,
+      "resident_bytes_per_rank": 1969.5,
+      "resident_MiB_per_rank": 0.0018782615661621094,
+      "resident_fraction_of_dp": 0.15234375,
+      "modeled_ring_bytes_per_rank": 3131.0,
+      "modeled_ring_MiB_per_rank": 0.0029859542846679688,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 25.25,
+      "optimizer_math_fraction": 0.03125
+    },
+    {
+      "stage": 3,
+      "resident_bytes_per_rank": 404.0,
+      "resident_MiB_per_rank": 0.000385284423828125,
+      "resident_fraction_of_dp": 0.03125,
+      "modeled_ring_bytes_per_rank": 4696.5,
+      "modeled_ring_MiB_per_rank": 0.004478931427001953,
+      "communication_S_units": 2.90625,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 25.25,
+      "optimizer_math_fraction": 0.03125
+    }
+  ],
+  "analytical_projection_30b": [
+    {
+      "stage": 0,
+      "resident_bytes_per_rank": 480000000000,
+      "resident_MiB_per_rank": 457763.671875,
+      "resident_fraction_of_dp": 1.0,
+      "modeled_ring_bytes_per_rank": 116250000000.0,
+      "modeled_ring_MiB_per_rank": 110864.63928222656,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 30000000000,
+      "optimizer_math_fraction": 1.0
+    },
+    {
+      "stage": 1,
+      "resident_bytes_per_rank": 131250000000.0,
+      "resident_MiB_per_rank": 125169.75402832031,
+      "resident_fraction_of_dp": 0.2734375,
+      "modeled_ring_bytes_per_rank": 116250000000.0,
+      "modeled_ring_MiB_per_rank": 110864.63928222656,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 937500000.0,
+      "optimizer_math_fraction": 0.03125
+    },
+    {
+      "stage": 2,
+      "resident_bytes_per_rank": 73125000000.0,
+      "resident_MiB_per_rank": 69737.43438720703,
+      "resident_fraction_of_dp": 0.15234375,
+      "modeled_ring_bytes_per_rank": 116250000000.0,
+      "modeled_ring_MiB_per_rank": 110864.63928222656,
+      "communication_S_units": 1.9375,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 937500000.0,
+      "optimizer_math_fraction": 0.03125
+    },
+    {
+      "stage": 3,
+      "resident_bytes_per_rank": 15000000000.0,
+      "resident_MiB_per_rank": 14305.11474609375,
+      "resident_fraction_of_dp": 0.03125,
+      "modeled_ring_bytes_per_rank": 174375000000.0,
+      "modeled_ring_MiB_per_rank": 166296.95892333984,
+      "communication_S_units": 2.90625,
+      "forward_backward_relative_flops_per_rank": 1.0,
+      "optimizer_math_elements_per_rank": 937500000.0,
+      "optimizer_math_fraction": 0.03125
+    }
+  ],
+  "estimated_Z3_minimum_one_gathered_layer_bytes": 1088,
+  "notes": [
+    "No GPUs used; local CPU torch.cat models all-gather semantics without networking.",
+    "Communication estimates are ideal ring-collective payload per rank, not measured bandwidth/time.",
+    "Ideal mixed-precision memory is separate from actual fp64 CPU allocations.",
+    "ZeRO3 extra gathered layer and activation allocations are excluded from the persistent-state table.",
+    "Forward/backward dense model FLOPs per rank are unchanged, Adam state updates per rank decrease."
+  ]
+}
