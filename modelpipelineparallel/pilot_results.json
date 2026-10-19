@@ -1,0 +1,81 @@
+{
+  "note": "ONE STEP CPU SYNTHETIC SMOKE RESULTS ONLY. No 50M-token training executed.",
+  "runs": [
+    {
+      "config": {
+        "width": 320,
+        "layers": 16,
+        "heads": 8,
+        "vocab": 256,
+        "context": 16,
+        "batch": 2,
+        "tokens": 256,
+        "lr": 0.0003,
+        "seed": 20260919,
+        "mode": "baseline",
+        "data": "synthetic",
+        "output": "smoke_baseline",
+        "log_every": 25,
+        "save_every": 500,
+        "max_steps": 1
+      },
+      "device": "cpu",
+      "parameters": 19768960,
+      "requested_tokens": 256,
+      "executed_tokens": 32,
+      "first_loss": 5.537665843963623,
+      "last_loss": 5.537665843963623,
+      "throughput_tokens_s": 75.85682895881709,
+      "peak_cuda_bytes": null,
+      "full_target_complete": false,
+      "records": [
+        {
+          "step": 1,
+          "loss": 5.537665843963623,
+          "tokens": 32,
+          "elapsed_s": 0.42184732000032454,
+          "tokens_s": 75.85682895881709,
+          "peak_cuda_bytes": null
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 320,
+        "layers": 16,
+        "heads": 8,
+        "vocab": 256,
+        "context": 16,
+        "batch": 2,
+        "tokens": 256,
+        "lr": 0.0003,
+        "seed": 20260919,
+        "mode": "reversible",
+        "data": "synthetic",
+        "output": "smoke_reversible",
+        "log_every": 25,
+        "save_every": 500,
+        "max_steps": 1
+      },
+      "device": "cpu",
+      "parameters": 19768960,
+      "requested_tokens": 256,
+      "executed_tokens": 32,
+      "first_loss": 5.575247764587402,
+      "last_loss": 5.575247764587402,
+      "throughput_tokens_s": 41.37275953899172,
+      "peak_cuda_bytes": null,
+      "full_target_complete": false,
+      "records": [
+        {
+          "step": 1,
+          "loss": 5.575247764587402,
+          "tokens": 32,
+          "elapsed_s": 0.773455780000404,
+          "tokens_s": 41.37275953899172,
+          "peak_cuda_bytes": null
+        }
+      ]
+    }
+  ]
+}
