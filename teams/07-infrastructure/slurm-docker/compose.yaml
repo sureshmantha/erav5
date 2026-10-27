@@ -1,0 +1,80 @@
+name: era-v5-g7-slurm-cpu
+services:
+  keygen:
+    build: .
+    command: ["keygen"]
+    volumes:
+      - munge_key:/mnt/keyshare
+    restart: "no"
+  db:
+    image: mariadb:10.11
+    environment:
+      MARIADB_ROOT_PASSWORD: ${SLURM_DB_ROOT_PASSWORD:?run scripts/init_env.sh}
+      MARIADB_DATABASE: slurm_acct_db
+      MARIADB_USER: slurm
+      MARIADB_PASSWORD: ${SLURM_DB_PASSWORD:?run scripts/init_env.sh}
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  dbd:
+    build: .
+    hostname: dbd
+    command: ["dbd"]
+    environment:
+      SLURM_DB_PASSWORD: ${SLURM_DB_PASSWORD:?run scripts/init_env.sh}
+    depends_on:
+      keygen:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+    volumes:
+      - munge_key:/mnt/keyshare:ro
+  controller:
+    build: .
+    hostname: controller
+    command: ["controller"]
+    depends_on:
+      keygen:
+        condition: service_completed_successfully
+      dbd:
+        condition: service_started
+    volumes:
+      - munge_key:/mnt/keyshare:ro
+      - controller_state:/var/spool/slurmctld
+  compute1:
+    build: .
+    hostname: compute1
+    command: ["worker"]
+    cpus: 2.0
+    # No privileged mode needed: all cgroup plugins disabled for this CPU-only lab.
+    depends_on:
+      keygen:
+        condition: service_completed_successfully
+      controller:
+        condition: service_started
+    volumes:
+      - munge_key:/mnt/keyshare:ro
+      - worker1_state:/var/spool/slurmd
+  compute2:
+    build: .
+    hostname: compute2
+    command: ["worker"]
+    cpus: 2.0
+    depends_on:
+      keygen:
+        condition: service_completed_successfully
+      controller:
+        condition: service_started
+    volumes:
+      - munge_key:/mnt/keyshare:ro
+      - worker2_state:/var/spool/slurmd
+volumes:
+  munge_key:
+  mariadb_data:
+  controller_state:
+  worker1_state:
+  worker2_state:

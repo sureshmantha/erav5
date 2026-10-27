@@ -1,0 +1,4 @@
+# For ERA G7 CPU proof: PyTorch 2.0.1 (user machine) cannot interoperate with NumPy 2.4.6.
+# Use a clean Python 3.11 virtual environment with NumPy 1.x.
+# Torch is installed separately using the official PyTorch instructions if missing.
+numpy>=1.24,<2

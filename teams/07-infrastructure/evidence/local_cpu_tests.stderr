@@ -1,0 +1,18 @@
+test_corrupt_byte_fails_closed (test_checkpoint.CheckpointTests.test_corrupt_byte_fails_closed) ... ok
+test_exact_new_process_continuation_every_step (test_checkpoint.CheckpointTests.test_exact_new_process_continuation_every_step) ... ok
+test_midwrite_does_not_publish_latest (test_checkpoint.CheckpointTests.test_midwrite_does_not_publish_latest) ... ok
+test_strict_config_and_state (test_checkpoint.CheckpointTests.test_strict_config_and_state) ... ok
+test_2rank_cpu_gloo_exact_collective (test_collective.CollectiveTests.test_2rank_cpu_gloo_exact_collective) ... ok
+test_fixture_and_missing_logs (test_health.HealthTests.test_fixture_and_missing_logs) ... ok
+test_health_cli_exit_code_and_json (test_health.HealthTests.test_health_cli_exit_code_and_json) ... ok
+test_health_machine_readable_json (test_health.HealthTests.test_health_machine_readable_json) ... ok
+test_unsupported_xid_is_warning (test_health.HealthTests.test_unsupported_xid_is_warning) ... ok
+test_xid_classification (test_health.HealthTests.test_xid_classification) ... ok
+test_denial_assertions_present (test_queue_static.QueueStatic.test_denial_assertions_present) ... ok
+test_scheduler_policy_directives_present (test_queue_static.QueueStatic.test_scheduler_policy_directives_present) ... ok
+test_two_distinct_accounts_with_real_limits (test_queue_static.QueueStatic.test_two_distinct_accounts_with_real_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 20.762s
+
+OK
