@@ -1,0 +1,25 @@
+test_corrupt_byte_fails_closed (test_checkpoint.CheckpointTests.test_corrupt_byte_fails_closed) ... ok
+test_exact_new_process_continuation_every_step (test_checkpoint.CheckpointTests.test_exact_new_process_continuation_every_step) ... ok
+test_midwrite_does_not_publish_latest (test_checkpoint.CheckpointTests.test_midwrite_does_not_publish_latest) ... ok
+test_strict_config_and_state (test_checkpoint.CheckpointTests.test_strict_config_and_state) ... ok
+test_2rank_cpu_gloo_exact_collective (test_collective.CollectiveTests.test_2rank_cpu_gloo_exact_collective) ... ok
+test_batch_mismatch_detected (test_deepspeed_contract.T.test_batch_mismatch_detected) ... ok
+test_example_config (test_deepspeed_contract.T.test_example_config) ... ok
+test_fake_engine_contract_only (test_deepspeed_contract.T.test_fake_engine_contract_only) ... ok
+test_fixture_and_missing_logs (test_health.HealthTests.test_fixture_and_missing_logs) ... ok
+test_health_cli_exit_code_and_json (test_health.HealthTests.test_health_cli_exit_code_and_json) ... ok
+test_health_machine_readable_json (test_health.HealthTests.test_health_machine_readable_json) ... ok
+test_unsupported_xid_is_warning (test_health.HealthTests.test_unsupported_xid_is_warning) ... ok
+test_xid_classification (test_health.HealthTests.test_xid_classification) ... ok
+test_collective_does_not_use_standalone_torchrun (test_queue_hotfix.HotfixStaticTests.test_collective_does_not_use_standalone_torchrun) ... ok
+test_docker_cpu_topology_is_explicitly_virtual (test_queue_hotfix.HotfixStaticTests.test_docker_cpu_topology_is_explicitly_virtual) ... ok
+test_munge_socket_directory_traversable (test_queue_hotfix.HotfixStaticTests.test_munge_socket_directory_traversable) ... ok
+test_overlimit_requests_explicitly_rejected (test_queue_hotfix.HotfixStaticTests.test_overlimit_requests_explicitly_rejected) ... ok
+test_denial_assertions_present (test_queue_static.QueueStatic.test_denial_assertions_present) ... ok
+test_scheduler_policy_directives_present (test_queue_static.QueueStatic.test_scheduler_policy_directives_present) ... ok
+test_two_distinct_accounts_with_real_limits (test_queue_static.QueueStatic.test_two_distinct_accounts_with_real_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 34.359s
+
+OK

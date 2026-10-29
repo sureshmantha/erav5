@@ -1,0 +1,51 @@
+{
+  "schema": "g7-week1-evidence/1",
+  "generated_utc": "2026-10-27T00:25:58.183809+00:00",
+  "platform": {
+    "python": "3.13.5",
+    "system": "Linux",
+    "torch": "2.10.0+cpu"
+  },
+  "scope": "ERA V5 G7 Week 1 CPU/queue design lab; not a GPU production release",
+  "local_cpu_tests": {
+    "count": 13,
+    "failed": 0,
+    "status": "PASS_LOCAL",
+    "stdout": "evidence/local_cpu_tests.stdout",
+    "stderr": "evidence/local_cpu_tests.stderr"
+  },
+  "static_checks": {
+    "python_compile": "PASS_LOCAL",
+    "bash_n": "PASS_LOCAL",
+    "compose_yaml_parse": "PASS_LOCAL",
+    "note": "YAML parsing is not docker compose validation"
+  },
+  "slurm_docker_runtime": {
+    "status": "NOT_EXECUTED",
+    "reason": "Docker and Slurm executables absent in this environment"
+  },
+  "slurm_policy_enforcement": {
+    "status": "NOT_EXECUTED",
+    "reason": "Requires Docker runtime execution and actual sbatch/sacct results"
+  },
+  "nvidia_gpu_health": {
+    "status": "NOT_EXECUTED",
+    "reason": "No NVIDIA GPU available"
+  },
+  "nccl_gpu_collective": {
+    "status": "NOT_EXECUTED",
+    "reason": "CUDA unavailable; 2-rank Gloo CPU passed, not NCCL"
+  },
+  "gitleaks_detect": {
+    "status": "NOT_EXECUTED",
+    "reason": "gitleaks binary not installed; pre-push script enforces scan"
+  },
+  "remote_dcp_s3": {
+    "status": "NOT_IMPLEMENTED_WEEK1",
+    "reason": "Design only; CPU local checkpoint is tested"
+  },
+  "github_pr": {
+    "status": "NOT_CREATED",
+    "reason": "User must apply package to fork and submit reviewed PR"
+  }
+}

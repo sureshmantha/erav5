@@ -1,0 +1,33 @@
+{
+  "schema": "g7-hotfix-local-evidence/1",
+  "date_utc": "2026-10-27",
+  "base": "G7_ERA_V5_Week1_GitHub_Ready_Submission.zip",
+  "target": "macOS Docker Desktop, Python 3.11 (user environment)",
+  "verified_on": "assistant Linux Python 3.13 torch 2.10 CPU; NOT user Mac",
+  "tests": [
+    {
+      "suite": "test_checkpoint.py",
+      "passed": 4
+    },
+    {
+      "suite": "test_collective.py",
+      "passed": 1
+    },
+    {
+      "suite": "test_health.py",
+      "passed": 5
+    },
+    {
+      "suite": "test_queue*.py",
+      "passed": 7
+    }
+  ],
+  "total_passed": 17,
+  "unverified": [
+    "Docker runtime Slurm CPU nodes and account enforcement on user Mac",
+    "Actual NCCL and NVIDIA diagnostics",
+    "Gitleaks scan",
+    "GitHub PR"
+  ],
+  "security": "No .env or credential material shipped"
+}

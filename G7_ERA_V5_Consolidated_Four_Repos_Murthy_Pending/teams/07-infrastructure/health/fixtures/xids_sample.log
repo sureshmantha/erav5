@@ -1,0 +1,3 @@
+2026-10-29T12:00:00 demo kernel: NVRM: Xid (PCI:0000:4b:00): 31, GPU MMU fault (synthetic)
+2026-10-29T12:00:01 demo kernel: NVRM: Xid (PCI:0000:3a:00): 79, GPU fell off the bus (synthetic)
+2026-10-29T12:00:02 demo kernel: NVRM: Xid (PCI:0000:50:00): 94, contained memory error (synthetic)

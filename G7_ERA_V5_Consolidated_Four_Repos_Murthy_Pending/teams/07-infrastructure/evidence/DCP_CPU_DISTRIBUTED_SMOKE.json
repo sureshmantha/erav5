@@ -1,0 +1,1 @@
+{"status": "PASS", "scope": "CPU-only DCP, 2 ranks, separate OS processes", "not_proven": ["GPU", "DeepSpeed ZeRO optimizer", "remote durability", "topology change"]}

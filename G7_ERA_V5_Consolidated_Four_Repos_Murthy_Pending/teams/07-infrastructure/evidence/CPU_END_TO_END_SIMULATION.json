@@ -1,0 +1,55 @@
+{
+  "account_admission": {
+    "mainrun_permitted": {
+      "result": "allow",
+      "reason": "simulated policy, not real Slurm"
+    },
+    "teams_limit_denied": {
+      "result": "deny",
+      "reason": "limit"
+    },
+    "mainrun_unauthorized_denied": {
+      "result": "deny",
+      "reason": "association missing"
+    }
+  },
+  "checkpoint": {
+    "model_loss_bits_equal": true,
+    "state_digest_equal": true,
+    "rng_digest_equal": true,
+    "uninterrupted_steps": 12,
+    "restart_after_step": 5,
+    "resumed_steps": 7
+  },
+  "simulated_events": [
+    {
+      "event": "job_admitted",
+      "account": "mainrun"
+    },
+    {
+      "event": "node_lease_lost",
+      "at_step": 5,
+      "simulated": true
+    },
+    {
+      "event": "requeue",
+      "note": "Slurm not executed; CPU new process invoked"
+    },
+    {
+      "event": "checkpoint_restored",
+      "from_step": 5
+    },
+    {
+      "event": "training_completed",
+      "step": 12
+    }
+  ],
+  "evidence_level": "REAL_CPU_TRAINING_PLUS_SYNTHETIC_SCHEDULER",
+  "not_proven": [
+    "Slurm runtime",
+    "GPU",
+    "NCCL",
+    "DeepSpeed engine",
+    "S3 remote durability"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "source_count_verified": 4,
+  "fifth_source": "NOT_RECEIVED",
+  "files": [
+    {
+      "path": "teams/07-infrastructure/.gitignore",
+      "bytes": 153,
+      "sha256": "2f2de3e36498d36b705abe028c99b3a07f89cf813baf3883279274595de31ecb"
+    },
+    {
+      "path": "teams/07-infrastructure/README.md",
+      "bytes": 10331,
+      "sha256": "1572ff05572d1f16b41e267548c46bd6a9c34c03dc026eb311905059a627f5d5"
+    },
+    {
+      "path": "teams/07-infrastructure/adr/0001-checkpoint-format-and-commit.md",
+      "bytes": 21876,
+      "sha256": "47b8cb61fd2a7cc5fbf4e28ca92a09861136c53192737661dfa31aa1befde1d4"
+    },
+    {
+      "path": "teams/07-infrastructure/adr/0002-job-queue-slurm.md",
+      "bytes": 25162,
+      "sha256": "4cefc02f18599a882df33987f9e0e07a003fa3aa172da38e4f2a98cd43892dcb"
+    },
+    {
+      "path": "teams/07-infrastructure/adr/0003-node-health-checks.md",
+      "bytes": 13706,
+      "sha256": "de5feba69fc025b11437c01c24a05f8100a0a8f6d0994af509fa875f9653fe6f"
+    },
+    {
+      "path": "teams/07-infrastructure/adr/0004-cost-model-and-alerting.md",
+      "bytes": 13771,
+      "sha256": "8d90dc0c2de172c7701f229dc1e2fa71764544165580ede346cfaf38ebd72e91"
+    },
+    {
+      "path": "teams/07-infrastructure/ckpt/ckpt.py",
+      "bytes": 13708,
+      "sha256": "34d2736fb39108faca3a2ede0de5e3cd99e689a70405a61f77336690fe84ea0d"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/ACCEPTANCE_MATRIX.md",
+      "bytes": 4108,
+      "sha256": "a32a1fa35f9cf2e7f9d79b4dac9867ab8d863e287b7c78210a8924f4f8c8c77f"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/ADRS_REVIEW_AND_DECISIONS.md",
+      "bytes": 2282,
+      "sha256": "d9cd3237f2962f34961550005645f70912df8d83ca67c39bce1c5d67c2d2ea45"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/MAX_QUEUE_DESIGN_REFERENCE.md",
+      "bytes": 32632,
+      "sha256": "09b696dad6a7ba134a945284add682ed0381cd1013ff89c77dfe33ab2d2b3649"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/checkpoint_design.md",
+      "bytes": 9966,
+      "sha256": "d078ad4dc79f201da52a278c76cd7525ac38cc55cfd92e0c9c3e0bde133d61ac"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/health_design.md",
+      "bytes": 6038,
+      "sha256": "e364781ad11975997bc706d8e9af69c7b0b4f29f7c7093a485760d0e7f549c82"
+    },
+    {
+      "path": "teams/07-infrastructure/docs/queue_design.md",
+      "bytes": 10045,
+      "sha256": "690a92a81d526a392275ddde8a8e4aab867e95ef44e457169f54528467268a90"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/CPU_END_TO_END_SIMULATION.json",
+      "bytes": 1146,
+      "sha256": "86c0103e08e64c55196de77cc90a3f52ea7b30d905afcddb7b83ede43e06e0fc"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/DCP_CPU_DISTRIBUTED_SMOKE.json",
+      "bytes": 167,
+      "sha256": "b11c25544d094bc8c3065525271ceef09179627cf91dcad914135a5d8d3b3cca"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/DCP_CPU_DISTRIBUTED_SMOKE.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/HOTFIX_LOCAL_VALIDATION.json",
+      "bytes": 810,
+      "sha256": "00e194178a99af07541c43d6dd535014930078e63c908a62c86d4cfe32ef2d5e"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/ORIGINAL_VALIDATION_SUMMARY.json",
+      "bytes": 1541,
+      "sha256": "dfe8d955a69ee33ad6c7191151f2bc73428248d9f8bad536c35d6c39d9747f35"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/ORIGINAL_VALIDATION_SUMMARY.md",
+      "bytes": 1161,
+      "sha256": "65ed745f7aa1ed0812ea9431d47bb34adc5747a84f812334b423ac47eefc0b41"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/UNIFIED_CPU_TESTS.log",
+      "bytes": 2298,
+      "sha256": "0fb24ad450cfb3f3738916d9b94725f36cbeaec828b434a6bd3b000390328066"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/health_injected_xid.json",
+      "bytes": 909,
+      "sha256": "5d81dbb833630d8b9aac0397cee50fba815a8019a76ebbf4a1a9d8d33feece7d"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/local_cpu_tests.stderr",
+      "bytes": 1493,
+      "sha256": "965ab4259915ac2acb3c83c770ddbb750bb020b4fcf3e6068d8efeee06026643"
+    },
+    {
+      "path": "teams/07-infrastructure/evidence/local_cpu_tests.stdout",
+      "bytes": 91,
+      "sha256": "42a8d223e6d11a7596c77511324f46147326a8afd540987fd51e08e7ae7c04cf"
+    },
+    {
+      "path": "teams/07-infrastructure/experimental/dcp/MALLIK_DESIGN_ORIGINAL.md",
+      "bytes": 10278,
+      "sha256": "1cc7e28d2671e96fe1786758ca483f2dd9d3efb30d6009f09f341f9c0de54263"
+    },
+    {
+      "path": "teams/07-infrastructure/experimental/dcp/cpu_dtensor_smoke.py",
+      "bytes": 1854,
+      "sha256": "f11279b1e22f3d3715a5119d95b6ee8debef97087de0451fca0032eb749079f8"
+    },
+    {
+      "path": "teams/07-infrastructure/experimental/dcp/mallik_dcp_reference.py",
+      "bytes": 8616,
+      "sha256": "8d8f306e0520856c55b185b3529617ceba92607131e4672e4ae33c4f66dec5f2"
+    },
+    {
+      "path": "teams/07-infrastructure/experimental/dcp/run_dtensor_smoke.py",
+      "bytes": 1997,
+      "sha256": "277f53a0240f4ffa5336035f566da673fe8c3cef2dbe86b9180d0729128da57b"
+    },
+    {
+      "path": "teams/07-infrastructure/health/fixtures/xids_sample.log",
+      "bytes": 289,
+      "sha256": "fc22e3037c8f4b13535ca3b521659a9f059b454df58ccd1f173c706cde8c3846"
+    },
+    {
+      "path": "teams/07-infrastructure/health/gpu_health.py",
+      "bytes": 8140,
+      "sha256": "12e51330b656917f3839ecbd9131b4161a1bb35d15dcc190371cfac1f3f3acaa"
+    },
+    {
+      "path": "teams/07-infrastructure/health/gpu_health.sh",
+      "bytes": 210,
+      "sha256": "2ef07ec9e249f2553db9081360db04513857cdadb6c9943faa1543b43dc602da"
+    },
+    {
+      "path": "teams/07-infrastructure/health/launch.sh",
+      "bytes": 1263,
+      "sha256": "5b96c1d25ada1fe34381884fe9c558f8cc7a2aafd2ec0031e6091d5fd1bc79a2"
+    },
+    {
+      "path": "teams/07-infrastructure/health/nccl_probe.py",
+      "bytes": 2428,
+      "sha256": "a0f8778e66efa74d7df276e68b48f11ac340a660c9a432776b94d4a0523a8371"
+    },
+    {
+      "path": "teams/07-infrastructure/health/xid_scan.py",
+      "bytes": 3993,
+      "sha256": "117b585cf1e9da6fdf3c05cdff5f92a920529797a4838de102981403a30bb4e7"
+    },
+    {
+      "path": "teams/07-infrastructure/integrations/deepspeed_contract.py",
+      "bytes": 3581,
+      "sha256": "5eced84779b583337bf1cbcd816d4b5fe82910a5bc95609ba35e6aaf532409c3"
+    },
+    {
+      "path": "teams/07-infrastructure/integrations/deepspeed_stage2.example.json",
+      "bytes": 346,
+      "sha256": "51ac47a95b26ebceb05e3eb9aadde03225e219f8d8131a31fd2b4b167a472071"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/00_SOURCE_AND_SCOPE.md",
+      "bytes": 3777,
+      "sha256": "06f3f51082fc52b3e092cf32d7a056ca5d34be6a0579774ca4c7ebe1522c7a79"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/01_ADR_COVERAGE_AND_GAP_ANALYSIS.md",
+      "bytes": 17742,
+      "sha256": "44ad30a41b1b86e52983272f757cca3a5cb705b6f7059b3257fba325cd0cff6c"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/02_SOURCE_CODE_REVIEW.md",
+      "bytes": 10730,
+      "sha256": "d68233fbf96a92cbd6a6380889cdb7f1f314dd229e24bbca3975f56c874fc2f2"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/03_VALIDATION_AND_HANDOFF.md",
+      "bytes": 6540,
+      "sha256": "32aceb19cdc65be804b704c76065a4dacbcdbde30701dd43c82e9b095009ab9a"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/04_MURTHY_SOURCE_INTAKE_PENDING.md",
+      "bytes": 1970,
+      "sha256": "77118c07720b0da0b92ba2313bf5af0e171c210f4f914977db939632cd8c3a6d"
+    },
+    {
+      "path": "teams/07-infrastructure/reference/FOUR_REPOS_FILE_INVENTORY.csv",
+      "bytes": 25531,
+      "sha256": "9a1058a1a0bb91586629811554ea0f54adfc1e7399081ec767a1a03b776328a7"
+    },
+    {
+      "path": "teams/07-infrastructure/scripts/pre_push.sh",
+      "bytes": 525,
+      "sha256": "181d0ac920180e0c669f2fe22d10212015619df3d8bd353d6dc9c1afa0669498"
+    },
+    {
+      "path": "teams/07-infrastructure/scripts/requirements-cpu.txt",
+      "bytes": 251,
+      "sha256": "822eecccce83716778997eec4320c4a41c4810cd9de3504ff12e47e023ea40c3"
+    },
+    {
+      "path": "teams/07-infrastructure/scripts/setup_local_venv.sh",
+      "bytes": 935,
+      "sha256": "c30d33275a8fee3954ae8f8292788398f8a6b7b965e10456599753a8a0ff156a"
+    },
+    {
+      "path": "teams/07-infrastructure/scripts/validate_unified_cpu.sh",
+      "bytes": 716,
+      "sha256": "468e875d91b281dd678086763084f99bc0ad2b3eab2bdc199abb0b7aabdc9d63"
+    },
+    {
+      "path": "teams/07-infrastructure/sim/cpu_recovery_walkthrough.py",
+      "bytes": 3545,
+      "sha256": "0e807ab9752993bc475b5a9d33c1658e7268f2543915eb07dfddd4a920a260f0"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/.gitignore",
+      "bytes": 20,
+      "sha256": "f32bf48385dbab7d1a0fcb4a0f3ed3650fe0aa460fee6a03d332ec681bc8e170"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/Dockerfile",
+      "bytes": 1085,
+      "sha256": "eb38aa01ba8fb0feb52d6936450671ba72bf64bf4cf10a3a8e64709c8bb5f466"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/compose.yaml",
+      "bytes": 2014,
+      "sha256": "bd8941ddfb920e73a9399c6e192a3debd0f4e97c6ab216bbefa2f5a643cf999f"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/conf/cgroup.conf",
+      "bytes": 265,
+      "sha256": "6f9dfec7e4c97a8757ef48ff301c6765605e92dc64d28f6411701e6e1f14b8c5"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/conf/slurm.conf",
+      "bytes": 1361,
+      "sha256": "bcdf69a0aa8d4b477417886ab679617fb8059530bcf9babd133bc7821da73500"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/examples/train_gpu.sbatch",
+      "bytes": 1610,
+      "sha256": "caad09822534f0de6ae9b3c4537a820c37d602801b88e8be0789c6c9a48fd060"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/diagnose_lab.sh",
+      "bytes": 718,
+      "sha256": "ef472b81432f16bcb831a68147bb0369597ade4fb7727ef119e58069e51a92ca"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/entrypoint.sh",
+      "bytes": 1855,
+      "sha256": "0aa7fe21303c667c3f73596b8046a8d42f8ce6149fd99316a93d184015752b7b"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/init_accounts.sh",
+      "bytes": 1598,
+      "sha256": "3dc6ac5bf43110e04c5bf56c07522593bd475ae4d9ca4a3baaa74b8f671a34ef"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/init_env.sh",
+      "bytes": 472,
+      "sha256": "8b5dc692b881858781ac09b9d34ac9d0c67a9863da6bca88d2f21cfa03741689"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/run_lab.sh",
+      "bytes": 1439,
+      "sha256": "aa1d75ec7dbaec2b583926c490ad1e8be624ba185c200d02d0f6e87756c64a13"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/test_accounts.sh",
+      "bytes": 2514,
+      "sha256": "a3beb3d90e064b908a76324e57d9aeecca01044c2b703e452e181c1de6366165"
+    },
+    {
+      "path": "teams/07-infrastructure/slurm-docker/scripts/test_requeue.sh",
+      "bytes": 1064,
+      "sha256": "aaa0addf5b8daa1842cb39db24f3e58a2c86d16a391dc92096cfbeb6e3d76443"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/run_cpu_tests.sh",
+      "bytes": 1475,
+      "sha256": "55ab290710d8939dacc3bb37a05719859f68d9e9b0caa05107618118a2b438dd"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_checkpoint.py",
+      "bytes": 3038,
+      "sha256": "45b691bbe8972af5f9d3217b2d9321ce4e2ec8c2ba93a04680436f35a93b503a"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_collective.py",
+      "bytes": 3174,
+      "sha256": "2ef3e465cce7e3a2b43532f3789ced4dcb188c5bea94597299862f0c0eee2871"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_deepspeed_contract.py",
+      "bytes": 1320,
+      "sha256": "33510278c7ce6d79a451c4235d9c1cc3ccb06f9c35a8fe808a9e54132d78026b"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_health.py",
+      "bytes": 2177,
+      "sha256": "894d6467b54d838fb81e90d5b36ae8c54520ed3c40f4240782097ef661cd407c"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_queue_hotfix.py",
+      "bytes": 1624,
+      "sha256": "170fb844ee3518ab366ad14ee07e69a0156548590ba94c241f195dfda6cef440"
+    },
+    {
+      "path": "teams/07-infrastructure/tests/test_queue_static.py",
+      "bytes": 1349,
+      "sha256": "3953ab10e8bbf0fe314a8a4eecea0822a2c3aca20bd3987e463f944b5a4f1769"
+    }
+  ]
+}
